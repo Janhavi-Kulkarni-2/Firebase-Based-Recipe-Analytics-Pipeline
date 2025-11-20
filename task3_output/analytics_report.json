@@ -1,0 +1,115 @@
+{
+    "most_common_ingredients": {
+        "Tomato": 13,
+        "Olive Oil": 10,
+        "Butter": 9,
+        "Cream": 9,
+        "Salt": 7,
+        "Water": 6,
+        "Chickpeas": 5,
+        "Cucumber": 5,
+        "Green Chili": 5,
+        "Onion": 5
+    },
+    "average_prep_time_minutes": 16.7,
+    "difficulty_distribution": {
+        "Medium": 10,
+        "Easy": 8,
+        "Hard": 2
+    },
+    "correlation_prep_time_likes": 0.0,
+    "most_viewed_recipes": {
+        "R010": 6,
+        "R015": 4,
+        "R006": 3,
+        "R004": 3,
+        "R020": 2,
+        "R016": 2,
+        "R002": 1,
+        "R007": 1,
+        "R014": 1,
+        "R001": 1
+    },
+    "high_engagement_ingredients": {
+        "Tomato": 32.0,
+        "Olive Oil": 24.0,
+        "Butter": 22.0,
+        "Cream": 22.0,
+        "Salt": 19.0,
+        "Water": 18.0,
+        "Green Chili": 15.0,
+        "Chickpeas": 12.0,
+        "Cucumber": 12.0,
+        "Onion": 10.0
+    },
+    "avg_steps_per_recipe": 4.25,
+    "most_time_consuming_recipes": [
+        {
+            "recipe_id": "R003",
+            "name": "Paneer Butter Masala 3",
+            "total_time": 61
+        },
+        {
+            "recipe_id": "R017",
+            "name": "Pasta Alfredo",
+            "total_time": 60
+        },
+        {
+            "recipe_id": "R019",
+            "name": "Chickpea Salad",
+            "total_time": 59
+        },
+        {
+            "recipe_id": "R010",
+            "name": "Tomato Basil Soup",
+            "total_time": 55
+        },
+        {
+            "recipe_id": "R013",
+            "name": "Masala Dosa",
+            "total_time": 53
+        },
+        {
+            "recipe_id": "R012",
+            "name": "Chickpea Salad 12",
+            "total_time": 53
+        },
+        {
+            "recipe_id": "R008",
+            "name": "Tomato Basil Soup",
+            "total_time": 50
+        },
+        {
+            "recipe_id": "R002",
+            "name": "Tomato Basil Soup",
+            "total_time": 41
+        },
+        {
+            "recipe_id": "R006",
+            "name": "Chickpea Salad 6",
+            "total_time": 41
+        },
+        {
+            "recipe_id": "R007",
+            "name": "Tomato Basil Soup",
+            "total_time": 40
+        }
+    ],
+    "most_active_users": {
+        "U003": 15,
+        "U001": 11,
+        "U002": 10,
+        "U004": 7,
+        "U005": 7
+    },
+    "highest_rated_recipes": {
+        "R017": 5.0,
+        "R020": 4.5,
+        "R006": 4.0,
+        "R015": 3.5,
+        "R008": 3.0,
+        "R007": 2.0,
+        "R001": 2.0,
+        "R002": 2.0
+    }
+}

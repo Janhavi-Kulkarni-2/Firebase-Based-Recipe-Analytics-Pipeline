@@ -1,0 +1,2150 @@
+{
+    "recipes": {
+        "valid": [
+            {
+                "recipe_id": "R001",
+                "name": "Veg Pulav",
+                "description": "Fluffy rice cooked with mixed vegetables and pulav masala. Great as a one-pot meal.",
+                "servings": 2,
+                "prep_time_minutes": 15,
+                "cook_time_minutes": 20,
+                "difficulty": "Easy",
+                "cuisine": "Indian",
+                "created_at": "2025-11-20T05:46:24.105439+00:00"
+            },
+            {
+                "recipe_id": "R002",
+                "name": "Tomato Basil Soup",
+                "description": "Creamy tomato soup with fresh basil.",
+                "servings": 2,
+                "prep_time_minutes": 14,
+                "cook_time_minutes": 27,
+                "difficulty": "Easy",
+                "cuisine": "International",
+                "created_at": "2025-11-20T05:46:25.633856+00:00"
+            },
+            {
+                "recipe_id": "R003",
+                "name": "Paneer Butter Masala 3",
+                "description": "Rich and creamy paneer curry.",
+                "servings": 4,
+                "prep_time_minutes": 21,
+                "cook_time_minutes": 40,
+                "difficulty": "Easy",
+                "cuisine": "Indian",
+                "created_at": "2025-11-20T05:46:26.868870+00:00"
+            },
+            {
+                "recipe_id": "R004",
+                "name": "Masala Dosa",
+                "description": "Crispy dosa with spiced mashed potatoes.",
+                "servings": 1,
+                "prep_time_minutes": 10,
+                "cook_time_minutes": 16,
+                "difficulty": "Medium",
+                "cuisine": "Indian",
+                "created_at": "2025-11-20T05:46:27.426387+00:00"
+            },
+            {
+                "recipe_id": "R005",
+                "name": "Paneer Butter Masala",
+                "description": "Rich and creamy paneer curry.",
+                "servings": 5,
+                "prep_time_minutes": 23,
+                "cook_time_minutes": 13,
+                "difficulty": "Medium",
+                "cuisine": "Indian",
+                "created_at": "2025-11-20T05:46:28.536353+00:00"
+            },
+            {
+                "recipe_id": "R006",
+                "name": "Chickpea Salad 6",
+                "description": "Refreshing salad with chickpeas and veggies.",
+                "servings": 2,
+                "prep_time_minutes": 30,
+                "cook_time_minutes": 11,
+                "difficulty": "Medium",
+                "cuisine": "Mediterranean",
+                "created_at": "2025-11-20T05:46:29.184548+00:00"
+            },
+            {
+                "recipe_id": "R007",
+                "name": "Tomato Basil Soup",
+                "description": "Creamy tomato soup with fresh basil.",
+                "servings": 1,
+                "prep_time_minutes": 25,
+                "cook_time_minutes": 15,
+                "difficulty": "Hard",
+                "cuisine": "International",
+                "created_at": "2025-11-20T05:46:30.252495+00:00"
+            },
+            {
+                "recipe_id": "R008",
+                "name": "Tomato Basil Soup",
+                "description": "Creamy tomato soup with fresh basil.",
+                "servings": 5,
+                "prep_time_minutes": 13,
+                "cook_time_minutes": 37,
+                "difficulty": "Hard",
+                "cuisine": "International",
+                "created_at": "2025-11-20T05:46:31.243937+00:00"
+            },
+            {
+                "recipe_id": "R009",
+                "name": "Pasta Alfredo 9",
+                "description": "Creamy white-sauce pasta.",
+                "servings": 6,
+                "prep_time_minutes": 12,
+                "cook_time_minutes": 22,
+                "difficulty": "Easy",
+                "cuisine": "Italian",
+                "created_at": "2025-11-20T05:46:32.234894+00:00"
+            },
+            {
+                "recipe_id": "R010",
+                "name": "Tomato Basil Soup",
+                "description": "Creamy tomato soup with fresh basil.",
+                "servings": 5,
+                "prep_time_minutes": 10,
+                "cook_time_minutes": 45,
+                "difficulty": "Easy",
+                "cuisine": "International",
+                "created_at": "2025-11-20T05:46:33.163305+00:00"
+            },
+            {
+                "recipe_id": "R011",
+                "name": "Masala Dosa",
+                "description": "Crispy dosa with spiced mashed potatoes.",
+                "servings": 2,
+                "prep_time_minutes": 6,
+                "cook_time_minutes": 8,
+                "difficulty": "Easy",
+                "cuisine": "Indian",
+                "created_at": "2025-11-20T05:46:34.228416+00:00"
+            },
+            {
+                "recipe_id": "R012",
+                "name": "Chickpea Salad 12",
+                "description": "Refreshing salad with chickpeas and veggies.",
+                "servings": 2,
+                "prep_time_minutes": 28,
+                "cook_time_minutes": 25,
+                "difficulty": "Medium",
+                "cuisine": "Mediterranean",
+                "created_at": "2025-11-20T05:46:35.393799+00:00"
+            },
+            {
+                "recipe_id": "R013",
+                "name": "Masala Dosa",
+                "description": "Crispy dosa with spiced mashed potatoes.",
+                "servings": 6,
+                "prep_time_minutes": 24,
+                "cook_time_minutes": 29,
+                "difficulty": "Easy",
+                "cuisine": "Indian",
+                "created_at": "2025-11-20T05:46:35.972098+00:00"
+            },
+            {
+                "recipe_id": "R014",
+                "name": "Tomato Basil Soup",
+                "description": "Creamy tomato soup with fresh basil.",
+                "servings": 3,
+                "prep_time_minutes": 6,
+                "cook_time_minutes": 7,
+                "difficulty": "Medium",
+                "cuisine": "International",
+                "created_at": "2025-11-20T05:46:37.105480+00:00"
+            },
+            {
+                "recipe_id": "R015",
+                "name": "Stir-fry Vegetables 15",
+                "description": "Quick wok-tossed mixed vegetables.",
+                "servings": 1,
+                "prep_time_minutes": 10,
+                "cook_time_minutes": 27,
+                "difficulty": "Medium",
+                "cuisine": "Chinese",
+                "created_at": "2025-11-20T05:46:37.637493+00:00"
+            },
+            {
+                "recipe_id": "R016",
+                "name": "Masala Dosa",
+                "description": "Crispy dosa with spiced mashed potatoes.",
+                "servings": 5,
+                "prep_time_minutes": 8,
+                "cook_time_minutes": 13,
+                "difficulty": "Medium",
+                "cuisine": "Indian",
+                "created_at": "2025-11-20T05:46:38.773432+00:00"
+            },
+            {
+                "recipe_id": "R017",
+                "name": "Pasta Alfredo",
+                "description": "Creamy white-sauce pasta.",
+                "servings": 3,
+                "prep_time_minutes": 25,
+                "cook_time_minutes": 35,
+                "difficulty": "Easy",
+                "cuisine": "Italian",
+                "created_at": "2025-11-20T05:46:39.266078+00:00"
+            },
+            {
+                "recipe_id": "R018",
+                "name": "Chickpea Salad 18",
+                "description": "Refreshing salad with chickpeas and veggies.",
+                "servings": 5,
+                "prep_time_minutes": 19,
+                "cook_time_minutes": 19,
+                "difficulty": "Medium",
+                "cuisine": "Mediterranean",
+                "created_at": "2025-11-20T05:46:40.510724+00:00"
+            },
+            {
+                "recipe_id": "R019",
+                "name": "Chickpea Salad",
+                "description": "Refreshing salad with chickpeas and veggies.",
+                "servings": 3,
+                "prep_time_minutes": 30,
+                "cook_time_minutes": 29,
+                "difficulty": "Medium",
+                "cuisine": "Mediterranean",
+                "created_at": "2025-11-20T05:46:40.963837+00:00"
+            },
+            {
+                "recipe_id": "R020",
+                "name": "Chickpea Salad",
+                "description": "Refreshing salad with chickpeas and veggies.",
+                "servings": 2,
+                "prep_time_minutes": 5,
+                "cook_time_minutes": 32,
+                "difficulty": "Medium",
+                "cuisine": "Mediterranean",
+                "created_at": "2025-11-20T05:46:42.119660+00:00"
+            }
+        ],
+        "invalid": []
+    },
+    "ingredients": {
+        "valid": [
+            {
+                "ingredient_id": "ING_47886fae",
+                "recipe_id": "R001",
+                "ingredient_name": "Rice",
+                "qty_numeric": 1.0,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_db44d0aa",
+                "recipe_id": "R001",
+                "ingredient_name": "Water",
+                "qty_numeric": 3.5,
+                "unit": "cups",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_eadb8e68",
+                "recipe_id": "R001",
+                "ingredient_name": "Oil/Butter",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_4231959f",
+                "recipe_id": "R001",
+                "ingredient_name": "Salt",
+                "qty_numeric": 1.0,
+                "unit": "tsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_ed2116fa",
+                "recipe_id": "R001",
+                "ingredient_name": "Pulav Masala",
+                "qty_numeric": 1.0,
+                "unit": "tsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_3921b1f2",
+                "recipe_id": "R001",
+                "ingredient_name": "Cauliflower",
+                "qty_numeric": 0.25,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_85fb9e04",
+                "recipe_id": "R001",
+                "ingredient_name": "Green Beans",
+                "qty_numeric": 0.25,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_9d555e4c",
+                "recipe_id": "R001",
+                "ingredient_name": "Carrot",
+                "qty_numeric": 0.25,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_26872dd4",
+                "recipe_id": "R001",
+                "ingredient_name": "Onion",
+                "qty_numeric": 0.5,
+                "unit": "medium",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_4bcdcabf",
+                "recipe_id": "R001",
+                "ingredient_name": "Tomato",
+                "qty_numeric": 1.0,
+                "unit": "medium",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_a7a4b319",
+                "recipe_id": "R001",
+                "ingredient_name": "Green Chillies",
+                "qty_numeric": 1.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_16a98ea9",
+                "recipe_id": "R001",
+                "ingredient_name": "Fresh Coriander",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_d0e2dfbb",
+                "recipe_id": "R002",
+                "ingredient_name": "Tomato",
+                "qty_numeric": 4.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_7db79e65",
+                "recipe_id": "R002",
+                "ingredient_name": "Water",
+                "qty_numeric": 2.0,
+                "unit": "cups",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_417ae5c2",
+                "recipe_id": "R002",
+                "ingredient_name": "Butter",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_2df67fb0",
+                "recipe_id": "R002",
+                "ingredient_name": "Cream",
+                "qty_numeric": 2.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_a022dab1",
+                "recipe_id": "R003",
+                "ingredient_name": "Paneer",
+                "qty_numeric": 200.0,
+                "unit": "g",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_a58f6b5d",
+                "recipe_id": "R003",
+                "ingredient_name": "Tomato",
+                "qty_numeric": 2.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_937d9f69",
+                "recipe_id": "R003",
+                "ingredient_name": "Butter",
+                "qty_numeric": 2.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_4f8bf778",
+                "recipe_id": "R003",
+                "ingredient_name": "Cream",
+                "qty_numeric": 2.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_999aff40",
+                "recipe_id": "R004",
+                "ingredient_name": "Dosa batter",
+                "qty_numeric": 2.0,
+                "unit": "cups",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_e3993608",
+                "recipe_id": "R004",
+                "ingredient_name": "Potato",
+                "qty_numeric": 2.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_4f9a7aee",
+                "recipe_id": "R004",
+                "ingredient_name": "Onion",
+                "qty_numeric": 1.0,
+                "unit": "medium",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_84276cc5",
+                "recipe_id": "R004",
+                "ingredient_name": "Turmeric",
+                "qty_numeric": 0.5,
+                "unit": "tsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_7f8c26e2",
+                "recipe_id": "R004",
+                "ingredient_name": "Pepper",
+                "qty_numeric": 0.5,
+                "unit": "tsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_588cfd0d",
+                "recipe_id": "R004",
+                "ingredient_name": "Salt",
+                "qty_numeric": 1.0,
+                "unit": "tsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_7051f55d",
+                "recipe_id": "R005",
+                "ingredient_name": "Paneer",
+                "qty_numeric": 200.0,
+                "unit": "g",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_75f36c2b",
+                "recipe_id": "R005",
+                "ingredient_name": "Tomato",
+                "qty_numeric": 2.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_cb8d3972",
+                "recipe_id": "R005",
+                "ingredient_name": "Butter",
+                "qty_numeric": 2.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_a8037950",
+                "recipe_id": "R005",
+                "ingredient_name": "Cream",
+                "qty_numeric": 2.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_1135e3f6",
+                "recipe_id": "R006",
+                "ingredient_name": "Chickpeas",
+                "qty_numeric": 1.0,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_75e442f4",
+                "recipe_id": "R006",
+                "ingredient_name": "Cucumber",
+                "qty_numeric": 0.5,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_c71b94db",
+                "recipe_id": "R006",
+                "ingredient_name": "Tomato",
+                "qty_numeric": 1.0,
+                "unit": "medium",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_dd50fd61",
+                "recipe_id": "R006",
+                "ingredient_name": "Olive Oil",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_11e26916",
+                "recipe_id": "R006",
+                "ingredient_name": "Salt",
+                "qty_numeric": 1.0,
+                "unit": "tsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_b168c8e2",
+                "recipe_id": "R006",
+                "ingredient_name": "Green Chili",
+                "qty_numeric": 1.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_56bdb59f",
+                "recipe_id": "R007",
+                "ingredient_name": "Tomato",
+                "qty_numeric": 4.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_bc588907",
+                "recipe_id": "R007",
+                "ingredient_name": "Water",
+                "qty_numeric": 2.0,
+                "unit": "cups",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_c1c57326",
+                "recipe_id": "R007",
+                "ingredient_name": "Butter",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_3957ab8f",
+                "recipe_id": "R007",
+                "ingredient_name": "Cream",
+                "qty_numeric": 2.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_3da0db6b",
+                "recipe_id": "R008",
+                "ingredient_name": "Tomato",
+                "qty_numeric": 4.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_78c65a2f",
+                "recipe_id": "R008",
+                "ingredient_name": "Water",
+                "qty_numeric": 2.0,
+                "unit": "cups",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_42aa36a4",
+                "recipe_id": "R008",
+                "ingredient_name": "Butter",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_112e6953",
+                "recipe_id": "R008",
+                "ingredient_name": "Cream",
+                "qty_numeric": 2.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_43b7ee16",
+                "recipe_id": "R008",
+                "ingredient_name": "Green Chili",
+                "qty_numeric": 1.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_9dbc0559",
+                "recipe_id": "R009",
+                "ingredient_name": "Pasta",
+                "qty_numeric": 200.0,
+                "unit": "g",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_92229247",
+                "recipe_id": "R009",
+                "ingredient_name": "Butter",
+                "qty_numeric": 2.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_341e8c64",
+                "recipe_id": "R009",
+                "ingredient_name": "Cream",
+                "qty_numeric": 100.0,
+                "unit": "ml",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_90e49959",
+                "recipe_id": "R009",
+                "ingredient_name": "Parmesan",
+                "qty_numeric": 50.0,
+                "unit": "g",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_31a9fda6",
+                "recipe_id": "R009",
+                "ingredient_name": "Salt",
+                "qty_numeric": 1.0,
+                "unit": "tsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_41e0782d",
+                "recipe_id": "R009",
+                "ingredient_name": "Pepper",
+                "qty_numeric": 0.5,
+                "unit": "tsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_fbb6b1da",
+                "recipe_id": "R010",
+                "ingredient_name": "Tomato",
+                "qty_numeric": 4.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_5f27e3d7",
+                "recipe_id": "R010",
+                "ingredient_name": "Water",
+                "qty_numeric": 2.0,
+                "unit": "cups",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_d053cf24",
+                "recipe_id": "R010",
+                "ingredient_name": "Butter",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_77459744",
+                "recipe_id": "R010",
+                "ingredient_name": "Cream",
+                "qty_numeric": 2.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_47c0a0ed",
+                "recipe_id": "R010",
+                "ingredient_name": "Olive Oil",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_4a36888a",
+                "recipe_id": "R011",
+                "ingredient_name": "Dosa batter",
+                "qty_numeric": 2.0,
+                "unit": "cups",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_11bdd6b0",
+                "recipe_id": "R011",
+                "ingredient_name": "Potato",
+                "qty_numeric": 2.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_7298a038",
+                "recipe_id": "R011",
+                "ingredient_name": "Onion",
+                "qty_numeric": 1.0,
+                "unit": "medium",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_d2a4bb39",
+                "recipe_id": "R011",
+                "ingredient_name": "Turmeric",
+                "qty_numeric": 0.5,
+                "unit": "tsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_316a1d09",
+                "recipe_id": "R011",
+                "ingredient_name": "Salt",
+                "qty_numeric": 1.0,
+                "unit": "tsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_addd88fd",
+                "recipe_id": "R012",
+                "ingredient_name": "Chickpeas",
+                "qty_numeric": 1.0,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_5bac80b0",
+                "recipe_id": "R012",
+                "ingredient_name": "Cucumber",
+                "qty_numeric": 0.5,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_a2c3051f",
+                "recipe_id": "R012",
+                "ingredient_name": "Tomato",
+                "qty_numeric": 1.0,
+                "unit": "medium",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_157df8f6",
+                "recipe_id": "R012",
+                "ingredient_name": "Olive Oil",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_a001125c",
+                "recipe_id": "R012",
+                "ingredient_name": "Salt",
+                "qty_numeric": 1.0,
+                "unit": "tsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_49de59c8",
+                "recipe_id": "R013",
+                "ingredient_name": "Dosa batter",
+                "qty_numeric": 2.0,
+                "unit": "cups",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_35872e55",
+                "recipe_id": "R013",
+                "ingredient_name": "Potato",
+                "qty_numeric": 2.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_3e475c8e",
+                "recipe_id": "R013",
+                "ingredient_name": "Onion",
+                "qty_numeric": 1.0,
+                "unit": "medium",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_dd000e99",
+                "recipe_id": "R013",
+                "ingredient_name": "Turmeric",
+                "qty_numeric": 0.5,
+                "unit": "tsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_4f25f319",
+                "recipe_id": "R013",
+                "ingredient_name": "Olive Oil",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_2ac98fec",
+                "recipe_id": "R013",
+                "ingredient_name": "Pepper",
+                "qty_numeric": 0.5,
+                "unit": "tsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_5fa69eeb",
+                "recipe_id": "R014",
+                "ingredient_name": "Tomato",
+                "qty_numeric": 4.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_3484f938",
+                "recipe_id": "R014",
+                "ingredient_name": "Water",
+                "qty_numeric": 2.0,
+                "unit": "cups",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_23b49d32",
+                "recipe_id": "R014",
+                "ingredient_name": "Butter",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_2aab9925",
+                "recipe_id": "R014",
+                "ingredient_name": "Cream",
+                "qty_numeric": 2.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_4fe173ca",
+                "recipe_id": "R014",
+                "ingredient_name": "Green Chili",
+                "qty_numeric": 1.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_2883f055",
+                "recipe_id": "R014",
+                "ingredient_name": "Olive Oil",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_0a577cc3",
+                "recipe_id": "R015",
+                "ingredient_name": "Broccoli",
+                "qty_numeric": 1.0,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_83f4ec8c",
+                "recipe_id": "R015",
+                "ingredient_name": "Carrot",
+                "qty_numeric": 1.0,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_b05ca179",
+                "recipe_id": "R015",
+                "ingredient_name": "Soy Sauce",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_60181723",
+                "recipe_id": "R015",
+                "ingredient_name": "Garlic",
+                "qty_numeric": 2.0,
+                "unit": "cloves",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_e805f600",
+                "recipe_id": "R015",
+                "ingredient_name": "Salt",
+                "qty_numeric": 1.0,
+                "unit": "tsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_bf4d40be",
+                "recipe_id": "R016",
+                "ingredient_name": "Dosa batter",
+                "qty_numeric": 2.0,
+                "unit": "cups",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_87103bb6",
+                "recipe_id": "R016",
+                "ingredient_name": "Potato",
+                "qty_numeric": 2.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_e65c5b72",
+                "recipe_id": "R016",
+                "ingredient_name": "Onion",
+                "qty_numeric": 1.0,
+                "unit": "medium",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_3f40dc44",
+                "recipe_id": "R016",
+                "ingredient_name": "Turmeric",
+                "qty_numeric": 0.5,
+                "unit": "tsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_a89a9bfc",
+                "recipe_id": "R017",
+                "ingredient_name": "Pasta",
+                "qty_numeric": 200.0,
+                "unit": "g",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_a0d4fea1",
+                "recipe_id": "R017",
+                "ingredient_name": "Butter",
+                "qty_numeric": 2.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_f3bcdd0f",
+                "recipe_id": "R017",
+                "ingredient_name": "Cream",
+                "qty_numeric": 100.0,
+                "unit": "ml",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_deb5c36b",
+                "recipe_id": "R017",
+                "ingredient_name": "Parmesan",
+                "qty_numeric": 50.0,
+                "unit": "g",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_c48f1610",
+                "recipe_id": "R017",
+                "ingredient_name": "Green Chili",
+                "qty_numeric": 1.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_08219d30",
+                "recipe_id": "R017",
+                "ingredient_name": "Olive Oil",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_3c26a0b6",
+                "recipe_id": "R018",
+                "ingredient_name": "Chickpeas",
+                "qty_numeric": 1.0,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_78026ad5",
+                "recipe_id": "R018",
+                "ingredient_name": "Cucumber",
+                "qty_numeric": 0.5,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_de6d08bb",
+                "recipe_id": "R018",
+                "ingredient_name": "Tomato",
+                "qty_numeric": 1.0,
+                "unit": "medium",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_207c74fa",
+                "recipe_id": "R018",
+                "ingredient_name": "Olive Oil",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_2125ec19",
+                "recipe_id": "R018",
+                "ingredient_name": "Green Chili",
+                "qty_numeric": 1.0,
+                "unit": "pcs",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_43c909c9",
+                "recipe_id": "R018",
+                "ingredient_name": "Coriander",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_7a3d8d30",
+                "recipe_id": "R019",
+                "ingredient_name": "Chickpeas",
+                "qty_numeric": 1.0,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_c1744d04",
+                "recipe_id": "R019",
+                "ingredient_name": "Cucumber",
+                "qty_numeric": 0.5,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_166ba2b8",
+                "recipe_id": "R019",
+                "ingredient_name": "Tomato",
+                "qty_numeric": 1.0,
+                "unit": "medium",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_775d486c",
+                "recipe_id": "R019",
+                "ingredient_name": "Olive Oil",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_83b06661",
+                "recipe_id": "R019",
+                "ingredient_name": "Olive Oil",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_dad1a7f4",
+                "recipe_id": "R020",
+                "ingredient_name": "Chickpeas",
+                "qty_numeric": 1.0,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_ccc2a439",
+                "recipe_id": "R020",
+                "ingredient_name": "Cucumber",
+                "qty_numeric": 0.5,
+                "unit": "cup",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_78003b7c",
+                "recipe_id": "R020",
+                "ingredient_name": "Tomato",
+                "qty_numeric": 1.0,
+                "unit": "medium",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_8a0a799d",
+                "recipe_id": "R020",
+                "ingredient_name": "Olive Oil",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_3508dcc9",
+                "recipe_id": "R020",
+                "ingredient_name": "Coriander",
+                "qty_numeric": 1.0,
+                "unit": "tbsp",
+                "qty_text": NaN
+            },
+            {
+                "ingredient_id": "ING_9b3b81be",
+                "recipe_id": "R020",
+                "ingredient_name": "Pepper",
+                "qty_numeric": 0.5,
+                "unit": "tsp",
+                "qty_text": NaN
+            }
+        ],
+        "invalid": []
+    },
+    "steps": {
+        "valid": [
+            {
+                "step_id": "STEP_e6ab245f",
+                "recipe_id": "R001",
+                "step_order": 1,
+                "step_text": "Rinse rice under running water until water runs clear; soak for 10\u201315 minutes and drain."
+            },
+            {
+                "step_id": "STEP_e1d0a2f7",
+                "recipe_id": "R001",
+                "step_order": 2,
+                "step_text": "Wash and chop cauliflower, beans, carrot, onion, tomato and green chillies."
+            },
+            {
+                "step_id": "STEP_2569d9a4",
+                "recipe_id": "R001",
+                "step_order": 3,
+                "step_text": "Heat oil or butter in a pressure cooker on medium heat."
+            },
+            {
+                "step_id": "STEP_08929390",
+                "recipe_id": "R001",
+                "step_order": 4,
+                "step_text": "Add sliced onion and saut\u00e9 until slightly soft (about 1 minute)."
+            },
+            {
+                "step_id": "STEP_fd8db8d5",
+                "recipe_id": "R001",
+                "step_order": 5,
+                "step_text": "Add carrot, beans, cauliflower, green chillies and tomato; saut\u00e9 3\u20134 minutes until slightly tender."
+            },
+            {
+                "step_id": "STEP_8f4345b1",
+                "recipe_id": "R001",
+                "step_order": 6,
+                "step_text": "Add drained rice and mix gently with vegetables \u2014 do not break rice grains."
+            },
+            {
+                "step_id": "STEP_31b5b726",
+                "recipe_id": "R001",
+                "step_order": 7,
+                "step_text": "Add water (3\u20134 cups), salt and pulav masala; stir gently to combine."
+            },
+            {
+                "step_id": "STEP_b95386b1",
+                "recipe_id": "R001",
+                "step_order": 8,
+                "step_text": "Close the pressure cooker lid and cook for 1\u20132 whistles on medium heat; turn off and let pressure release naturally. (If using pot: cover and simmer 15\u201320 minutes until rice is cooked.)"
+            },
+            {
+                "step_id": "STEP_de70d6bc",
+                "recipe_id": "R001",
+                "step_order": 9,
+                "step_text": "Open carefully, fluff rice gently with a spatula, garnish with chopped coriander and serve hot."
+            },
+            {
+                "step_id": "STEP_4f3ac919",
+                "recipe_id": "R002",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Tomato Basil Soup."
+            },
+            {
+                "step_id": "STEP_f12c688a",
+                "recipe_id": "R002",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_071786ff",
+                "recipe_id": "R002",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_6cf64a0e",
+                "recipe_id": "R002",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_ad542a66",
+                "recipe_id": "R003",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Paneer Butter Masala."
+            },
+            {
+                "step_id": "STEP_d871bd57",
+                "recipe_id": "R003",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_6ef385a1",
+                "recipe_id": "R003",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_b8bdd468",
+                "recipe_id": "R003",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_4ab92f56",
+                "recipe_id": "R004",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Masala Dosa."
+            },
+            {
+                "step_id": "STEP_f3d394e9",
+                "recipe_id": "R004",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_874dfd3e",
+                "recipe_id": "R004",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_09d76fcf",
+                "recipe_id": "R004",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_305afba3",
+                "recipe_id": "R005",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Paneer Butter Masala."
+            },
+            {
+                "step_id": "STEP_109ea578",
+                "recipe_id": "R005",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_e86779f4",
+                "recipe_id": "R005",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_5511ef3e",
+                "recipe_id": "R005",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_4cf5bf48",
+                "recipe_id": "R006",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Chickpea Salad."
+            },
+            {
+                "step_id": "STEP_812c6726",
+                "recipe_id": "R006",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_1d1c2201",
+                "recipe_id": "R006",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_e6306f26",
+                "recipe_id": "R006",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_6795a528",
+                "recipe_id": "R007",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Tomato Basil Soup."
+            },
+            {
+                "step_id": "STEP_52cdced8",
+                "recipe_id": "R007",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_5e31d74c",
+                "recipe_id": "R007",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_e9b8fc8c",
+                "recipe_id": "R007",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_d83dac0c",
+                "recipe_id": "R008",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Tomato Basil Soup."
+            },
+            {
+                "step_id": "STEP_af23aa86",
+                "recipe_id": "R008",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_02f7b184",
+                "recipe_id": "R008",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_9563ee47",
+                "recipe_id": "R008",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_60c55cc2",
+                "recipe_id": "R009",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Pasta Alfredo."
+            },
+            {
+                "step_id": "STEP_9056ef53",
+                "recipe_id": "R009",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_5e668a7f",
+                "recipe_id": "R009",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_f8cd3abc",
+                "recipe_id": "R009",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_fb12ece7",
+                "recipe_id": "R010",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Tomato Basil Soup."
+            },
+            {
+                "step_id": "STEP_e2e2e638",
+                "recipe_id": "R010",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_365254f5",
+                "recipe_id": "R010",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_c252185d",
+                "recipe_id": "R010",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_bac5f1be",
+                "recipe_id": "R011",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Masala Dosa."
+            },
+            {
+                "step_id": "STEP_3d5b2d3a",
+                "recipe_id": "R011",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_d4086c5a",
+                "recipe_id": "R011",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_577a8424",
+                "recipe_id": "R011",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_1f3f2788",
+                "recipe_id": "R012",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Chickpea Salad."
+            },
+            {
+                "step_id": "STEP_5d71fcc2",
+                "recipe_id": "R012",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_0de3131b",
+                "recipe_id": "R012",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_89555781",
+                "recipe_id": "R012",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_6a64b0ac",
+                "recipe_id": "R013",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Masala Dosa."
+            },
+            {
+                "step_id": "STEP_98d682e6",
+                "recipe_id": "R013",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_840c8497",
+                "recipe_id": "R013",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_9087ef66",
+                "recipe_id": "R013",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_4c315f6a",
+                "recipe_id": "R014",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Tomato Basil Soup."
+            },
+            {
+                "step_id": "STEP_46dfa237",
+                "recipe_id": "R014",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_cdec54c5",
+                "recipe_id": "R014",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_4ea64188",
+                "recipe_id": "R014",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_f5732096",
+                "recipe_id": "R015",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Stir-fry Vegetables."
+            },
+            {
+                "step_id": "STEP_572cd9b0",
+                "recipe_id": "R015",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_deb5cccb",
+                "recipe_id": "R015",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_6bc63355",
+                "recipe_id": "R015",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_bdaa6668",
+                "recipe_id": "R016",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Masala Dosa."
+            },
+            {
+                "step_id": "STEP_29e11016",
+                "recipe_id": "R016",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_39c6d28d",
+                "recipe_id": "R016",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_397e220a",
+                "recipe_id": "R016",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_f5792669",
+                "recipe_id": "R017",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Pasta Alfredo."
+            },
+            {
+                "step_id": "STEP_e0a83633",
+                "recipe_id": "R017",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_dff73536",
+                "recipe_id": "R017",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_75602c07",
+                "recipe_id": "R017",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_ebd007b5",
+                "recipe_id": "R018",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Chickpea Salad."
+            },
+            {
+                "step_id": "STEP_b0d95908",
+                "recipe_id": "R018",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_b3f21e99",
+                "recipe_id": "R018",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_225b6ec4",
+                "recipe_id": "R018",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_5bec2704",
+                "recipe_id": "R019",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Chickpea Salad."
+            },
+            {
+                "step_id": "STEP_7388b17c",
+                "recipe_id": "R019",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_382813d7",
+                "recipe_id": "R019",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_0ed1e17b",
+                "recipe_id": "R019",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            },
+            {
+                "step_id": "STEP_f3e02e7b",
+                "recipe_id": "R020",
+                "step_order": 1,
+                "step_text": "Prepare ingredients for Chickpea Salad."
+            },
+            {
+                "step_id": "STEP_7dabc3ac",
+                "recipe_id": "R020",
+                "step_order": 2,
+                "step_text": "Combine and cook base ingredients as required."
+            },
+            {
+                "step_id": "STEP_cb63a123",
+                "recipe_id": "R020",
+                "step_order": 3,
+                "step_text": "Season and simmer until done."
+            },
+            {
+                "step_id": "STEP_48e7ceda",
+                "recipe_id": "R020",
+                "step_order": 4,
+                "step_text": "Serve hot."
+            }
+        ],
+        "invalid": []
+    },
+    "interactions": {
+        "valid": [
+            {
+                "interaction_id": "I0004",
+                "user_id": "U005",
+                "recipe_id": "R020",
+                "type": "cook",
+                "rating": 5.0,
+                "timestamp": "2025-11-20T05:46:51.901912+00:00"
+            },
+            {
+                "interaction_id": "I0005",
+                "user_id": "U003",
+                "recipe_id": "R002",
+                "type": "cook",
+                "rating": 2.0,
+                "timestamp": "2025-11-20T05:46:52.569540+00:00"
+            },
+            {
+                "interaction_id": "I0015",
+                "user_id": "U004",
+                "recipe_id": "R001",
+                "type": "cook",
+                "rating": 2.0,
+                "timestamp": "2025-11-20T05:47:03.363105+00:00"
+            },
+            {
+                "interaction_id": "I0019",
+                "user_id": "U002",
+                "recipe_id": "R006",
+                "type": "cook",
+                "rating": 3.0,
+                "timestamp": "2025-11-20T05:47:07.446523+00:00"
+            },
+            {
+                "interaction_id": "I0020",
+                "user_id": "U003",
+                "recipe_id": "R007",
+                "type": "cook",
+                "rating": 2.0,
+                "timestamp": "2025-11-20T05:47:07.969932+00:00"
+            },
+            {
+                "interaction_id": "I0024",
+                "user_id": "U001",
+                "recipe_id": "R015",
+                "type": "cook",
+                "rating": 4.0,
+                "timestamp": "2025-11-20T05:47:11.735251+00:00"
+            },
+            {
+                "interaction_id": "I0028",
+                "user_id": "U005",
+                "recipe_id": "R008",
+                "type": "cook",
+                "rating": 3.0,
+                "timestamp": "2025-11-20T05:47:15.278811+00:00"
+            },
+            {
+                "interaction_id": "I0036",
+                "user_id": "U002",
+                "recipe_id": "R006",
+                "type": "cook",
+                "rating": 5.0,
+                "timestamp": "2025-11-20T05:47:22.091974+00:00"
+            },
+            {
+                "interaction_id": "I0038",
+                "user_id": "U002",
+                "recipe_id": "R020",
+                "type": "cook",
+                "rating": 4.0,
+                "timestamp": "2025-11-20T05:47:23.918657+00:00"
+            },
+            {
+                "interaction_id": "I0042",
+                "user_id": "U003",
+                "recipe_id": "R015",
+                "type": "cook",
+                "rating": 3.0,
+                "timestamp": "2025-11-20T05:47:27.591334+00:00"
+            },
+            {
+                "interaction_id": "I0048",
+                "user_id": "U001",
+                "recipe_id": "R017",
+                "type": "cook",
+                "rating": 5.0,
+                "timestamp": "2025-11-20T05:47:32.543959+00:00"
+            }
+        ],
+        "invalid": [
+            {
+                "interaction_id": "I0001",
+                "user_id": "U003",
+                "recipe_id": "R016",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:46:47.354681+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0002",
+                "user_id": "U001",
+                "recipe_id": "R020",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:46:48.744695+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0003",
+                "user_id": "U004",
+                "recipe_id": "R016",
+                "type": "like",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:46:49.532848+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0006",
+                "user_id": "U003",
+                "recipe_id": "R020",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:46:55.081535+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0007",
+                "user_id": "U001",
+                "recipe_id": "R012",
+                "type": "like",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:46:55.746655+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0008",
+                "user_id": "U005",
+                "recipe_id": "R004",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:46:56.722016+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0009",
+                "user_id": "U001",
+                "recipe_id": "R006",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:46:57.412178+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0010",
+                "user_id": "U002",
+                "recipe_id": "R002",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:46:58.346552+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0011",
+                "user_id": "U002",
+                "recipe_id": "R014",
+                "type": "like",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:46:59.064056+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0012",
+                "user_id": "U003",
+                "recipe_id": "R010",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:00.120166+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0013",
+                "user_id": "U004",
+                "recipe_id": "R007",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:00.892098+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0014",
+                "user_id": "U001",
+                "recipe_id": "R016",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:01.760105+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0016",
+                "user_id": "U002",
+                "recipe_id": "R018",
+                "type": "like",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:04.088419+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0017",
+                "user_id": "U001",
+                "recipe_id": "R006",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:05.730590+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0018",
+                "user_id": "U003",
+                "recipe_id": "R015",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:06.288361+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0021",
+                "user_id": "U004",
+                "recipe_id": "R010",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:09.280739+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0022",
+                "user_id": "U003",
+                "recipe_id": "R014",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:09.654594+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0023",
+                "user_id": "U005",
+                "recipe_id": "R001",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:11.020111+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0025",
+                "user_id": "U002",
+                "recipe_id": "R005",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:12.630357+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0026",
+                "user_id": "U004",
+                "recipe_id": "R010",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:13.663335+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0027",
+                "user_id": "U005",
+                "recipe_id": "R017",
+                "type": "like",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:14.446625+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0029",
+                "user_id": "U002",
+                "recipe_id": "R011",
+                "type": "like",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:16.072429+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0030",
+                "user_id": "U004",
+                "recipe_id": "R013",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:17.129956+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0031",
+                "user_id": "U003",
+                "recipe_id": "R010",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:17.741211+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0032",
+                "user_id": "U002",
+                "recipe_id": "R009",
+                "type": "like",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:18.866413+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0033",
+                "user_id": "U001",
+                "recipe_id": "R010",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:19.409242+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0034",
+                "user_id": "U003",
+                "recipe_id": "R006",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:20.487477+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0035",
+                "user_id": "U001",
+                "recipe_id": "R003",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:21.034516+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0037",
+                "user_id": "U003",
+                "recipe_id": "R008",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:22.742690+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0039",
+                "user_id": "U005",
+                "recipe_id": "R015",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:24.434801+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0040",
+                "user_id": "U003",
+                "recipe_id": "R004",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:25.626284+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0041",
+                "user_id": "U001",
+                "recipe_id": "R017",
+                "type": "like",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:26.093636+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0043",
+                "user_id": "U003",
+                "recipe_id": "R015",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:27.927858+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0044",
+                "user_id": "U001",
+                "recipe_id": "R008",
+                "type": "like",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:29.272717+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0045",
+                "user_id": "U003",
+                "recipe_id": "R004",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:29.612108+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0046",
+                "user_id": "U005",
+                "recipe_id": "R018",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:30.915783+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0047",
+                "user_id": "U002",
+                "recipe_id": "R010",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:31.338347+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0049",
+                "user_id": "U003",
+                "recipe_id": "R015",
+                "type": "view",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:33.108829+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            },
+            {
+                "interaction_id": "I0050",
+                "user_id": "U004",
+                "recipe_id": "R007",
+                "type": "like",
+                "rating": NaN,
+                "timestamp": "2025-11-20T05:47:34.125756+00:00",
+                "errors": [
+                    "Non-cook interaction should not have rating"
+                ]
+            }
+        ]
+    }
+}

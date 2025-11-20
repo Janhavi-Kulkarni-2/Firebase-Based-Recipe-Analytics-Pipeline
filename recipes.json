@@ -1,0 +1,957 @@
+[
+    {
+        "created_at": "2025-11-20T05:46:24.105439Z",
+        "steps": [
+            "Rinse rice under running water until water runs clear; soak for 10\u201315 minutes and drain.",
+            "Wash and chop cauliflower, beans, carrot, onion, tomato and green chillies.",
+            "Heat oil or butter in a pressure cooker on medium heat.",
+            "Add sliced onion and saut\u00e9 until slightly soft (about 1 minute).",
+            "Add carrot, beans, cauliflower, green chillies and tomato; saut\u00e9 3\u20134 minutes until slightly tender.",
+            "Add drained rice and mix gently with vegetables \u2014 do not break rice grains.",
+            "Add water (3\u20134 cups), salt and pulav masala; stir gently to combine.",
+            "Close the pressure cooker lid and cook for 1\u20132 whistles on medium heat; turn off and let pressure release naturally. (If using pot: cover and simmer 15\u201320 minutes until rice is cooked.)",
+            "Open carefully, fluff rice gently with a spatula, garnish with chopped coriander and serve hot."
+        ],
+        "description": "Fluffy rice cooked with mixed vegetables and pulav masala. Great as a one-pot meal.",
+        "recipe_id": "R001",
+        "cuisine": "Indian",
+        "name": "Veg Pulav",
+        "ingredients": [
+            {
+                "qty": 1.0,
+                "name": "Rice",
+                "unit": "cup"
+            },
+            {
+                "qty": 3.5,
+                "name": "Water",
+                "unit": "cups"
+            },
+            {
+                "qty": 1.0,
+                "name": "Oil/Butter",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 1.0,
+                "name": "Salt",
+                "unit": "tsp"
+            },
+            {
+                "qty": 1.0,
+                "name": "Pulav Masala",
+                "unit": "tsp"
+            },
+            {
+                "qty": 0.25,
+                "name": "Cauliflower",
+                "unit": "cup"
+            },
+            {
+                "qty": 0.25,
+                "name": "Green Beans",
+                "unit": "cup"
+            },
+            {
+                "qty": 0.25,
+                "name": "Carrot",
+                "unit": "cup"
+            },
+            {
+                "qty": 0.5,
+                "name": "Onion",
+                "unit": "medium"
+            },
+            {
+                "qty": 1.0,
+                "name": "Tomato",
+                "unit": "medium"
+            },
+            {
+                "qty": 1.0,
+                "name": "Green Chillies",
+                "unit": "pcs"
+            },
+            {
+                "qty": 1.0,
+                "name": "Fresh Coriander",
+                "unit": "tbsp"
+            }
+        ],
+        "prep_time_minutes": 15,
+        "cook_time_minutes": 20,
+        "difficulty": "Easy",
+        "servings": 2,
+        "id": "R001"
+    },
+    {
+        "created_at": "2025-11-20T05:46:25.633856Z",
+        "steps": [
+            "Prepare ingredients for Tomato Basil Soup.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Creamy tomato soup with fresh basil.",
+        "recipe_id": "R002",
+        "cuisine": "International",
+        "name": "Tomato Basil Soup",
+        "ingredients": [
+            {
+                "qty": 4,
+                "name": "Tomato",
+                "unit": "pcs"
+            },
+            {
+                "qty": 2,
+                "name": "Water",
+                "unit": "cups"
+            },
+            {
+                "qty": 1,
+                "name": "Butter",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 2,
+                "name": "Cream",
+                "unit": "tbsp"
+            }
+        ],
+        "prep_time_minutes": 14,
+        "cook_time_minutes": 27,
+        "difficulty": "Easy",
+        "servings": 2,
+        "id": "R002"
+    },
+    {
+        "created_at": "2025-11-20T05:46:26.868870Z",
+        "steps": [
+            "Prepare ingredients for Paneer Butter Masala.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Rich and creamy paneer curry.",
+        "recipe_id": "R003",
+        "cuisine": "Indian",
+        "name": "Paneer Butter Masala 3",
+        "ingredients": [
+            {
+                "qty": 200,
+                "name": "Paneer",
+                "unit": "g"
+            },
+            {
+                "qty": 2,
+                "name": "Tomato",
+                "unit": "pcs"
+            },
+            {
+                "qty": 2,
+                "name": "Butter",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 2,
+                "name": "Cream",
+                "unit": "tbsp"
+            }
+        ],
+        "prep_time_minutes": 21,
+        "cook_time_minutes": 40,
+        "difficulty": "Easy",
+        "servings": 4,
+        "id": "R003"
+    },
+    {
+        "created_at": "2025-11-20T05:46:27.426387Z",
+        "steps": [
+            "Prepare ingredients for Masala Dosa.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Crispy dosa with spiced mashed potatoes.",
+        "recipe_id": "R004",
+        "cuisine": "Indian",
+        "name": "Masala Dosa",
+        "ingredients": [
+            {
+                "qty": 2,
+                "name": "Dosa batter",
+                "unit": "cups"
+            },
+            {
+                "qty": 2,
+                "name": "Potato",
+                "unit": "pcs"
+            },
+            {
+                "qty": 1,
+                "name": "Onion",
+                "unit": "medium"
+            },
+            {
+                "qty": 0.5,
+                "name": "Turmeric",
+                "unit": "tsp"
+            },
+            {
+                "qty": 0.5,
+                "name": "Pepper",
+                "unit": "tsp"
+            },
+            {
+                "qty": 1,
+                "name": "Salt",
+                "unit": "tsp"
+            }
+        ],
+        "prep_time_minutes": 10,
+        "cook_time_minutes": 16,
+        "difficulty": "Medium",
+        "servings": 1,
+        "id": "R004"
+    },
+    {
+        "created_at": "2025-11-20T05:46:28.536353Z",
+        "steps": [
+            "Prepare ingredients for Paneer Butter Masala.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Rich and creamy paneer curry.",
+        "recipe_id": "R005",
+        "cuisine": "Indian",
+        "name": "Paneer Butter Masala",
+        "ingredients": [
+            {
+                "qty": 200,
+                "name": "Paneer",
+                "unit": "g"
+            },
+            {
+                "qty": 2,
+                "name": "Tomato",
+                "unit": "pcs"
+            },
+            {
+                "qty": 2,
+                "name": "Butter",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 2,
+                "name": "Cream",
+                "unit": "tbsp"
+            }
+        ],
+        "prep_time_minutes": 23,
+        "cook_time_minutes": 13,
+        "difficulty": "Medium",
+        "servings": 5,
+        "id": "R005"
+    },
+    {
+        "created_at": "2025-11-20T05:46:29.184548Z",
+        "steps": [
+            "Prepare ingredients for Chickpea Salad.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Refreshing salad with chickpeas and veggies.",
+        "recipe_id": "R006",
+        "cuisine": "Mediterranean",
+        "name": "Chickpea Salad 6",
+        "ingredients": [
+            {
+                "qty": 1,
+                "name": "Chickpeas",
+                "unit": "cup"
+            },
+            {
+                "qty": 0.5,
+                "name": "Cucumber",
+                "unit": "cup"
+            },
+            {
+                "qty": 1,
+                "name": "Tomato",
+                "unit": "medium"
+            },
+            {
+                "qty": 1,
+                "name": "Olive Oil",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 1,
+                "name": "Salt",
+                "unit": "tsp"
+            },
+            {
+                "qty": 1,
+                "name": "Green Chili",
+                "unit": "pcs"
+            }
+        ],
+        "prep_time_minutes": 30,
+        "cook_time_minutes": 11,
+        "difficulty": "Medium",
+        "servings": 2,
+        "id": "R006"
+    },
+    {
+        "created_at": "2025-11-20T05:46:30.252495Z",
+        "steps": [
+            "Prepare ingredients for Tomato Basil Soup.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Creamy tomato soup with fresh basil.",
+        "recipe_id": "R007",
+        "cuisine": "International",
+        "name": "Tomato Basil Soup",
+        "ingredients": [
+            {
+                "qty": 4,
+                "name": "Tomato",
+                "unit": "pcs"
+            },
+            {
+                "qty": 2,
+                "name": "Water",
+                "unit": "cups"
+            },
+            {
+                "qty": 1,
+                "name": "Butter",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 2,
+                "name": "Cream",
+                "unit": "tbsp"
+            }
+        ],
+        "prep_time_minutes": 25,
+        "cook_time_minutes": 15,
+        "difficulty": "Hard",
+        "servings": 1,
+        "id": "R007"
+    },
+    {
+        "created_at": "2025-11-20T05:46:31.243937Z",
+        "steps": [
+            "Prepare ingredients for Tomato Basil Soup.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Creamy tomato soup with fresh basil.",
+        "recipe_id": "R008",
+        "cuisine": "International",
+        "name": "Tomato Basil Soup",
+        "ingredients": [
+            {
+                "qty": 4,
+                "name": "Tomato",
+                "unit": "pcs"
+            },
+            {
+                "qty": 2,
+                "name": "Water",
+                "unit": "cups"
+            },
+            {
+                "qty": 1,
+                "name": "Butter",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 2,
+                "name": "Cream",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 1,
+                "name": "Green Chili",
+                "unit": "pcs"
+            }
+        ],
+        "prep_time_minutes": 13,
+        "cook_time_minutes": 37,
+        "difficulty": "Hard",
+        "servings": 5,
+        "id": "R008"
+    },
+    {
+        "created_at": "2025-11-20T05:46:32.234894Z",
+        "steps": [
+            "Prepare ingredients for Pasta Alfredo.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Creamy white-sauce pasta.",
+        "recipe_id": "R009",
+        "cuisine": "Italian",
+        "name": "Pasta Alfredo 9",
+        "ingredients": [
+            {
+                "qty": 200,
+                "name": "Pasta",
+                "unit": "g"
+            },
+            {
+                "qty": 2,
+                "name": "Butter",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 100,
+                "name": "Cream",
+                "unit": "ml"
+            },
+            {
+                "qty": 50,
+                "name": "Parmesan",
+                "unit": "g"
+            },
+            {
+                "qty": 1,
+                "name": "Salt",
+                "unit": "tsp"
+            },
+            {
+                "qty": 0.5,
+                "name": "Pepper",
+                "unit": "tsp"
+            }
+        ],
+        "prep_time_minutes": 12,
+        "cook_time_minutes": 22,
+        "difficulty": "Easy",
+        "servings": 6,
+        "id": "R009"
+    },
+    {
+        "created_at": "2025-11-20T05:46:33.163305Z",
+        "steps": [
+            "Prepare ingredients for Tomato Basil Soup.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Creamy tomato soup with fresh basil.",
+        "recipe_id": "R010",
+        "cuisine": "International",
+        "name": "Tomato Basil Soup",
+        "ingredients": [
+            {
+                "qty": 4,
+                "name": "Tomato",
+                "unit": "pcs"
+            },
+            {
+                "qty": 2,
+                "name": "Water",
+                "unit": "cups"
+            },
+            {
+                "qty": 1,
+                "name": "Butter",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 2,
+                "name": "Cream",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 1,
+                "name": "Olive Oil",
+                "unit": "tbsp"
+            }
+        ],
+        "prep_time_minutes": 10,
+        "cook_time_minutes": 45,
+        "difficulty": "Easy",
+        "servings": 5,
+        "id": "R010"
+    },
+    {
+        "created_at": "2025-11-20T05:46:34.228416Z",
+        "steps": [
+            "Prepare ingredients for Masala Dosa.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Crispy dosa with spiced mashed potatoes.",
+        "recipe_id": "R011",
+        "cuisine": "Indian",
+        "name": "Masala Dosa",
+        "ingredients": [
+            {
+                "qty": 2,
+                "name": "Dosa batter",
+                "unit": "cups"
+            },
+            {
+                "qty": 2,
+                "name": "Potato",
+                "unit": "pcs"
+            },
+            {
+                "qty": 1,
+                "name": "Onion",
+                "unit": "medium"
+            },
+            {
+                "qty": 0.5,
+                "name": "Turmeric",
+                "unit": "tsp"
+            },
+            {
+                "qty": 1,
+                "name": "Salt",
+                "unit": "tsp"
+            }
+        ],
+        "prep_time_minutes": 6,
+        "cook_time_minutes": 8,
+        "difficulty": "Easy",
+        "servings": 2,
+        "id": "R011"
+    },
+    {
+        "created_at": "2025-11-20T05:46:35.393799Z",
+        "steps": [
+            "Prepare ingredients for Chickpea Salad.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Refreshing salad with chickpeas and veggies.",
+        "recipe_id": "R012",
+        "cuisine": "Mediterranean",
+        "name": "Chickpea Salad 12",
+        "ingredients": [
+            {
+                "qty": 1,
+                "name": "Chickpeas",
+                "unit": "cup"
+            },
+            {
+                "qty": 0.5,
+                "name": "Cucumber",
+                "unit": "cup"
+            },
+            {
+                "qty": 1,
+                "name": "Tomato",
+                "unit": "medium"
+            },
+            {
+                "qty": 1,
+                "name": "Olive Oil",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 1,
+                "name": "Salt",
+                "unit": "tsp"
+            }
+        ],
+        "prep_time_minutes": 28,
+        "cook_time_minutes": 25,
+        "difficulty": "Medium",
+        "servings": 2,
+        "id": "R012"
+    },
+    {
+        "created_at": "2025-11-20T05:46:35.972098Z",
+        "steps": [
+            "Prepare ingredients for Masala Dosa.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Crispy dosa with spiced mashed potatoes.",
+        "recipe_id": "R013",
+        "cuisine": "Indian",
+        "name": "Masala Dosa",
+        "ingredients": [
+            {
+                "qty": 2,
+                "name": "Dosa batter",
+                "unit": "cups"
+            },
+            {
+                "qty": 2,
+                "name": "Potato",
+                "unit": "pcs"
+            },
+            {
+                "qty": 1,
+                "name": "Onion",
+                "unit": "medium"
+            },
+            {
+                "qty": 0.5,
+                "name": "Turmeric",
+                "unit": "tsp"
+            },
+            {
+                "qty": 1,
+                "name": "Olive Oil",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 0.5,
+                "name": "Pepper",
+                "unit": "tsp"
+            }
+        ],
+        "prep_time_minutes": 24,
+        "cook_time_minutes": 29,
+        "difficulty": "Easy",
+        "servings": 6,
+        "id": "R013"
+    },
+    {
+        "created_at": "2025-11-20T05:46:37.105480Z",
+        "steps": [
+            "Prepare ingredients for Tomato Basil Soup.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Creamy tomato soup with fresh basil.",
+        "recipe_id": "R014",
+        "cuisine": "International",
+        "name": "Tomato Basil Soup",
+        "ingredients": [
+            {
+                "qty": 4,
+                "name": "Tomato",
+                "unit": "pcs"
+            },
+            {
+                "qty": 2,
+                "name": "Water",
+                "unit": "cups"
+            },
+            {
+                "qty": 1,
+                "name": "Butter",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 2,
+                "name": "Cream",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 1,
+                "name": "Green Chili",
+                "unit": "pcs"
+            },
+            {
+                "qty": 1,
+                "name": "Olive Oil",
+                "unit": "tbsp"
+            }
+        ],
+        "prep_time_minutes": 6,
+        "cook_time_minutes": 7,
+        "difficulty": "Medium",
+        "servings": 3,
+        "id": "R014"
+    },
+    {
+        "created_at": "2025-11-20T05:46:37.637493Z",
+        "steps": [
+            "Prepare ingredients for Stir-fry Vegetables.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Quick wok-tossed mixed vegetables.",
+        "recipe_id": "R015",
+        "cuisine": "Chinese",
+        "name": "Stir-fry Vegetables 15",
+        "ingredients": [
+            {
+                "qty": 1,
+                "name": "Broccoli",
+                "unit": "cup"
+            },
+            {
+                "qty": 1,
+                "name": "Carrot",
+                "unit": "cup"
+            },
+            {
+                "qty": 1,
+                "name": "Soy Sauce",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 2,
+                "name": "Garlic",
+                "unit": "cloves"
+            },
+            {
+                "qty": 1,
+                "name": "Salt",
+                "unit": "tsp"
+            }
+        ],
+        "prep_time_minutes": 10,
+        "cook_time_minutes": 27,
+        "difficulty": "Medium",
+        "servings": 1,
+        "id": "R015"
+    },
+    {
+        "created_at": "2025-11-20T05:46:38.773432Z",
+        "steps": [
+            "Prepare ingredients for Masala Dosa.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Crispy dosa with spiced mashed potatoes.",
+        "recipe_id": "R016",
+        "cuisine": "Indian",
+        "name": "Masala Dosa",
+        "ingredients": [
+            {
+                "qty": 2,
+                "name": "Dosa batter",
+                "unit": "cups"
+            },
+            {
+                "qty": 2,
+                "name": "Potato",
+                "unit": "pcs"
+            },
+            {
+                "qty": 1,
+                "name": "Onion",
+                "unit": "medium"
+            },
+            {
+                "qty": 0.5,
+                "name": "Turmeric",
+                "unit": "tsp"
+            }
+        ],
+        "prep_time_minutes": 8,
+        "cook_time_minutes": 13,
+        "difficulty": "Medium",
+        "servings": 5,
+        "id": "R016"
+    },
+    {
+        "created_at": "2025-11-20T05:46:39.266078Z",
+        "steps": [
+            "Prepare ingredients for Pasta Alfredo.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Creamy white-sauce pasta.",
+        "recipe_id": "R017",
+        "cuisine": "Italian",
+        "name": "Pasta Alfredo",
+        "ingredients": [
+            {
+                "qty": 200,
+                "name": "Pasta",
+                "unit": "g"
+            },
+            {
+                "qty": 2,
+                "name": "Butter",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 100,
+                "name": "Cream",
+                "unit": "ml"
+            },
+            {
+                "qty": 50,
+                "name": "Parmesan",
+                "unit": "g"
+            },
+            {
+                "qty": 1,
+                "name": "Green Chili",
+                "unit": "pcs"
+            },
+            {
+                "qty": 1,
+                "name": "Olive Oil",
+                "unit": "tbsp"
+            }
+        ],
+        "prep_time_minutes": 25,
+        "cook_time_minutes": 35,
+        "difficulty": "Easy",
+        "servings": 3,
+        "id": "R017"
+    },
+    {
+        "created_at": "2025-11-20T05:46:40.510724Z",
+        "steps": [
+            "Prepare ingredients for Chickpea Salad.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Refreshing salad with chickpeas and veggies.",
+        "recipe_id": "R018",
+        "cuisine": "Mediterranean",
+        "name": "Chickpea Salad 18",
+        "ingredients": [
+            {
+                "qty": 1,
+                "name": "Chickpeas",
+                "unit": "cup"
+            },
+            {
+                "qty": 0.5,
+                "name": "Cucumber",
+                "unit": "cup"
+            },
+            {
+                "qty": 1,
+                "name": "Tomato",
+                "unit": "medium"
+            },
+            {
+                "qty": 1,
+                "name": "Olive Oil",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 1,
+                "name": "Green Chili",
+                "unit": "pcs"
+            },
+            {
+                "qty": 1,
+                "name": "Coriander",
+                "unit": "tbsp"
+            }
+        ],
+        "prep_time_minutes": 19,
+        "cook_time_minutes": 19,
+        "difficulty": "Medium",
+        "servings": 5,
+        "id": "R018"
+    },
+    {
+        "created_at": "2025-11-20T05:46:40.963837Z",
+        "steps": [
+            "Prepare ingredients for Chickpea Salad.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Refreshing salad with chickpeas and veggies.",
+        "recipe_id": "R019",
+        "cuisine": "Mediterranean",
+        "name": "Chickpea Salad",
+        "ingredients": [
+            {
+                "qty": 1,
+                "name": "Chickpeas",
+                "unit": "cup"
+            },
+            {
+                "qty": 0.5,
+                "name": "Cucumber",
+                "unit": "cup"
+            },
+            {
+                "qty": 1,
+                "name": "Tomato",
+                "unit": "medium"
+            },
+            {
+                "qty": 1,
+                "name": "Olive Oil",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 1,
+                "name": "Olive Oil",
+                "unit": "tbsp"
+            }
+        ],
+        "prep_time_minutes": 30,
+        "cook_time_minutes": 29,
+        "difficulty": "Medium",
+        "servings": 3,
+        "id": "R019"
+    },
+    {
+        "created_at": "2025-11-20T05:46:42.119660Z",
+        "steps": [
+            "Prepare ingredients for Chickpea Salad.",
+            "Combine and cook base ingredients as required.",
+            "Season and simmer until done.",
+            "Serve hot."
+        ],
+        "description": "Refreshing salad with chickpeas and veggies.",
+        "recipe_id": "R020",
+        "cuisine": "Mediterranean",
+        "name": "Chickpea Salad",
+        "ingredients": [
+            {
+                "qty": 1,
+                "name": "Chickpeas",
+                "unit": "cup"
+            },
+            {
+                "qty": 0.5,
+                "name": "Cucumber",
+                "unit": "cup"
+            },
+            {
+                "qty": 1,
+                "name": "Tomato",
+                "unit": "medium"
+            },
+            {
+                "qty": 1,
+                "name": "Olive Oil",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 1,
+                "name": "Coriander",
+                "unit": "tbsp"
+            },
+            {
+                "qty": 0.5,
+                "name": "Pepper",
+                "unit": "tsp"
+            }
+        ],
+        "prep_time_minutes": 5,
+        "cook_time_minutes": 32,
+        "difficulty": "Medium",
+        "servings": 2,
+        "id": "R020"
+    }
+]
