@@ -111,5 +111,32 @@
         "R007": 2.0,
         "R001": 2.0,
         "R002": 2.0
+    },
+    "user_interaction_counts": {
+        "U001": {
+            "cook": 2,
+            "like": 3,
+            "view": 6
+        },
+        "U002": {
+            "cook": 3,
+            "like": 4,
+            "view": 3
+        },
+        "U003": {
+            "cook": 3,
+            "like": 0,
+            "view": 12
+        },
+        "U004": {
+            "cook": 1,
+            "like": 2,
+            "view": 4
+        },
+        "U005": {
+            "cook": 2,
+            "like": 1,
+            "view": 4
+        }
     }
 }

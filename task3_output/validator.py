@@ -4,8 +4,7 @@ from pathlib import Path
 
 BASE = Path("task3_output")
 
-# -----------------------------
-# FIX: Prevent NaN conversion
+
 # -----------------------------
 read_opts = dict(keep_default_na=False, na_values=[''])
 

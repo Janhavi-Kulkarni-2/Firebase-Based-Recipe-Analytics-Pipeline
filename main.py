@@ -1,6 +1,5 @@
 """
-task2_firestore_upload_fixed.py
-Corrected Task 2 uploader: inserts Veg Pulav + 19 synthetic recipes,
+this file inserts Veg Pulav + 19 synthetic recipes,
 5 users, and 50 interactions with consistent schema and field names.
 """
 
@@ -232,6 +231,6 @@ for i in range(1, interactions_to_create + 1):
 
 print(f"Uploaded {interactions_to_create} interactions (I0001..I{interactions_to_create:04})")
 
-print("\n Task 2 (fixed) completed: Recipes, Users, UserInteractions inserted with consistent schema.")
+print("\n Recipes, Users, UserInteractions inserted with consistent schema.")
 
 

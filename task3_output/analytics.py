@@ -34,21 +34,13 @@ insights["difficulty_distribution"] = difficulty_dist.to_dict()
 # -----------------------------------
 # 4. Correlation between prep time & likes
 # -----------------------------------
-# Filter only "like" interactions
 likes = interactions[interactions["type"] == "like"]
-
-# Count likes per recipe
 likes_count = likes.groupby("recipe_id").size().reset_index(name="like_count")
-
-# Merge with recipes to get prep time
 merged = pd.merge(recipes[["recipe_id", "prep_time_minutes"]],
                   likes_count,
                   on="recipe_id",
                   how="left")
-
 merged["like_count"] = merged["like_count"].fillna(0)
-
-# correlation calculation
 insights["correlation_prep_time_likes"] = merged["prep_time_minutes"].corr(merged["like_count"])
 
 # -----------------------------------
@@ -60,13 +52,10 @@ insights["most_viewed_recipes"] = view_count.to_dict()
 
 # -----------------------------------
 # 6. Ingredients associated with high engagement
-#    Engagement = views + likes + cook events
+# Engagement = views + likes + cook events
 # -----------------------------------
 engagement = interactions.groupby("recipe_id").size().reset_index(name="engagement")
-
-# merge engagement with ingredient table
 merged_ing = pd.merge(ingredients, engagement, on="recipe_id", how="left")
-
 ing_engage = merged_ing.groupby("ingredient_name")["engagement"].sum().sort_values(ascending=False).head(10)
 insights["high_engagement_ingredients"] = ing_engage.to_dict()
 
@@ -93,12 +82,20 @@ insights["most_active_users"] = user_engage.to_dict()
 # 10. Recipes with highest average cook rating
 # -----------------------------------
 cook = interactions[interactions["type"] == "cook"]
-
 if not cook.empty:
     cook_rating = cook.groupby("recipe_id")["rating"].mean().sort_values(ascending=False).head(10)
     insights["highest_rated_recipes"] = cook_rating.to_dict()
 else:
     insights["highest_rated_recipes"] = {}
+
+# -----------------------------------
+# -----------------------------------
+# 11. User interaction counts (views, likes, cooks)
+# -----------------------------------
+user_interaction_counts = interactions.groupby(['user_id', 'type']).size().unstack(fill_value=0)
+# convert to dictionary
+insights["user_interaction_counts"] = user_interaction_counts.to_dict(orient="index")
+
 
 # -----------------------------------
 # Save Report
