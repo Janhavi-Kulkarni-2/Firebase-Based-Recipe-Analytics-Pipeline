@@ -3,7 +3,7 @@ from firebase_admin import credentials, firestore
 import json
 from pathlib import Path
 
-# Load service account key (your file is in project_root)
+# Load service account key 
 cred = credentials.Certificate("../../serviceAccountKey.json")
 firebase_admin.initialize_app(cred)
 

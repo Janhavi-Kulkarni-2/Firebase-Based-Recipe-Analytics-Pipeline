@@ -5,7 +5,7 @@ from pathlib import Path
 # -----------------------------------
 # Load CSV files
 # -----------------------------------
-BASE = Path("../task3_output")  # change path ONLY if needed
+BASE = Path("../data")  
 
 recipes = pd.read_csv(BASE / "recipe.csv")
 ingredients = pd.read_csv(BASE / "ingredients.csv")

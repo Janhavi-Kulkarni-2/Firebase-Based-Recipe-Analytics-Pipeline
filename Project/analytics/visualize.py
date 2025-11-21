@@ -21,7 +21,6 @@ DATA = BASE.parent / "output_csv"
 VISUALS = BASE / "visuals"
 VISUALS.mkdir(exist_ok=True)
 
-# Correct CSV paths
 RECIPE_CSV = DATA / "recipe.csv"
 ING_CSV = DATA / "ingredients.csv"
 INTERACTIONS_CSV = DATA / "interactions.csv"
