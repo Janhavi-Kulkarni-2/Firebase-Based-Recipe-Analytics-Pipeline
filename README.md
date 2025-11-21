@@ -66,7 +66,7 @@ Stores details of each recipe. Each recipe has a **unique `recipe_id`**.
 ```
 Schema Image:
 
-![Schema Diagram](schema/schema1.png)
+![Schema Diagram](Project/schema/schema1.png)
 
 
 ### B. Users Collection
@@ -353,6 +353,7 @@ File: cuisine_popularity_engagement.png
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
