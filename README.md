@@ -140,9 +140,9 @@ pip install firebase-admin pandas
 4. Place `serviceAccountKey.json` in the project root directory.  
 
 ### Step 3: Upload Data 
-# ETL Pipeline Files Overview
+#### ETL Pipeline Files Overview
 
-## 1. `insert_data.py` – Data Insertion Script
+### 1. `insert_data.py` – Data Insertion Script
 
 **Purpose:**  
 Handles inserting new data into Firestore.
@@ -166,7 +166,7 @@ Use `insert_data.py` when you want to **populate Firestore with initial or synth
 
 ---
 
-## 2. `transform_etl.py` – Data Transformation & Export
+### 2. `transform_etl.py` – Data Transformation & Export
 
 **Purpose:**  
 Transforms exported Firestore data (JSON) into **normalized CSV files** for analytics.
@@ -188,7 +188,7 @@ Use `transform_etl.py` to **prepare clean, structured data for analysis or expor
 
 ---
 
-## 3. `export_firestore.py` – Data Extraction
+### 3. `export_firestore.py` – Data Extraction
 
 **Purpose:**  
 Extracts existing Firestore collections into **JSON format**.
@@ -406,6 +406,7 @@ File: cuisine_popularity_engagement.png
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
