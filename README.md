@@ -238,12 +238,90 @@ Provides 10 key insights:
 
 ## 6. Visualization
 
-Use **Matplotlib** or **Plotly** to generate charts for:
+This module generates multiple charts that help visualize recipe data, user engagement, and overall trends.
+All charts are produced using the visualize.py script and saved automatically inside the following folder:
 
-- Ingredient popularity
-- Recipe difficulty distribution
-- Prep time vs likes correlation
-- User engagement metrics
+- task3_output/visuals/
+
+# How to Run
+Run the visualization script:
+
+- python visualize.py
+
+This reads the CSV files generated during the ETL process and creates the charts listed below.
+
+## Charts Generated
+
+The following visualizations are generated as PNG files:
+
+# 1. Most Viewed Recipes
+
+File: most_viewed_recipes.png
+
+This chart displays the recipes with the highest number of views.
+It helps identify which recipes users are most frequently checking.
+The data is shown in a horizontal bar chart.
+
+# 2. Difficulty Distribution
+
+File: difficulty_distribution.png
+
+This pie chart shows the proportion of recipes categorized as Easy, Medium, and Hard.
+It provides an understanding of the overall difficulty mix in the dataset.
+
+# 3. Most Common Ingredients
+
+File: most_common_ingredients.png
+
+This horizontal bar chart highlights the top 15 most frequently used ingredients across all recipes.
+It helps identify popular ingredients that appear repeatedly in the dataset.
+
+# 4. Prep Time vs Likes
+
+File: prep_time_vs_likes.png
+
+Displays a scatter plot showing the relationship between preparation time and the number of likes a recipe receives.
+A trendline is included (when possible) to show correlation direction.
+Useful for understanding if shorter or longer prep times affect recipe popularity.
+
+## 5. Top Recipes by Total Interactions
+
+File: top_recipes_total_interactions.png
+
+Shows the recipes with the highest combined engagement based on:
+
+- views
+
+- likes
+
+- cook interactions
+
+Displayed as a horizontal bar chart.
+This chart helps identify the most overall popular recipes.
+
+## 6. Average Rating per Recipe
+
+File: average_rating_per_recipe.png
+
+This chart presents the average rating for recipes that have cook interactions with ratings (1–5).
+Only the top 15 highest-rated recipes are shown.
+Helps identify highly rated recipes based on cooking experience.
+
+## 7. Recipes with Most Steps
+
+File: avg_steps_per_recipe.png
+
+Shows which recipes have the highest number of total steps.
+Displayed as a vertical bar chart.
+Useful for understanding which recipes are more complex or detailed.
+
+## 8. Cuisine Popularity by Engagement
+
+File: cuisine_popularity_engagement.png
+
+This visualization shows engagement levels (views + likes + cooks) grouped by cuisine.
+Helps understand which cuisines are generating the most user interest.
+Displayed as a horizontal bar chart.
 
 ## 7. Future Enhancements
 
