@@ -43,8 +43,7 @@ Stores details of each recipe. Each recipe has a **unique `recipe_id`**.
 - `created_at`: Timestamp  
 
 **Example:**
-
-
+```
 {
   "recipe_id": "R001",
   "name": "Veg Pulav",
@@ -64,6 +63,7 @@ Stores details of each recipe. Each recipe has a **unique `recipe_id`**.
   "cuisine": "Indian",
   "created_at": "2025-11-20T06:00:00Z"
 }
+```
 Schema Image:
 
 
@@ -245,5 +245,6 @@ Use **Matplotlib** or **Plotly** to generate charts for:
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
