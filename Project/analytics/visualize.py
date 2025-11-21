@@ -2,7 +2,7 @@
 """
 visualize.py
 Generate charts for the Recipe Analytics project.
-Saves PNG files to: task3_output/visuals/
+Saves PNG files to: projects/visuals/
 """
 
 import os
@@ -12,15 +12,20 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # --- Configuration ---
-BASE = Path(__file__).resolve().parent  # task3_output
+BASE = Path(__file__).resolve().parent  # Project/analytics
+
+# CSVs are in Project/output_csv
+DATA = BASE.parent / "output_csv"
+
+# Output images stay inside analytics/visuals
 VISUALS = BASE / "visuals"
 VISUALS.mkdir(exist_ok=True)
 
-# CSV filenames (expected in task3_output/)
-RECIPE_CSV = BASE / "recipe.csv"
-ING_CSV = BASE / "ingredients.csv"
-INTERACTIONS_CSV = BASE / "interactions.csv"
-STEPS_CSV = BASE / "steps.csv"
+# Correct CSV paths
+RECIPE_CSV = DATA / "recipe.csv"
+ING_CSV = DATA / "ingredients.csv"
+INTERACTIONS_CSV = DATA / "interactions.csv"
+STEPS_CSV = DATA / "steps.csv"
 
 def read_csv_safe(path):
     if not path.exists():

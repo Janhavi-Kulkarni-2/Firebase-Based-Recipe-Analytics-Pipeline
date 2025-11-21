@@ -2,7 +2,7 @@ import pandas as pd
 import json
 from pathlib import Path
 
-BASE = Path("task3_output")
+BASE = Path("../output_csv")
 
 
 # -----------------------------
@@ -142,7 +142,7 @@ validate_steps()
 validate_interactions()
 
 # Save report
-with open(BASE / "validation_report.json", "w") as f:
+with open("validation_report.json", "w") as f:
     json.dump(report, f, indent=4)
 
 print("Validation complete! Open validation_report.json for details.")

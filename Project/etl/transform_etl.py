@@ -19,14 +19,14 @@ from pathlib import Path
 import uuid
 
 # ---------- Config ----------
-RECIPES_FILE = "recipes.json"
-USERS_FILE = "users.json"
-INTERACTIONS_FILE = "user_interactions.json"
+RECIPES_FILE = "../data/recipes.json"
+USERS_FILE = "../data/users.json"
+INTERACTIONS_FILE = "../data/user_interactions.json"
 
-OUT_RECIPE = "recipe.csv"
-OUT_INGRED = "ingredients.csv"
-OUT_STEPS = "steps.csv"
-OUT_INTERACTIONS = "interactions.csv"
+OUT_RECIPE = "../output_csv/recipe.csv"
+OUT_INGRED = "../output_csv/ingredients.csv"
+OUT_STEPS = "../output_csv/steps.csv"
+OUT_INTERACTIONS = "../output_csv/interactions.csv"
 
 # ---------- Helpers ----------
 def safe_get(d, keys, default=None):
