@@ -65,6 +65,7 @@ Stores details of each recipe. Each recipe has a **unique `recipe_id`**.
 }
 ```
 Schema Image:
+![Schema Diagram](schema1.png)
 
 
 ### B. Users Collection
@@ -245,6 +246,7 @@ Use **Matplotlib** or **Plotly** to generate charts for:
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
