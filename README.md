@@ -83,7 +83,7 @@ Copy code
   "joined_at": "2025-11-20T06:00:00Z"
 }
 
-schema-2.png
+![Users Collection Schema](schema-2.png)
 
 C. UserInteractions Collection
 Records how users interact with recipes.
@@ -285,5 +285,6 @@ Overwriting Firestore Data: Repeated ETL runs may overwrite existing documents
 Dependency on CSVs for Analytics: Analytics scripts require CSVs in task3_output
 
 Memory & Performance Considerations: Large datasets may need optimization
+
 
 Limited User Base: Only 5 users are generated; real-world usage requires more dynamic users
