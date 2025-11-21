@@ -65,6 +65,7 @@ Stores details of each recipe. Each recipe has a **unique `recipe_id`**.
 }
 ```
 Schema Image:
+
 ![Schema Diagram](schema1.png)
 
 
@@ -90,6 +91,8 @@ Stores information about registered users.
 }
 ```
 Schema Image:
+
+![Schema Diagram](schema-2.png)
 
 
 ### C. UserInteractions Collection
@@ -118,6 +121,8 @@ Records how users interact with recipes.
 }
 ```
 Schema Image:
+
+![Schema Diagram](schema3.png)
 
 
 ## 2. Pipeline Instructions
@@ -246,6 +251,7 @@ Use **Matplotlib** or **Plotly** to generate charts for:
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
