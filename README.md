@@ -272,7 +272,7 @@ File: difficulty_distribution.png
 - This pie chart shows the proportion of recipes categorized as Easy, Medium, and Hard.
 - It provides an understanding of the overall difficulty mix in the dataset.
 
-![Difficulty Distribution](task3_output/visuals/difficulty_distribution.png)
+![Difficulty Distribution](Project/analytics/visuals/difficulty_distribution.png)
 
 
 ### 3. Most Common Ingredients
@@ -282,7 +282,7 @@ File: most_common_ingredients.png
 - This horizontal bar chart highlights the top 15 most frequently used ingredients across all recipes.
 - It helps identify popular ingredients that appear repeatedly in the dataset.
 
-![Most Common Ingredients](task3_output/visuals/most_common_ingredients.png)
+![Most Common Ingredients](Project/analytics/visuals/most_common_ingredients.png)
 
 
 ### 4. Prep Time vs Likes
@@ -293,7 +293,7 @@ File: prep_time_vs_likes.png
 - A trendline is included (when possible) to show correlation direction.
 - Useful for understanding if shorter or longer prep times affect recipe popularity.
 
-![Prep Time vs Likes](task3_output/visuals/prep_time_vs_likes.png)
+![Prep Time vs Likes](Project/analytics/visuals/prep_time_vs_likes.png)
 
 
 ### 5. Top Recipes by Total Interactions
@@ -311,7 +311,7 @@ Shows the recipes with the highest combined engagement based on:
 Displayed as a horizontal bar chart.
 This chart helps identify the most overall popular recipes.
 
-![Top Recipes Interactions](task3_output/visuals/top_recipes_total_interactions.png)
+![Top Recipes Interactions](Project/analytics/visuals/top_recipes_total_interactions.png)
 
 
 ### 6. Average Rating per Recipe
@@ -322,7 +322,7 @@ File: average_rating_per_recipe.png
 - Only the top 15 highest-rated recipes are shown.
 - Helps identify highly rated recipes based on cooking experience.
 
-![Average Rating](task3_output/visuals/average_rating_per_recipe.png)
+![Average Rating](Project/analytics/visuals/average_rating_per_recipe.png)
 
 
 ## 7. Recipes with Most Steps
@@ -333,7 +333,7 @@ File: avg_steps_per_recipe.png
 - Displayed as a vertical bar chart.
 - Useful for understanding which recipes are more complex or detailed.
 
-![Recipes with Most Steps](task3_output/visuals/avg_steps_per_recipe.png)
+![Recipes with Most Steps](Project/analytics/visuals/avg_steps_per_recipe.png)
 
 
 ## 8. Cuisine Popularity by Engagement
@@ -344,7 +344,7 @@ File: cuisine_popularity_engagement.png
 - Helps understand which cuisines are generating the most user interest.
 - Displayed as a horizontal bar chart.
 
-![Cuisine Popularity](task3_output/visuals/cuisine_popularity_engagement.png)
+![Cuisine Popularity](Project/analytics/visuals/cuisine_popularity_engagement.png)
 
 
 ## 7. Future Enhancements
@@ -353,6 +353,7 @@ File: cuisine_popularity_engagement.png
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
