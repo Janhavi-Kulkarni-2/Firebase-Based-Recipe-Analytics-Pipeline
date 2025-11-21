@@ -159,7 +159,7 @@ Run the analytics module:
 
 python task3_output/analytics.py
 
-I### Insights Produced
+### Insights Produced
 
 - Most common ingredients across all recipes
 - Average preparation and cook time
@@ -245,4 +245,5 @@ Use **Matplotlib** or **Plotly** to generate charts for:
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
