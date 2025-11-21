@@ -243,18 +243,18 @@ All charts are produced using the visualize.py script and saved automatically in
 
 - task3_output/visuals/
 
-# How to Run
+##### How to Run
 Run the visualization script:
 
 - python visualize.py
 
 This reads the CSV files generated during the ETL process and creates the charts listed below.
 
-## Charts Generated
+### Charts Generated
 
 The following visualizations are generated as PNG files:
 
-# 1. Most Viewed Recipes
+### 1. Most Viewed Recipes
 
 File: most_viewed_recipes.png
 
@@ -262,21 +262,21 @@ This chart displays the recipes with the highest number of views.
 It helps identify which recipes users are most frequently checking.
 The data is shown in a horizontal bar chart.
 
-# 2. Difficulty Distribution
+### 2. Difficulty Distribution
 
 File: difficulty_distribution.png
 
 This pie chart shows the proportion of recipes categorized as Easy, Medium, and Hard.
 It provides an understanding of the overall difficulty mix in the dataset.
 
-# 3. Most Common Ingredients
+### 3. Most Common Ingredients
 
 File: most_common_ingredients.png
 
 This horizontal bar chart highlights the top 15 most frequently used ingredients across all recipes.
 It helps identify popular ingredients that appear repeatedly in the dataset.
 
-# 4. Prep Time vs Likes
+### 4. Prep Time vs Likes
 
 File: prep_time_vs_likes.png
 
@@ -284,7 +284,7 @@ Displays a scatter plot showing the relationship between preparation time and th
 A trendline is included (when possible) to show correlation direction.
 Useful for understanding if shorter or longer prep times affect recipe popularity.
 
-## 5. Top Recipes by Total Interactions
+### 5. Top Recipes by Total Interactions
 
 File: top_recipes_total_interactions.png
 
@@ -299,7 +299,7 @@ Shows the recipes with the highest combined engagement based on:
 Displayed as a horizontal bar chart.
 This chart helps identify the most overall popular recipes.
 
-## 6. Average Rating per Recipe
+### 6. Average Rating per Recipe
 
 File: average_rating_per_recipe.png
 
@@ -329,6 +329,7 @@ Displayed as a horizontal bar chart.
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
