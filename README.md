@@ -44,7 +44,7 @@ Stores details of each recipe. Each recipe has a **unique `recipe_id`**.
 
 **Example:**
 
-```json
+
 {
   "recipe_id": "R001",
   "name": "Veg Pulav",
@@ -73,14 +73,14 @@ Stores information about registered users.
 
 **Fields:**
 
-- `user_id`: Unique identifier  
+- user_id: Unique identifier  
 - `name`: User’s name  
 - `email`: User’s email  
 - `joined_at`: Timestamp  
 
 **Example:**
 
-```json
+
 {
   "user_id": "U001",
   "name": "Janhavi",
@@ -106,7 +106,7 @@ Records how users interact with recipes.
 
 **Example:**
 
-```json
+
 {
   "interaction_id": "I0001",
   "user_id": "U003",
@@ -124,7 +124,7 @@ Schema Image:
 Follow these step-by-step instructions to set up and run the project.
 
 ### Step 1: Install Dependencies
-```bash
+
 pip install firebase-admin pandas
 
 ### Step 2: Set Up Firebase
@@ -136,7 +136,7 @@ pip install firebase-admin pandas
 ### Step 3: Upload Data (Task 2)
 Run the main ETL script:
 
-```bash
+
 python main.py
 ### What this does
 - Inserts Veg Pulav + 19 synthetic recipes  
@@ -146,7 +146,7 @@ python main.py
 ### Step 4: Run Validation (Task 3)
 Run the validation script:
 
-```bash
+
 python task3_output/validate_data.py
 
 ### Output
@@ -156,7 +156,7 @@ python task3_output/validate_data.py
 ### Step 5: Run Analytics (Task 5)
 Run the analytics module:
 
-```bash
+
 python task3_output/analytics.py
 
 I### Insights Produced
@@ -245,3 +245,4 @@ Use **Matplotlib** or **Plotly** to generate charts for:
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
