@@ -177,7 +177,7 @@ python transform_etl.py
 Run the validation script:
 
 
-python Project/etl/validate_data.py
+python Project/etl/validator.py
 
 ### Output
 - Generates `validation_report.json`  
@@ -377,6 +377,7 @@ File: cuisine_popularity_engagement.png
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
