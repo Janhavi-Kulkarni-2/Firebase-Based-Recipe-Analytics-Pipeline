@@ -80,14 +80,14 @@ Stores information about registered users.
 
 **Example:**
 
-
+```
 {
   "user_id": "U001",
   "name": "Janhavi",
   "email": "janhavi@example.com",
   "joined_at": "2025-11-20T06:00:00Z"
 }
-
+```
 Schema Image:
 
 
@@ -106,7 +106,7 @@ Records how users interact with recipes.
 
 **Example:**
 
-
+```
 {
   "interaction_id": "I0001",
   "user_id": "U003",
@@ -115,7 +115,7 @@ Records how users interact with recipes.
   "rating": null,
   "timestamp": "2025-11-20T06:05:00Z"
 }
-
+```
 Schema Image:
 
 
@@ -245,6 +245,7 @@ Use **Matplotlib** or **Plotly** to generate charts for:
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
