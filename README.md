@@ -55,6 +55,10 @@ Stores details of each recipe. Each recipe has a **unique `recipe_id`** (Primary
   "cuisine": "Indian",
   "created_at": "2025-11-20T06:00:00Z"
 }
+
+schema1.png
+
+
 B. Users Collection
 Stores information about registered users.
 
@@ -78,6 +82,9 @@ Copy code
   "email": "janhavi@example.com",
   "joined_at": "2025-11-20T06:00:00Z"
 }
+
+schema-2.png
+
 C. UserInteractions Collection
 Records how users interact with recipes.
 
@@ -107,6 +114,9 @@ Copy code
   "rating": null,
   "timestamp": "2025-11-20T06:05:00Z"
 }
+
+schema3.png
+
 2. Instructions for Running the Pipeline
 Follow these step-by-step instructions to set up and run the project.
 
@@ -136,162 +146,144 @@ Generates validation_report.json
 Lists valid and invalid records
 
 Step 5: Run Analytics (Task 5)
+
 Run the analytics module:
+
 python task3_output/analytics.py
 
-Insights Produced:
+Insights Produced
+
+The analytics module generates the following insights:
+
 Most common ingredients across all recipes
+
 Average preparation and cook time
+
 Difficulty distribution (Easy, Medium, Hard)
+
 Correlation between prep time and likes
+
 Most frequently viewed recipes
+
 Ingredients associated with high engagement
+
 Average rating of recipes cooked by users
+
 Users with highest interactions
+
 Recipes with highest total interactions
+
 Cuisine popularity based on engagement
-Charts can also be generated if your script includes Matplotlib or Plotly visualizations.
 
 
-#**3. ETL Process Overview**
+3. ETL Process Overview
 
-The ETL (Extract, Transform, Load) process in this pipeline is designed to clean, validate, and load recipe data from JSON files into Firestore for analytics and querying. Here’s a detailed explanation of each step:
+The ETL (Extract, Transform, Load) process cleans, validates, and loads recipe data from JSON files into Firestore for analytics and querying.
 
-* Extract :
+3.1 Extract
 
 The pipeline first reads the raw JSON files:
 
-- recipes.json – contains all recipes (Veg Pulav + synthetic recipes).
+recipes.json – contains all recipes (Veg Pulav + synthetic recipes)
 
-- users.json – contains all user records.
+users.json – contains all user records
 
-- user_interactions.json – contains interactions like view, like, or cook.
+user_interactions.json – contains interactions (view, like, cook)
 
-- These JSON files are loaded into Python objects and/or Pandas DataFrames.
+These JSON files are loaded into Python objects and/or Pandas DataFrames.
 
-- Using DataFrames allows easy manipulation, filtering, and analysis.
+Using DataFrames allows easy manipulation, filtering, and analysis.
 
-- This step ensures all data is loaded into memory in a structured form ready for transformation.
+This step ensures all data is loaded into memory in a structured form ready for transformation.
 
-* Transform :
+3.2 Transform
 
-Schema Validation: Using validate_data.py, the pipeline checks:
+Schema Validation:
 
-Required fields are present (e.g., recipe_id, user_id, ingredients).
+The pipeline checks:
 
-Field types are consistent (e.g., numeric values for qty_numeric, integers for prep_time_minutes).
+Required fields are present (e.g., recipe_id, user_id, ingredients)
 
-Ratings are only present for cook interactions; other types (view/like) must have null.
+Field types are consistent (e.g., numeric values for qty_numeric, integers for prep_time_minutes)
 
-Steps are correctly ordered and formatted.
+Ratings are only present for cook interactions; other types (view/like) must have null
+
+Steps are correctly ordered and formatted
 
 Data Cleaning:
 
-Missing or inconsistent values are handled. For example:
+Missing or inconsistent values are handled as follows:
 
-- If qty_numeric is missing, it is set as null.
+If qty_numeric is missing, it is set as null
 
-- Null ratings for non-cook interactions are allowed.
+Null ratings for non-cook interactions are allowed
 
-- Units and numeric quantities are standardized for consistent analytics.
+Units and numeric quantities are standardized for consistent analytics
 
 Standardization:
 
-Fields like rating and qty_numeric are normalized to ensure calculations in analytics are accurate.
+Fields like rating and qty_numeric are normalized to ensure calculations in analytics are accurate
 
-Ensures recipes, users, and interactions are in a uniform format before insertion.
+Ensures recipes, users, and interactions are in a uniform format before insertion
 
-* Load :
+3.3 Load
 
 After validation and cleaning, the pipeline uploads data into Firestore:
 
-Recipes collection: stores all recipe documents.
+Recipes collection: stores all recipe documents
 
-Users collection: stores all user documents.
+Users collection: stores all user documents
 
-UserInteractions collection: stores all interaction documents.
+UserInteractions collection: stores all interaction documents
 
 The loaded data is now ready for querying, analytics, and visualization.
 
-This step ensures that Firestore always contains consistent, clean, and structured data.
-
 4. Insights Summary (Task 5)
 
-The analytics module (analytics.py) provides at least 10 key insights to understand recipe trends, user engagement, and ingredient popularity. Here’s a detailed breakdown:
+The analytics module provides 10 key insights:
 
-Most Common Ingredients Across Recipes:
-Identifies which ingredients appear most frequently across all recipes.
-Helps understand core ingredients in your dataset.
+Most Common Ingredients Across Recipes
+Identifies which ingredients appear most frequently across all recipes
+
 Average Preparation and Cook Times
-Calculates the mean prep time (prep_time_minutes) and cook time (cook_time_minutes) for all recipes.
-Useful for estimating overall cooking effort for users.
-Difficulty Distribution of Recipes
-Counts recipes per difficulty level (Easy, Medium, Hard).
-Shows which difficulty level is most common.
-Correlation Between Prep Time and Number of Likes
-Analyzes whether longer or shorter prep times influence user likes.
-Determines if users prefer quick recipes or are willing to try complex recipes.
-Most Frequently Viewed Recipes
-Finds recipes with the highest number of view interactions.
-Highlights recipes that attract the most attention.
-Ingredients Associated with High Engagement
-Finds ingredients that appear in recipes with the most likes or cooks.
-Helps identify “popular” ingredients driving user engagement.
-Average Rating of Recipes Cooked by Users
-Computes the mean rating for recipes cooked by users.
-Provides insight into which recipes are most appreciated by users.
-Users with Highest Interactions
-Identifies the most active users by counting total interactions (view, like, cook).
-Useful for understanding user behavior and engagement patterns.
-Recipes with Highest Total Interactions
-Counts total interactions per recipe.
-Highlights the recipes that are both popular and frequently cooked or liked.
-Cuisine Popularity Based on Engagement Metrics
-Analyzes which cuisines have the highest engagement.
-Engagement metrics can include total views, likes, or average cook ratings.
+Calculates mean prep and cook times for all recipes
 
-Summary: These insights allow the project team to identify trends in recipe usage, popular ingredients, and user behavior patterns. They also provide data-driven guidance for future recipe recommendations or marketing strategies.
+Difficulty Distribution of Recipes
+Counts recipes per difficulty level (Easy, Medium, Hard)
+
+Correlation Between Prep Time and Number of Likes
+Analyzes whether longer or shorter prep times influence user likes
+
+Most Frequently Viewed Recipes
+Finds recipes with the highest number of view interactions
+
+Ingredients Associated with High Engagement
+Finds ingredients that appear in recipes with the most likes or cooks
+
+Average Rating of Recipes Cooked by Users
+Computes mean rating for recipes cooked by users
+
+Users with Highest Interactions
+Identifies the most active users by counting total interactions
+
+Recipes with Highest Total Interactions
+Counts total interactions per recipe
+
+Cuisine Popularity Based on Engagement Metrics
+Analyzes which cuisines have the highest engagement
 
 5. Known Constraints / Limitations
 
-The current pipeline has some limitations to be aware of:
+Synthetic Data: JSON files are mostly synthetic for testing purposes and may not cover all real-world scenarios
 
-Synthetic Data:
+Rating Field Limitations: Ratings exist only for cook interactions
 
-Task 1 JSON files are mostly synthetic for testing purposes.
+Quantity Fields Optional: qty_numeric in ingredients is optional
 
-They may not cover all real-world scenarios or represent actual cooking behavior.
+Overwriting Firestore Data: Repeated ETL runs may overwrite existing documents
 
-Rating Field Limitations:
+Dependency on CSVs for Analytics: Analytics scripts require CSVs in task3_output
 
-Ratings exist only for cook interactions.
+Memory & Performance Considerations: Large datasets may need optimization
 
-view and like interactions have null ratings, so analytics cannot analyze ratings for all interactions.
-
-Quantity Fields Optional:
-
-qty_numeric in ingredients is optional.
-
-Missing values may affect calculations like total ingredient usage.
-
-Overwriting Firestore Data:
-
-The ETL currently uploads all recipes and interactions each time.
-
-Existing documents in Firestore may be overwritten on repeated runs.
-
-Dependency on CSVs for Analytics:
-
-Analytics scripts require CSVs in task3_output.
-
-If CSVs are missing or corrupted, analytics will fail.
-
-Memory & Performance Considerations:
-
-Large datasets may need optimization.
-
-Pandas and JSON parsing may consume a lot of memory for very large datasets.
-
-Limited User Base:
-
-Only 5 users are generated; real-world usage would require a dynamic and larger user base.
+Limited User Base: Only 5 users are generated; real-world usage requires more dynamic users
