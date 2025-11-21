@@ -262,6 +262,9 @@ This chart displays the recipes with the highest number of views.
 It helps identify which recipes users are most frequently checking.
 The data is shown in a horizontal bar chart.
 
+![Most Viewed Recipes](task3_output/visuals/most_viewed_recipes.png)
+
+
 ### 2. Difficulty Distribution
 
 File: difficulty_distribution.png
@@ -329,6 +332,7 @@ Displayed as a horizontal bar chart.
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
