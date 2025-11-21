@@ -56,7 +56,7 @@ Stores details of each recipe. Each recipe has a **unique `recipe_id`** (Primary
   "created_at": "2025-11-20T06:00:00Z"
 }
 
-schema1.png
+![alt text](schema1.png)
 
 
 B. Users Collection
@@ -83,7 +83,7 @@ Copy code
   "joined_at": "2025-11-20T06:00:00Z"
 }
 
-![Users Collection Schema](schema-2.png)
+![alt text](schema-2.png)
 
 C. UserInteractions Collection
 Records how users interact with recipes.
@@ -115,7 +115,7 @@ Copy code
   "timestamp": "2025-11-20T06:05:00Z"
 }
 
-schema3.png
+![alt text](schema3.png)
 
 2. Instructions for Running the Pipeline
 Follow these step-by-step instructions to set up and run the project.
@@ -288,3 +288,4 @@ Memory & Performance Considerations: Large datasets may need optimization
 
 
 Limited User Base: Only 5 users are generated; real-world usage requires more dynamic users
+
