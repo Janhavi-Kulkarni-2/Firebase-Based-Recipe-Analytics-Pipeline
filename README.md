@@ -142,7 +142,7 @@ pip install firebase-admin pandas
 ### Step 3: Upload Data 
 # ETL Pipeline Files Overview
 
-## 1. `main.py` – Data Insertion Script
+## 1. `insert_data.py` – Data Insertion Script
 
 **Purpose:**  
 Handles inserting new data into Firestore.
@@ -162,7 +162,7 @@ Handles inserting new data into Firestore.
   Types: `view`, `like`, `cook` (with optional rating).
 
 **When to run:**  
-Use `main.py` when you want to **populate Firestore with initial or synthetic data**.
+Use `insert_data.py` when you want to **populate Firestore with initial or synthetic data**.
 
 ---
 
@@ -406,6 +406,7 @@ File: cuisine_popularity_engagement.png
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
