@@ -1,62 +1,50 @@
-Firebase-Based Recipe Analytics Pipeline
+# Firebase-Based Recipe Analytics Pipeline
 
-This project is a complete recipe management and analytics pipeline using Firebase Firestore, Python, and Pandas.
+This project is a complete **recipe management and analytics pipeline** using **Firebase Firestore**, Python, and Pandas.  
 It allows you to:
 
-Add recipes, users, and interactions
+- Add recipes, users, and interactions  
+- Validate the data  
+- Perform analytics  
+- Generate insights with a clean ETL process  
 
-Validate the data
+---
 
-Perform analytics
+## Table of Contents
 
-Generate insights with a clean ETL process
+1. [Data Model](#data-model)  
+2. [Pipeline Instructions](#pipeline-instructions)  
+3. [ETL Process Overview](#etl-process-overview)  
+4. [Analytics & Insights](#analytics--insights)  
+5. [Visualization](#visualization)  
+6. [Known Limitations](#known-limitations)  
+7. [Future Enhancements](#future-enhancements)  
 
-Table of Contents
+---
 
-Data Model
+## 1. Data Model
 
-Pipeline Instructions
+The data model efficiently captures **recipes, users, and interactions** for analytics, validation, and ETL processing.
 
-ETL Process Overview
+### A. Recipes Collection
 
-Analytics & Insights
+Stores details of each recipe. Each recipe has a **unique `recipe_id`**.
 
-Visualization
+**Fields:**
 
-Known Limitations
+- `name`: Name of the recipe  
+- `description`: Short description  
+- `servings`: Number of servings  
+- `prep_time_minutes` & `cook_time_minutes`: Cooking times  
+- `difficulty`: Difficulty level (Easy, Medium, Hard)  
+- `cuisine`: Cuisine type (e.g., Indian, Italian, Chinese)  
+- `ingredients`: Array of objects (`name`, `qty_numeric`, `unit`, `qty_text`)  
+- `steps`: Array of objects (`step_order`, `step_text`)  
+- `created_at`: Timestamp  
 
-Future Enhancements
+**Example:**
 
-1. Data Model
-
-The data model is designed to efficiently capture recipes, users, and interactions for analytics, validation, and ETL processing.
-
-A. Recipes Collection
-
-Stores details of each recipe. Each recipe has a unique recipe_id (Primary Key).
-
-Fields:
-
-name: Name of the recipe
-
-description: Short description
-
-servings: Number of servings
-
-prep_time_minutes & cook_time_minutes: Cooking times
-
-difficulty: Difficulty level (Easy, Medium, Hard)
-
-cuisine: Cuisine type (e.g., Indian, Italian, Chinese)
-
-ingredients: Array of objects (name, qty_numeric, unit, qty_text)
-
-steps: Array of objects (step_order, step_text)
-
-created_at: Timestamp
-
-Example:
-
+```json
 {
   "recipe_id": "R001",
   "name": "Veg Pulav",
@@ -76,13 +64,10 @@ Example:
   "cuisine": "Indian",
   "created_at": "2025-11-20T06:00:00Z"
 }
-
-
 Schema Image:
 
 
 B. Users Collection
-
 Stores information about registered users.
 
 Fields:
@@ -97,19 +82,18 @@ joined_at: Timestamp
 
 Example:
 
+json
+Copy code
 {
   "user_id": "U001",
   "name": "Janhavi",
   "email": "janhavi@example.com",
   "joined_at": "2025-11-20T06:00:00Z"
 }
-
-
 Schema Image:
 
 
 C. UserInteractions Collection
-
 Records how users interact with recipes.
 
 Fields:
@@ -128,6 +112,8 @@ timestamp: Interaction timestamp
 
 Example:
 
+json
+Copy code
 {
   "interaction_id": "I0001",
   "user_id": "U003",
@@ -136,37 +122,32 @@ Example:
   "rating": null,
   "timestamp": "2025-11-20T06:05:00Z"
 }
-
-
 Schema Image:
 
 
 2. Pipeline Instructions
-
-Follow these steps to set up and run the pipeline.
+Follow these step-by-step instructions to set up and run the project.
 
 Step 1: Install Dependencies
+bash
+Copy code
 pip install firebase-admin pandas
-
 Step 2: Set Up Firebase
+Create a Firebase project at Firebase Console
 
-Create a Firebase project on Firebase Console
-.
+Enable Firestore database in the project
 
-Enable Firestore Database in the project.
+Download the service account key JSON file
 
-Download the service account key JSON file.
-
-Place serviceAccountKey.json in the project root directory.
+Place serviceAccountKey.json in the project root directory
 
 Step 3: Upload Data (Task 2)
-
 Run the main ETL script:
 
+bash
+Copy code
 python main.py
-
-
-This script does:
+What this does:
 
 Inserts Veg Pulav + 19 synthetic recipes
 
@@ -175,12 +156,11 @@ Adds 5 users
 Generates 50 user interactions (views, likes, cooks)
 
 Step 4: Run Validation (Task 3)
-
 Run the validation script:
 
+bash
+Copy code
 python task3_output/validate_data.py
-
-
 Output:
 
 Generates validation_report.json
@@ -188,12 +168,11 @@ Generates validation_report.json
 Lists valid and invalid records
 
 Step 5: Run Analytics (Task 5)
-
 Run the analytics module:
 
+bash
+Copy code
 python task3_output/analytics.py
-
-
 Insights Produced:
 
 Most common ingredients across all recipes
@@ -216,117 +195,104 @@ Recipes with highest total interactions
 
 Cuisine popularity based on engagement
 
-Charts can also be generated if your script includes Matplotlib or Plotly visualizations.
-
 3. ETL Process Overview
+The ETL (Extract, Transform, Load) process cleans, validates, and loads recipe data from JSON files into Firestore.
+
 3.1 Extract
+Reads JSON files: recipes.json, users.json, user_interactions.json
 
-Reads raw JSON files:
+Loads them into Python objects or Pandas DataFrames
 
-recipes.json – all recipes
-
-users.json – all users
-
-user_interactions.json – all interactions
-
-Loads data into Python objects or Pandas DataFrames for processing.
+DataFrames allow easy filtering, manipulation, and analysis
 
 3.2 Transform
+Schema Validation
+Required fields present (recipe_id, user_id, ingredients)
 
-Schema Validation:
+Field types consistent (qty_numeric numeric, prep_time_minutes integer)
 
-Required fields exist (recipe_id, user_id, ingredients)
-
-Field types are correct (numeric for qty_numeric, integer for times)
-
-Ratings exist only for cook interactions
+Ratings only for cook interactions
 
 Steps are correctly ordered
 
-Data Cleaning:
+Data Cleaning
+qty_numeric missing → set as null
 
-Missing qty_numeric → set as null
-
-Null ratings for non-cook interactions allowed
+Null ratings allowed for non-cook interactions
 
 Units and numeric quantities standardized
 
-Standardization:
+Standardization
+Normalize rating and qty_numeric
 
-Normalize fields like rating and qty_numeric for analytics
-
-Ensure uniform format for recipes, users, and interactions
+Ensures uniform format for analytics
 
 3.3 Load
+Uploads data into Firestore collections:
 
-Uploads data to Firestore:
+Recipes
 
-Recipes Collection
+Users
 
-Users Collection
+UserInteractions
 
-UserInteractions Collection
+Data ready for querying, analytics, and visualization
 
-Ensures clean, structured, and query-ready data.
+4. Analytics & Insights
+Provides 10 key insights:
 
-4. Analytics & Insights (Task 5)
+Most common ingredients across recipes
 
-The analytics module provides 10 key insights:
+Average preparation and cook times
 
-Most Common Ingredients Across Recipes
+Difficulty distribution (Easy, Medium, Hard)
 
-Average Preparation and Cook Times
+Correlation between prep time and likes
 
-Difficulty Distribution of Recipes (Easy, Medium, Hard)
+Most frequently viewed recipes
 
-Correlation Between Prep Time and Number of Likes
+Ingredients associated with high engagement
 
-Most Frequently Viewed Recipes
+Average rating of recipes cooked by users
 
-Ingredients Associated with High Engagement
+Users with highest interactions
 
-Average Rating of Recipes Cooked by Users
+Recipes with highest total interactions
 
-Users with Highest Interactions
+Cuisine popularity based on engagement
 
-Recipes with Highest Total Interactions
+5. Known Limitations
+Synthetic Data: Mostly synthetic for testing
 
-Cuisine Popularity Based on Engagement Metrics
+Rating Field Limitations: Only for cook interactions
 
-5. Known Constraints / Limitations
+Quantity Fields Optional: qty_numeric may be missing
 
-Synthetic Data: JSON files mostly synthetic; may not cover all real-world cases
+Overwriting Firestore Data: ETL runs may overwrite documents
 
-Rating Field: Exists only for cook interactions
-
-Quantity Fields: qty_numeric optional
-
-Overwriting Firestore Data: Repeated ETL runs may overwrite documents
-
-CSV Dependency: Analytics scripts require CSVs in task3_output
+Dependency on CSVs: Required in task3_output
 
 Memory & Performance: Large datasets may need optimization
 
-Limited Users: Only 5 users generated; real-world requires more dynamic users
+Limited User Base: Only 5 users; real-world projects require more
 
 6. Visualization
-
-Optional: Matplotlib or Plotly for charts
-
-Can visualize:
+Use Matplotlib or Plotly to generate charts for:
 
 Ingredient popularity
 
 Recipe difficulty distribution
 
-User interaction trends
+Prep time vs likes correlation
+
+User engagement metrics
 
 7. Future Enhancements
+Add real user data instead of synthetic data
 
-Add more dynamic users and interactions
+Support dynamic recipe addition via web interface
 
-Support real-time analytics dashboards
+Implement recommendation engine for personalized recipes
 
-Include image upload for recipes
+Add advanced analytics dashboards
 
-Integrate recommendation system
