@@ -262,7 +262,7 @@ File: most_viewed_recipes.png
 - It helps identify which recipes users are most frequently checking.
 - The data is shown in a horizontal bar chart.
 
-![Most Viewed Recipes](task3_output/visuals/most_viewed_recipes.png)
+![Most Viewed Recipes](Project/visuals/most_viewed_recipes.png)
 
 
 ### 2. Difficulty Distribution
@@ -353,6 +353,7 @@ File: cuisine_popularity_engagement.png
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
