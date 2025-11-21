@@ -1,36 +1,41 @@
-1. Explanation of the Data Model
+# Firebase-Based Recipe Analytics Pipeline
 
-The data model is designed to capture recipes, users, and interactions efficiently, allowing analytics, validation, and ETL processing.
+This project is a complete **recipe management and analytics pipeline** using **Firebase Firestore**, Python, and Pandas. It allows you to add recipes, users, and interactions, validate the data, perform analytics, and generate insights with a clean ETL process.
 
-Entities and Fields:
+## Table of Contents
+1. [Data Model](#data-model)
+2. [Pipeline Instructions](#pipeline-instructions)
+3. [ETL Process Overview](#etl-process-overview)
+4. [Analytics & Insights](#analytics--insights)
+5. [Visualization](#visualization)
+6. [Known Limitations](#known-limitations)
+7. [Future Enhancements](#future-enhancements)
 
-A. Recipes Collection
 
-Stores details of each recipe.
-Each recipe document has a unique recipe_id (Primary Key).
 
-Fields:
 
-name: Name of the recipe.
+---
 
-description: Short description of the recipe.
+## 1. Explanation of the Data Model
 
-servings: Number of servings.
+The data model is designed to efficiently capture **recipes, users, and interactions** for analytics, validation, and ETL processing.
 
-prep_time_minutes & cook_time_minutes: Cooking times.
+### A. Recipes Collection
+Stores details of each recipe. Each recipe has a **unique `recipe_id`** (Primary Key).
 
-difficulty: Difficulty level (Easy, Medium, Hard).
+**Fields:**
+- `name`: Name of the recipe  
+- `description`: Short description  
+- `servings`: Number of servings  
+- `prep_time_minutes` & `cook_time_minutes`: Cooking times  
+- `difficulty`: Difficulty level (Easy, Medium, Hard)  
+- `cuisine`: Cuisine type (e.g., Indian, Italian, Chinese)  
+- `ingredients`: Array of objects (`name`, `qty_numeric`, `unit`, `qty_text`)  
+- `steps`: Array of strings (ordered cooking steps)  
+- `created_at`: Timestamp  
 
-cuisine: Cuisine type (e.g., Indian, Italian, Chinese).
-
-ingredients: Array of objects (name, qty, unit).
-
-steps: Array of strings (ordered cooking steps).
-
-created_at: Timestamp when recipe was added.
-
-Example:
-
+**Example:**
+```json
 {
   "recipe_id": "R001",
   "name": "Veg Pulav",
@@ -50,59 +55,50 @@ Example:
   "cuisine": "Indian",
   "created_at": "2025-11-20T06:00:00Z"
 }
-
-following is the schema for Recipes collection:
-
-![alt text](schema1.png)
-
-
-B. Users Collection 
+B. Users Collection
 Stores information about registered users.
 
 Fields:
 
-user_id: Unique identifier for each user.
+- user_id: Unique identifier
 
-name: User’s name.
+- name: User’s name
 
-email: User’s email.
+- email: User’s email
 
-joined_at: Timestamp when user joined. 
+- joined_at: Timestamp
 
 Example:
 
+json
+Copy code
 {
   "user_id": "U001",
   "name": "Janhavi",
   "email": "janhavi@example.com",
   "joined_at": "2025-11-20T06:00:00Z"
 }
-
-
-following is the schema for Users collection:
-
-![alt text](schema-2.png)
-
-
-C. UserInteractions Collection 
+C. UserInteractions Collection
 Records how users interact with recipes.
 
 Fields:
 
-interaction_id: Unique ID for interaction.
+- interaction_id: Unique ID for interaction
 
-user_id: References Users collection.
+- user_id: References Users collection
 
-recipe_id: References Recipes collection.
+- recipe_id: References Recipes collection
 
-type: Interaction type (view, like, cook).
+- type: Interaction type (view, like, cook)
 
-rating: Numeric rating (only for cook interactions, 1–5).
+- rating: Numeric rating (only for cook interactions, 1–5)
 
-timestamp: Interaction timestamp.
+- timestamp: Interaction timestamp
 
 Example:
 
+json
+Copy code
 {
   "interaction_id": "I0001",
   "user_id": "U003",
@@ -111,58 +107,53 @@ Example:
   "rating": null,
   "timestamp": "2025-11-20T06:05:00Z"
 }
-
-
-following is the schema for Users collection:
-
-![alt text](schema3.png)
-
-
 2. Instructions for Running the Pipeline
+Follow these step-by-step instructions to set up and run the project.
 
-Install dependencies:
-pip install firebase-admin pandas
+Step 1: Install Dependencies
+Install the required Python packages : pip install firebase-admin pandas
 
-Set up Firebase
-Place your serviceAccountKey.json in the project root.
-Ensure Firestore database is enabled in your Firebase project.
+Step 2: Set Up Firebase
+Create a Firebase project at Firebase Console.
+Enable Firestore database in the project.
+Download the service account key JSON file.
+Place serviceAccountKey.json in the project root directory.
 
-Upload data (Task 2)
-
+Step 3: Upload Data (Task 2)
+Run the main ETL script:
 python main.py
 
-Inserts Veg Pulav + 19 synthetic recipes.
+What this does:
+Inserts Veg Pulav + 19 synthetic recipes
+Adds 5 users
+Generates 50 user interactions (views, likes, cooks)
 
-Adds 5 users.
-
-Generates 50 user interactions.
-
-Run validation (Task 3)
-
+Step 4: Run Validation (Task 3)
+Run the validation script:
 python task3_output/validate_data.py
+Output:
+Generates validation_report.json
+Lists valid and invalid records
 
-Generates validation_report.json with valid and invalid records.
-
-Run analytics (Task 5)
-
+Step 5: Run Analytics (Task 5)
+Run the analytics module:
 python task3_output/analytics.py
 
-Produces insights like:
-
-Most common ingredients
-
-Average prep and cook time
-
-Difficulty distribution
-
+Insights Produced:
+Most common ingredients across all recipes
+Average preparation and cook time
+Difficulty distribution (Easy, Medium, Hard)
 Correlation between prep time and likes
-
 Most frequently viewed recipes
-
 Ingredients associated with high engagement
+Average rating of recipes cooked by users
+Users with highest interactions
+Recipes with highest total interactions
+Cuisine popularity based on engagement
+Charts can also be generated if your script includes Matplotlib or Plotly visualizations.
 
 
-3. ETL Process Overview
+#**3. ETL Process Overview**
 
 The ETL (Extract, Transform, Load) process in this pipeline is designed to clean, validate, and load recipe data from JSON files into Firestore for analytics and querying. Here’s a detailed explanation of each step:
 
@@ -170,17 +161,17 @@ The ETL (Extract, Transform, Load) process in this pipeline is designed to clean
 
 The pipeline first reads the raw JSON files:
 
-recipes.json – contains all recipes (Veg Pulav + synthetic recipes).
+- recipes.json – contains all recipes (Veg Pulav + synthetic recipes).
 
-users.json – contains all user records.
+- users.json – contains all user records.
 
-user_interactions.json – contains interactions like view, like, or cook.
+- user_interactions.json – contains interactions like view, like, or cook.
 
-These JSON files are loaded into Python objects and/or Pandas DataFrames.
+- These JSON files are loaded into Python objects and/or Pandas DataFrames.
 
-Using DataFrames allows easy manipulation, filtering, and analysis.
+- Using DataFrames allows easy manipulation, filtering, and analysis.
 
-This step ensures all data is loaded into memory in a structured form ready for transformation.
+- This step ensures all data is loaded into memory in a structured form ready for transformation.
 
 * Transform :
 
@@ -198,11 +189,11 @@ Data Cleaning:
 
 Missing or inconsistent values are handled. For example:
 
-If qty_numeric is missing, it is set as null.
+- If qty_numeric is missing, it is set as null.
 
-Null ratings for non-cook interactions are allowed.
+- Null ratings for non-cook interactions are allowed.
 
-Units and numeric quantities are standardized for consistent analytics.
+- Units and numeric quantities are standardized for consistent analytics.
 
 Standardization:
 
