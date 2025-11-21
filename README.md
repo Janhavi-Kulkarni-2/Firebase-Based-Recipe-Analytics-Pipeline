@@ -258,9 +258,9 @@ The following visualizations are generated as PNG files:
 
 File: most_viewed_recipes.png
 
-This chart displays the recipes with the highest number of views.
-It helps identify which recipes users are most frequently checking.
-The data is shown in a horizontal bar chart.
+- This chart displays the recipes with the highest number of views.
+- It helps identify which recipes users are most frequently checking.
+- The data is shown in a horizontal bar chart.
 
 ![Most Viewed Recipes](task3_output/visuals/most_viewed_recipes.png)
 
@@ -269,23 +269,32 @@ The data is shown in a horizontal bar chart.
 
 File: difficulty_distribution.png
 
-This pie chart shows the proportion of recipes categorized as Easy, Medium, and Hard.
-It provides an understanding of the overall difficulty mix in the dataset.
+- This pie chart shows the proportion of recipes categorized as Easy, Medium, and Hard.
+- It provides an understanding of the overall difficulty mix in the dataset.
+
+![Difficulty Distribution](task3_output/visuals/difficulty_distribution.png)
+
 
 ### 3. Most Common Ingredients
 
 File: most_common_ingredients.png
 
-This horizontal bar chart highlights the top 15 most frequently used ingredients across all recipes.
-It helps identify popular ingredients that appear repeatedly in the dataset.
+- This horizontal bar chart highlights the top 15 most frequently used ingredients across all recipes.
+- It helps identify popular ingredients that appear repeatedly in the dataset.
+
+![Most Common Ingredients](task3_output/visuals/most_common_ingredients.png)
+
 
 ### 4. Prep Time vs Likes
 
 File: prep_time_vs_likes.png
 
-Displays a scatter plot showing the relationship between preparation time and the number of likes a recipe receives.
-A trendline is included (when possible) to show correlation direction.
-Useful for understanding if shorter or longer prep times affect recipe popularity.
+- Displays a scatter plot showing the relationship between preparation time and the number of likes a recipe receives.
+- A trendline is included (when possible) to show correlation direction.
+- Useful for understanding if shorter or longer prep times affect recipe popularity.
+
+![Prep Time vs Likes](task3_output/visuals/prep_time_vs_likes.png)
+
 
 ### 5. Top Recipes by Total Interactions
 
@@ -302,29 +311,41 @@ Shows the recipes with the highest combined engagement based on:
 Displayed as a horizontal bar chart.
 This chart helps identify the most overall popular recipes.
 
+![Top Recipes Interactions](task3_output/visuals/top_recipes_total_interactions.png)
+
+
 ### 6. Average Rating per Recipe
 
 File: average_rating_per_recipe.png
 
-This chart presents the average rating for recipes that have cook interactions with ratings (1–5).
-Only the top 15 highest-rated recipes are shown.
-Helps identify highly rated recipes based on cooking experience.
+- This chart presents the average rating for recipes that have cook interactions with ratings (1–5).
+- Only the top 15 highest-rated recipes are shown.
+- Helps identify highly rated recipes based on cooking experience.
+
+![Average Rating](task3_output/visuals/average_rating_per_recipe.png)
+
 
 ## 7. Recipes with Most Steps
 
 File: avg_steps_per_recipe.png
 
-Shows which recipes have the highest number of total steps.
-Displayed as a vertical bar chart.
-Useful for understanding which recipes are more complex or detailed.
+- Shows which recipes have the highest number of total steps.
+- Displayed as a vertical bar chart.
+- Useful for understanding which recipes are more complex or detailed.
+
+![Recipes with Most Steps](task3_output/visuals/avg_steps_per_recipe.png)
+
 
 ## 8. Cuisine Popularity by Engagement
 
 File: cuisine_popularity_engagement.png
 
-This visualization shows engagement levels (views + likes + cooks) grouped by cuisine.
-Helps understand which cuisines are generating the most user interest.
-Displayed as a horizontal bar chart.
+- This visualization shows engagement levels (views + likes + cooks) grouped by cuisine.
+- Helps understand which cuisines are generating the most user interest.
+- Displayed as a horizontal bar chart.
+
+![Cuisine Popularity](task3_output/visuals/cuisine_popularity_engagement.png)
+
 
 ## 7. Future Enhancements
 
@@ -332,6 +353,7 @@ Displayed as a horizontal bar chart.
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
