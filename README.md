@@ -177,7 +177,7 @@ python transform_etl.py
 Run the validation script:
 
 
-python task3_output/validate_data.py
+python Project/etl/validate_data.py
 
 ### Output
 - Generates `validation_report.json`  
@@ -187,7 +187,7 @@ python task3_output/validate_data.py
 Run the analytics module:
 
 
-python task3_output/analytics.py
+python Project/analytics/analytics.py
 
 ### Insights Produced
 
@@ -265,7 +265,7 @@ Provides 10 key insights:
 This module generates multiple charts that help visualize recipe data, user engagement, and overall trends.
 All charts are produced using the visualize.py script and saved automatically inside the following folder:
 
-- task3_output/visuals/
+- Project/visuals/
 
 ##### How to Run
 Run the visualization script:
@@ -377,6 +377,7 @@ File: cuisine_popularity_engagement.png
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
