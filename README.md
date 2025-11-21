@@ -64,13 +64,13 @@ Stores information about registered users.
 
 Fields:
 
-- user_id: Unique identifier
+user_id: Unique identifier
 
-- name: User’s name
+name: User’s name
 
-- email: User’s email
+email: User’s email
 
-- joined_at: Timestamp
+joined_at: Timestamp
 
 Example:
 
@@ -90,17 +90,17 @@ Records how users interact with recipes.
 
 Fields:
 
-- interaction_id: Unique ID for interaction
+interaction_id: Unique ID for interaction
 
-- user_id: References Users collection
+user_id: References Users collection
 
-- recipe_id: References Recipes collection
+recipe_id: References Recipes collection
 
-- type: Interaction type (view, like, cook)
+type: Interaction type (view, like, cook)
 
-- rating: Numeric rating (only for cook interactions, 1–5)
+rating: Numeric rating (only for cook interactions, 1–5)
 
-- timestamp: Interaction timestamp
+timestamp: Interaction timestamp
 
 Example:
 
