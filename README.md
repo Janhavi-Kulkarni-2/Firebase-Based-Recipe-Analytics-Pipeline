@@ -139,43 +139,72 @@ pip install firebase-admin pandas
 3. Download the service account key JSON file.  
 4. Place `serviceAccountKey.json` in the project root directory.  
 
-### Step 3: Upload Data (Task 2)
-Run the main ETL script:
+### Step 3: Upload Data 
+# ETL Pipeline Files Overview
 
+## 1. `main.py` – Data Insertion Script
 
-python transform_etl.py
-### What this does
-#### 1. Insert Recipes
-- Uploads the seed recipe **Veg Pulav** along with 19 synthetic recipes into the Firestore `Recipes` collection.  
-- Each recipe includes fields such as:  
-  - `recipe_id`  
-  - `name`  
-  - `ingredients`  
-  - `steps`  
-  - `cuisine`  
-  - `prep_time_minutes`  
-  - `cook_time_minutes`  
-  - `difficulty`  
-  - `servings`  
+**Purpose:**  
+Handles inserting new data into Firestore.
 
-#### 2. Add Users
-- Adds **5 unique users** to the `Users` collection.  
-- Each user includes:  
-  - `user_id`  
-  - `name`  
-  - `email`  
-  - `joined_at`  
+**What it does:**
 
-#### 3. Generate User Interactions
-- Creates **50 interactions** in the `UserInteractions` collection.  
-- Types of interactions include:  
-  - **View** – when a user views a recipe.  
-  - **Like** – when a user likes a recipe.  
-  - **Cook** – when a user cooks a recipe and optionally rates it.    
+- **Insert Recipes:**  
+  Uploads the seed recipe **Veg Pulav** and 19 synthetic recipes into the `Recipes` collection.  
+  Fields include: `recipe_id`, `name`, `ingredients`, `steps`, `cuisine`, `prep_time_minutes`, `cook_time_minutes`, `difficulty`, `servings`, `created_at`.
 
-### Step 4: Run Validation (Task 3)
+- **Add Users:**  
+  Adds 5 unique users to the `Users` collection.  
+  Fields include: `user_id`, `name`, `email`, `joined_at`.
+
+- **Generate User Interactions:**  
+  Creates 50 interactions in `UserInteractions` collection.  
+  Types: `view`, `like`, `cook` (with optional rating).
+
+**When to run:**  
+Use `main.py` when you want to **populate Firestore with initial or synthetic data**.
+
+---
+
+## 2. `transform_etl.py` – Data Transformation & Export
+
+**Purpose:**  
+Transforms exported Firestore data (JSON) into **normalized CSV files** for analytics.
+
+**What it does:**
+
+- Reads JSON exports: `recipes.json`, `users.json`, `user_interactions.json`.
+- Normalizes and transforms data into 4 CSV files:
+  - `recipe.csv` – recipe metadata.
+  - `ingredients.csv` – normalized ingredient details.
+  - `steps.csv` – ordered cooking steps.
+  - `interactions.csv` – user interactions with ratings and timestamps.
+- Handles messy formats in ingredients (strings, dicts, nested keys) and ensures consistency.
+- Performs **basic validation**: checks required fields, numeric values, and timestamps.
+- Reports warnings for missing/invalid data.
+
+**When to run:**  
+Use `transform_etl.py` to **prepare clean, structured data for analysis or export**.
+
+---
+
+## 3. `export_firestore.py` – Data Extraction
+
+**Purpose:**  
+Extracts existing Firestore collections into **JSON format**.
+
+**What it does:**
+
+- Connects to Firestore and exports collections (e.g., `Recipes`, `Users`, `UserInteractions`) into JSON files.
+- Often used as the first step in the ETL workflow:
+  1. **Extract** with `export_firestore.py`.
+  2. **Transform** with `transform_etl.py`.
+
+**When to run:**  
+Use `export_firestore.py` when you need **backup of Firestore data** or to **feed data into the ETL pipeline for analysis**.
+
+### Step 4: Run Validation 
 Run the validation script:
-
 
 python Project/etl/validator.py
 
@@ -377,6 +406,7 @@ File: cuisine_popularity_engagement.png
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
