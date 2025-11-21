@@ -1,41 +1,62 @@
-# Firebase-Based Recipe Analytics Pipeline
+Firebase-Based Recipe Analytics Pipeline
 
-This project is a complete **recipe management and analytics pipeline** using **Firebase Firestore**, Python, and Pandas. It allows you to add recipes, users, and interactions, validate the data, perform analytics, and generate insights with a clean ETL process.
+This project is a complete recipe management and analytics pipeline using Firebase Firestore, Python, and Pandas.
+It allows you to:
 
-## Table of Contents
-1. [Data Model](#data-model)
-2. [Pipeline Instructions](#pipeline-instructions)
-3. [ETL Process Overview](#etl-process-overview)
-4. [Analytics & Insights](#analytics--insights)
-5. [Visualization](#visualization)
-6. [Known Limitations](#known-limitations)
-7. [Future Enhancements](#future-enhancements)
+Add recipes, users, and interactions
 
+Validate the data
 
+Perform analytics
 
+Generate insights with a clean ETL process
 
----
+Table of Contents
 
-## 1. Explanation of the Data Model
+Data Model
 
-The data model is designed to efficiently capture **recipes, users, and interactions** for analytics, validation, and ETL processing.
+Pipeline Instructions
 
-### A. Recipes Collection
-Stores details of each recipe. Each recipe has a **unique `recipe_id`** (Primary Key).
+ETL Process Overview
 
-**Fields:**
-- `name`: Name of the recipe  
-- `description`: Short description  
-- `servings`: Number of servings  
-- `prep_time_minutes` & `cook_time_minutes`: Cooking times  
-- `difficulty`: Difficulty level (Easy, Medium, Hard)  
-- `cuisine`: Cuisine type (e.g., Indian, Italian, Chinese)  
-- `ingredients`: Array of objects (`name`, `qty_numeric`, `unit`, `qty_text`)  
-- `steps`: Array of strings (ordered cooking steps)  
-- `created_at`: Timestamp  
+Analytics & Insights
 
-**Example:**
-```json
+Visualization
+
+Known Limitations
+
+Future Enhancements
+
+1. Data Model
+
+The data model is designed to efficiently capture recipes, users, and interactions for analytics, validation, and ETL processing.
+
+A. Recipes Collection
+
+Stores details of each recipe. Each recipe has a unique recipe_id (Primary Key).
+
+Fields:
+
+name: Name of the recipe
+
+description: Short description
+
+servings: Number of servings
+
+prep_time_minutes & cook_time_minutes: Cooking times
+
+difficulty: Difficulty level (Easy, Medium, Hard)
+
+cuisine: Cuisine type (e.g., Indian, Italian, Chinese)
+
+ingredients: Array of objects (name, qty_numeric, unit, qty_text)
+
+steps: Array of objects (step_order, step_text)
+
+created_at: Timestamp
+
+Example:
+
 {
   "recipe_id": "R001",
   "name": "Veg Pulav",
@@ -56,10 +77,12 @@ Stores details of each recipe. Each recipe has a **unique `recipe_id`** (Primary
   "created_at": "2025-11-20T06:00:00Z"
 }
 
-![alt text](schema1.png)
+
+Schema Image:
 
 
 B. Users Collection
+
 Stores information about registered users.
 
 Fields:
@@ -74,8 +97,6 @@ joined_at: Timestamp
 
 Example:
 
-json
-Copy code
 {
   "user_id": "U001",
   "name": "Janhavi",
@@ -83,9 +104,12 @@ Copy code
   "joined_at": "2025-11-20T06:00:00Z"
 }
 
-![alt text](schema-2.png)
+
+Schema Image:
+
 
 C. UserInteractions Collection
+
 Records how users interact with recipes.
 
 Fields:
@@ -104,8 +128,6 @@ timestamp: Interaction timestamp
 
 Example:
 
-json
-Copy code
 {
   "interaction_id": "I0001",
   "user_id": "U003",
@@ -115,34 +137,54 @@ Copy code
   "timestamp": "2025-11-20T06:05:00Z"
 }
 
-![alt text](schema3.png)
 
-2. Instructions for Running the Pipeline
-Follow these step-by-step instructions to set up and run the project.
+Schema Image:
+
+
+2. Pipeline Instructions
+
+Follow these steps to set up and run the pipeline.
 
 Step 1: Install Dependencies
-Install the required Python packages : pip install firebase-admin pandas
+pip install firebase-admin pandas
 
 Step 2: Set Up Firebase
-Create a Firebase project at Firebase Console.
-Enable Firestore database in the project.
+
+Create a Firebase project on Firebase Console
+.
+
+Enable Firestore Database in the project.
+
 Download the service account key JSON file.
+
 Place serviceAccountKey.json in the project root directory.
 
 Step 3: Upload Data (Task 2)
+
 Run the main ETL script:
+
 python main.py
 
-What this does:
+
+This script does:
+
 Inserts Veg Pulav + 19 synthetic recipes
+
 Adds 5 users
+
 Generates 50 user interactions (views, likes, cooks)
 
 Step 4: Run Validation (Task 3)
+
 Run the validation script:
+
 python task3_output/validate_data.py
+
+
 Output:
+
 Generates validation_report.json
+
 Lists valid and invalid records
 
 Step 5: Run Analytics (Task 5)
@@ -151,9 +193,8 @@ Run the analytics module:
 
 python task3_output/analytics.py
 
-Insights Produced
 
-The analytics module generates the following insights:
+Insights Produced:
 
 Most common ingredients across all recipes
 
@@ -175,117 +216,117 @@ Recipes with highest total interactions
 
 Cuisine popularity based on engagement
 
+Charts can also be generated if your script includes Matplotlib or Plotly visualizations.
 
 3. ETL Process Overview
-
-The ETL (Extract, Transform, Load) process cleans, validates, and loads recipe data from JSON files into Firestore for analytics and querying.
-
 3.1 Extract
 
-The pipeline first reads the raw JSON files:
+Reads raw JSON files:
 
-recipes.json – contains all recipes (Veg Pulav + synthetic recipes)
+recipes.json – all recipes
 
-users.json – contains all user records
+users.json – all users
 
-user_interactions.json – contains interactions (view, like, cook)
+user_interactions.json – all interactions
 
-These JSON files are loaded into Python objects and/or Pandas DataFrames.
-
-Using DataFrames allows easy manipulation, filtering, and analysis.
-
-This step ensures all data is loaded into memory in a structured form ready for transformation.
+Loads data into Python objects or Pandas DataFrames for processing.
 
 3.2 Transform
 
 Schema Validation:
 
-The pipeline checks:
+Required fields exist (recipe_id, user_id, ingredients)
 
-Required fields are present (e.g., recipe_id, user_id, ingredients)
+Field types are correct (numeric for qty_numeric, integer for times)
 
-Field types are consistent (e.g., numeric values for qty_numeric, integers for prep_time_minutes)
+Ratings exist only for cook interactions
 
-Ratings are only present for cook interactions; other types (view/like) must have null
-
-Steps are correctly ordered and formatted
+Steps are correctly ordered
 
 Data Cleaning:
 
-Missing or inconsistent values are handled as follows:
+Missing qty_numeric → set as null
 
-If qty_numeric is missing, it is set as null
+Null ratings for non-cook interactions allowed
 
-Null ratings for non-cook interactions are allowed
-
-Units and numeric quantities are standardized for consistent analytics
+Units and numeric quantities standardized
 
 Standardization:
 
-Fields like rating and qty_numeric are normalized to ensure calculations in analytics are accurate
+Normalize fields like rating and qty_numeric for analytics
 
-Ensures recipes, users, and interactions are in a uniform format before insertion
+Ensure uniform format for recipes, users, and interactions
 
 3.3 Load
 
-After validation and cleaning, the pipeline uploads data into Firestore:
+Uploads data to Firestore:
 
-Recipes collection: stores all recipe documents
+Recipes Collection
 
-Users collection: stores all user documents
+Users Collection
 
-UserInteractions collection: stores all interaction documents
+UserInteractions Collection
 
-The loaded data is now ready for querying, analytics, and visualization.
+Ensures clean, structured, and query-ready data.
 
-4. Insights Summary (Task 5)
+4. Analytics & Insights (Task 5)
 
 The analytics module provides 10 key insights:
 
 Most Common Ingredients Across Recipes
-Identifies which ingredients appear most frequently across all recipes
 
 Average Preparation and Cook Times
-Calculates mean prep and cook times for all recipes
 
-Difficulty Distribution of Recipes
-Counts recipes per difficulty level (Easy, Medium, Hard)
+Difficulty Distribution of Recipes (Easy, Medium, Hard)
 
 Correlation Between Prep Time and Number of Likes
-Analyzes whether longer or shorter prep times influence user likes
 
 Most Frequently Viewed Recipes
-Finds recipes with the highest number of view interactions
 
 Ingredients Associated with High Engagement
-Finds ingredients that appear in recipes with the most likes or cooks
 
 Average Rating of Recipes Cooked by Users
-Computes mean rating for recipes cooked by users
 
 Users with Highest Interactions
-Identifies the most active users by counting total interactions
 
 Recipes with Highest Total Interactions
-Counts total interactions per recipe
 
 Cuisine Popularity Based on Engagement Metrics
-Analyzes which cuisines have the highest engagement
 
 5. Known Constraints / Limitations
 
-Synthetic Data: JSON files are mostly synthetic for testing purposes and may not cover all real-world scenarios
+Synthetic Data: JSON files mostly synthetic; may not cover all real-world cases
 
-Rating Field Limitations: Ratings exist only for cook interactions
+Rating Field: Exists only for cook interactions
 
-Quantity Fields Optional: qty_numeric in ingredients is optional
+Quantity Fields: qty_numeric optional
 
-Overwriting Firestore Data: Repeated ETL runs may overwrite existing documents
+Overwriting Firestore Data: Repeated ETL runs may overwrite documents
 
-Dependency on CSVs for Analytics: Analytics scripts require CSVs in task3_output
+CSV Dependency: Analytics scripts require CSVs in task3_output
 
-Memory & Performance Considerations: Large datasets may need optimization
+Memory & Performance: Large datasets may need optimization
 
+Limited Users: Only 5 users generated; real-world requires more dynamic users
 
-Limited User Base: Only 5 users are generated; real-world usage requires more dynamic users
+6. Visualization
 
+Optional: Matplotlib or Plotly for charts
+
+Can visualize:
+
+Ingredient popularity
+
+Recipe difficulty distribution
+
+User interaction trends
+
+7. Future Enhancements
+
+Add more dynamic users and interactions
+
+Support real-time analytics dashboards
+
+Include image upload for recipes
+
+Integrate recommendation system
