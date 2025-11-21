@@ -122,7 +122,7 @@ Records how users interact with recipes.
 ```
 Schema Image:
 
-![Schema Diagram]((Project/schema/schema3.png)
+![Schema Diagram](Project/schema/schema3.png)
 
 
 ## 2. Pipeline Instructions
@@ -353,6 +353,7 @@ File: cuisine_popularity_engagement.png
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
