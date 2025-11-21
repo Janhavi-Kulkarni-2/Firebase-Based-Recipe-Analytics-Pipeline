@@ -143,11 +143,35 @@ pip install firebase-admin pandas
 Run the main ETL script:
 
 
-python main.py
+python transform_etl.py
 ### What this does
-- Inserts Veg Pulav + 19 synthetic recipes  
-- Adds 5 users  
-- Generates 50 user interactions (views, likes, cooks)  
+#### 1. Insert Recipes
+- Uploads the seed recipe **Veg Pulav** along with 19 synthetic recipes into the Firestore `Recipes` collection.  
+- Each recipe includes fields such as:  
+  - `recipe_id`  
+  - `name`  
+  - `ingredients`  
+  - `steps`  
+  - `cuisine`  
+  - `prep_time_minutes`  
+  - `cook_time_minutes`  
+  - `difficulty`  
+  - `servings`  
+
+#### 2. Add Users
+- Adds **5 unique users** to the `Users` collection.  
+- Each user includes:  
+  - `user_id`  
+  - `name`  
+  - `email`  
+  - `joined_at`  
+
+#### 3. Generate User Interactions
+- Creates **50 interactions** in the `UserInteractions` collection.  
+- Types of interactions include:  
+  - **View** – when a user views a recipe.  
+  - **Like** – when a user likes a recipe.  
+  - **Cook** – when a user cooks a recipe and optionally rates it.    
 
 ### Step 4: Run Validation (Task 3)
 Run the validation script:
@@ -353,6 +377,7 @@ File: cuisine_popularity_engagement.png
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
