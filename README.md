@@ -67,53 +67,46 @@ Stores details of each recipe. Each recipe has a **unique `recipe_id`**.
 Schema Image:
 
 
-B. Users Collection
+### B. Users Collection
+
 Stores information about registered users.
 
-Fields:
+**Fields:**
 
-user_id: Unique identifier
+- `user_id`: Unique identifier  
+- `name`: User’s name  
+- `email`: User’s email  
+- `joined_at`: Timestamp  
 
-name: User’s name
+**Example:**
 
-email: User’s email
-
-joined_at: Timestamp
-
-Example:
-
-json
-Copy code
+```json
 {
   "user_id": "U001",
   "name": "Janhavi",
   "email": "janhavi@example.com",
   "joined_at": "2025-11-20T06:00:00Z"
 }
+
 Schema Image:
 
 
-C. UserInteractions Collection
+### C. UserInteractions Collection
+
 Records how users interact with recipes.
 
-Fields:
+**Fields:**
 
-interaction_id: Unique ID for interaction
+- `interaction_id`: Unique ID for interaction  
+- `user_id`: References Users collection  
+- `recipe_id`: References Recipes collection  
+- `type`: Interaction type (view, like, cook)  
+- `rating`: Numeric rating (only for cook interactions, 1–5)  
+- `timestamp`: Interaction timestamp  
 
-user_id: References Users collection
+**Example:**
 
-recipe_id: References Recipes collection
-
-type: Interaction type (view, like, cook)
-
-rating: Numeric rating (only for cook interactions, 1–5)
-
-timestamp: Interaction timestamp
-
-Example:
-
-json
-Copy code
+```json
 {
   "interaction_id": "I0001",
   "user_id": "U003",
@@ -122,177 +115,133 @@ Copy code
   "rating": null,
   "timestamp": "2025-11-20T06:05:00Z"
 }
+
 Schema Image:
 
 
-2. Pipeline Instructions
+## 2. Pipeline Instructions
+
 Follow these step-by-step instructions to set up and run the project.
 
-Step 1: Install Dependencies
-bash
-Copy code
+### Step 1: Install Dependencies
+```bash
 pip install firebase-admin pandas
-Step 2: Set Up Firebase
-Create a Firebase project at Firebase Console
 
-Enable Firestore database in the project
+### Step 2: Set Up Firebase
+1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).  
+2. Enable Firestore database in the project.  
+3. Download the service account key JSON file.  
+4. Place `serviceAccountKey.json` in the project root directory.  
 
-Download the service account key JSON file
-
-Place serviceAccountKey.json in the project root directory
-
-Step 3: Upload Data (Task 2)
+### Step 3: Upload Data (Task 2)
 Run the main ETL script:
 
-bash
-Copy code
+```bash
 python main.py
-What this does:
+### What this does
+- Inserts Veg Pulav + 19 synthetic recipes  
+- Adds 5 users  
+- Generates 50 user interactions (views, likes, cooks)  
 
-Inserts Veg Pulav + 19 synthetic recipes
-
-Adds 5 users
-
-Generates 50 user interactions (views, likes, cooks)
-
-Step 4: Run Validation (Task 3)
+### Step 4: Run Validation (Task 3)
 Run the validation script:
 
-bash
-Copy code
+```bash
 python task3_output/validate_data.py
-Output:
 
-Generates validation_report.json
+### Output
+- Generates `validation_report.json`  
+- Lists valid and invalid records  
 
-Lists valid and invalid records
-
-Step 5: Run Analytics (Task 5)
+### Step 5: Run Analytics (Task 5)
 Run the analytics module:
 
-bash
-Copy code
+```bash
 python task3_output/analytics.py
-Insights Produced:
 
-Most common ingredients across all recipes
+I### Insights Produced
 
-Average preparation and cook time
+- Most common ingredients across all recipes
+- Average preparation and cook time
+- Difficulty distribution (Easy, Medium, Hard)
+- Correlation between prep time and likes
+- Most frequently viewed recipes
+- Ingredients associated with high engagement
+- Average rating of recipes cooked by users
+- Users with highest interactions
+- Recipes with highest total interactions
+- Cuisine popularity based on engagement
 
-Difficulty distribution (Easy, Medium, Hard)
+## 3. ETL Process Overview
 
-Correlation between prep time and likes
-
-Most frequently viewed recipes
-
-Ingredients associated with high engagement
-
-Average rating of recipes cooked by users
-
-Users with highest interactions
-
-Recipes with highest total interactions
-
-Cuisine popularity based on engagement
-
-3. ETL Process Overview
 The ETL (Extract, Transform, Load) process cleans, validates, and loads recipe data from JSON files into Firestore.
 
-3.1 Extract
-Reads JSON files: recipes.json, users.json, user_interactions.json
+### 3.1 Extract
+- Reads JSON files: `recipes.json`, `users.json`, `user_interactions.json`
+- Loads them into Python objects or Pandas DataFrames
+- DataFrames allow easy filtering, manipulation, and analysis
 
-Loads them into Python objects or Pandas DataFrames
+### 3.2 Transform
 
-DataFrames allow easy filtering, manipulation, and analysis
+#### Schema Validation
+- Required fields present (`recipe_id`, `user_id`, `ingredients`)
+- Field types consistent (`qty_numeric` numeric, `prep_time_minutes` integer)
+- Ratings only for cook interactions
+- Steps are correctly ordered
 
-3.2 Transform
-Schema Validation
-Required fields present (recipe_id, user_id, ingredients)
+#### Data Cleaning
+- `qty_numeric` missing → set as null
+- Null ratings allowed for non-cook interactions
+- Units and numeric quantities standardized
 
-Field types consistent (qty_numeric numeric, prep_time_minutes integer)
+#### Standardization
+- Normalize `rating` and `qty_numeric`
+- Ensures uniform format for analytics
 
-Ratings only for cook interactions
+### 3.3 Load
+- Uploads data into Firestore collections:
+  - `Recipes`
+  - `Users`
+  - `UserInteractions`
+- Data is now ready for querying, analytics, and visualization
 
-Steps are correctly ordered
+## 4. Analytics & Insights
 
-Data Cleaning
-qty_numeric missing → set as null
-
-Null ratings allowed for non-cook interactions
-
-Units and numeric quantities standardized
-
-Standardization
-Normalize rating and qty_numeric
-
-Ensures uniform format for analytics
-
-3.3 Load
-Uploads data into Firestore collections:
-
-Recipes
-
-Users
-
-UserInteractions
-
-Data ready for querying, analytics, and visualization
-
-4. Analytics & Insights
 Provides 10 key insights:
 
-Most common ingredients across recipes
+- Most common ingredients across recipes
+- Average preparation and cook times
+- Difficulty distribution (Easy, Medium, Hard)
+- Correlation between prep time and likes
+- Most frequently viewed recipes
+- Ingredients associated with high engagement
+- Average rating of recipes cooked by users
+- Users with highest interactions
+- Recipes with highest total interactions
+- Cuisine popularity based on engagement
 
-Average preparation and cook times
+## 5. Known Limitations
 
-Difficulty distribution (Easy, Medium, Hard)
+- **Synthetic Data:** Mostly synthetic for testing purposes
+- **Rating Field Limitations:** Ratings exist only for cook interactions
+- **Quantity Fields Optional:** `qty_numeric` may be missing
+- **Overwriting Firestore Data:** ETL runs may overwrite existing documents
+- **Dependency on CSVs:** Required in `task3_output`
+- **Memory & Performance:** Large datasets may need optimization
+- **Limited User Base:** Only 5 users; real-world projects require more dynamic users
 
-Correlation between prep time and likes
+## 6. Visualization
 
-Most frequently viewed recipes
+Use **Matplotlib** or **Plotly** to generate charts for:
 
-Ingredients associated with high engagement
+- Ingredient popularity
+- Recipe difficulty distribution
+- Prep time vs likes correlation
+- User engagement metrics
 
-Average rating of recipes cooked by users
+## 7. Future Enhancements
 
-Users with highest interactions
-
-Recipes with highest total interactions
-
-Cuisine popularity based on engagement
-
-5. Known Limitations
-Synthetic Data: Mostly synthetic for testing
-
-Rating Field Limitations: Only for cook interactions
-
-Quantity Fields Optional: qty_numeric may be missing
-
-Overwriting Firestore Data: ETL runs may overwrite documents
-
-Dependency on CSVs: Required in task3_output
-
-Memory & Performance: Large datasets may need optimization
-
-Limited User Base: Only 5 users; real-world projects require more
-
-6. Visualization
-Use Matplotlib or Plotly to generate charts for:
-
-Ingredient popularity
-
-Recipe difficulty distribution
-
-Prep time vs likes correlation
-
-User engagement metrics
-
-7. Future Enhancements
-Add real user data instead of synthetic data
-
-Support dynamic recipe addition via web interface
-
-Implement recommendation engine for personalized recipes
-
-Add advanced analytics dashboards
-
+- Add real user data instead of synthetic data
+- Support dynamic recipe addition via web interface
+- Implement recommendation engine for personalized recipes
+- Add advanced analytics dashboards
