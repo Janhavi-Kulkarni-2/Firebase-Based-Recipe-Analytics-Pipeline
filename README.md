@@ -166,7 +166,7 @@ Use `insert_data.py` when you want to **populate Firestore with initial or synth
 
 ---
 
-### 2: Run the Entire Pipeline Using Docker
+### 2. Run the Entire Pipeline Using Docker
 
 Instead of running multiple scripts manually, you can now run *all ETL, validation, and analytics tasks* inside a Docker container with a single command. The container is configured to execute the full pipeline automatically.
 
@@ -174,7 +174,7 @@ Instead of running multiple scripts manually, you can now run *all ETL, validati
 
 From the project root directory, run:
 
-docker build -t recipe-pipeline .
+`docker build -t recipe-pipeline .`
 
 This builds a Docker image containing:
 
@@ -187,11 +187,11 @@ This builds a Docker image containing:
 
 Run the following command to start the container:
 
-docker run -d --name recipe_pipeline_container \
+`docker run -d --name recipe_pipeline_container \
     -v C:\Users\eZee\Desktop\firebase_recipe_pipeline\Project\output_csv:/app/Project/output_csv \
     -v C:\Users\eZee\Desktop\firebase_recipe_pipeline\Project\analytics:/app/Project/analytics \
     -v C:\Users\eZee\Desktop\firebase_recipe_pipeline\Project\logs:/app/logs \
-    recipe-pipeline
+    recipe-pipeline`
 
 ### What Happens When You Run This Command
 
@@ -221,7 +221,7 @@ docker run -d --name recipe_pipeline_container \
 Monitor logs with:
 
 
-docker logs -f recipe_pipeline_container
+`docker logs -f recipe_pipeline_container`
 
 #### Cron Jobs
 - The container is configured to automatically rerun the pipeline every 6 hours.  
@@ -230,14 +230,14 @@ docker logs -f recipe_pipeline_container
 #### Stop the Container
 - Stop the container if you don’t want the pipeline running temporarily:
   
-docker stop recipe_pipeline_container
+`docker stop recipe_pipeline_container`
 
 - The container will stop, and cron jobs will not run until restarted.
 
 #### Restart the Container
 - Restart the container to resume scheduled ETL & analytics:
 
-docker start -a recipe_pipeline_container
+`docker start -a recipe_pipeline_container`
 
 - The container will resume execution, and cron jobs will continue running every 6 hours.
 
@@ -416,6 +416,7 @@ File: cuisine_popularity_engagement.png
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
