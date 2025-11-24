@@ -170,12 +170,7 @@ Use `insert_data.py` when you want to **populate Firestore with initial or synth
 
 Instead of running multiple scripts manually, you can now run *all ETL, validation, and analytics tasks* inside a Docker container with a single command. The container is configured to execute the full pipeline automatically.
 
-
-# Running the Entire Pipeline Using Docker
-
-Instead of running multiple scripts manually, you can now run all ETL, validation, and analytics tasks inside a Docker container with a single command. The container is configured to execute the full pipeline automatically.
-
-## A. Build the Docker Image
+### A. Build the Docker Image
 
 From the project root directory, run:
 
@@ -188,7 +183,7 @@ This builds a Docker image containing:
 - Cron configured to run ETL & analytics periodically
 - All project files inside `/app`
 
-## B. Run the Docker Container
+### B. Run the Docker Container
 
 Run the following command to start the container:
 
@@ -198,21 +193,21 @@ docker run -d --name recipe_pipeline_container \
     -v C:\Users\eZee\Desktop\firebase_recipe_pipeline\Project\logs:/app/logs \
     recipe-pipeline
 
-# What Happens When You Run This Command
+### What Happens When You Run This Command
 
-## Container Setup
+#### Container Setup
 - Mounts local folders (`output_csv`, `analytics`, `logs`) to `/app` inside the container.  
 - Ensures all generated CSVs, reports, and logs persist on your host machine.
 
-## ETL Execution
+#### ETL Execution
 - Runs `export_firestore.py` → extracts Firestore collections into JSON.  
 - Runs `transform_etl.py` → converts JSON into structured CSVs (`recipe.csv`, `ingredients.csv`, `steps.csv`, `interactions.csv`).
 
-## Validation
+#### Validation
 - Runs `validator.py` → checks for missing or invalid data.  
 - Generates `validation_report.json`.
 
-## Analytics
+#### Analytics
 - Runs `analytics.py` → computes key insights:  
   - Most common ingredients  
   - Prep time vs likes correlation  
@@ -220,7 +215,7 @@ docker run -d --name recipe_pipeline_container \
   - Most viewed recipes  
   - Engagement metrics, etc.
 
-## Logging
+#### Logging
 - All output and errors are written to `logs/logs.txt`.  
 
 Monitor logs with:
@@ -228,18 +223,18 @@ Monitor logs with:
 
 docker logs -f recipe_pipeline_container
 
-## Cron Jobs
+#### Cron Jobs
 - The container is configured to automatically rerun the pipeline every 6 hours.  
 - Cron runs in the foreground to keep the container alive.
 
-## Stop the Container
+#### Stop the Container
 - Stop the container if you don’t want the pipeline running temporarily:
   
 docker stop recipe_pipeline_container
 
 - The container will stop, and cron jobs will not run until restarted.
 
-## Restart the Container
+#### Restart the Container
 - Restart the container to resume scheduled ETL & analytics:
 
 docker start -a recipe_pipeline_container
@@ -421,6 +416,7 @@ File: cuisine_popularity_engagement.png
 - Support dynamic recipe addition via web interface
 - Implement recommendation engine for personalized recipes
 - Add advanced analytics dashboards
+
 
 
 
