@@ -1,0 +1,5 @@
+# Run ETL and analytics every 6 hours
+0 */6 * * * root /usr/bin/python3 /app/Project/etl/export_firestore.py >> /app/logs/logs.txt 2>&1
+0 */6 * * * root /usr/bin/python3 /app/Project/etl/transform_etl.py >> /app/logs/logs.txt 2>&1
+0 */6 * * * root /usr/bin/python3 /app/Project/etl/validator.py >> /app/logs/logs.txt 2>&1
+0 */6 * * * root /usr/bin/python3 /app/Project/analytics/analytics.py >> /app/logs/logs.txt 2>&1

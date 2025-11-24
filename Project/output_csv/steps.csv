@@ -1,86 +1,86 @@
 step_id,recipe_id,step_order,step_text
-STEP_a1307259,R001,1,Rinse rice under running water until water runs clear; soak for 10–15 minutes and drain.
-STEP_c16168d5,R001,2,"Wash and chop cauliflower, beans, carrot, onion, tomato and green chillies."
-STEP_09b094e0,R001,3,Heat oil or butter in a pressure cooker on medium heat.
-STEP_fd15a766,R001,4,Add sliced onion and sauté until slightly soft (about 1 minute).
-STEP_c0e7b413,R001,5,"Add carrot, beans, cauliflower, green chillies and tomato; sauté 3–4 minutes until slightly tender."
-STEP_87b32748,R001,6,Add drained rice and mix gently with vegetables — do not break rice grains.
-STEP_2a9714a3,R001,7,"Add water (3–4 cups), salt and pulav masala; stir gently to combine."
-STEP_89eda5f8,R001,8,Close the pressure cooker lid and cook for 1–2 whistles on medium heat; turn off and let pressure release naturally. (If using pot: cover and simmer 15–20 minutes until rice is cooked.)
-STEP_1918c7ea,R001,9,"Open carefully, fluff rice gently with a spatula, garnish with chopped coriander and serve hot."
-STEP_5de3e2fe,R002,1,Prepare ingredients for Tomato Basil Soup.
-STEP_0ce4f3ac,R002,2,Combine and cook base ingredients as required.
-STEP_1311fe69,R002,3,Season and simmer until done.
-STEP_ac9b533c,R002,4,Serve hot.
-STEP_a1c7fae3,R003,1,Prepare ingredients for Paneer Butter Masala.
-STEP_a368e979,R003,2,Combine and cook base ingredients as required.
-STEP_caabb384,R003,3,Season and simmer until done.
-STEP_6409c269,R003,4,Serve hot.
-STEP_01b426a5,R004,1,Prepare ingredients for Masala Dosa.
-STEP_7e774a93,R004,2,Combine and cook base ingredients as required.
-STEP_28cb6dad,R004,3,Season and simmer until done.
-STEP_f0c0e3e5,R004,4,Serve hot.
-STEP_1ad87dcd,R005,1,Prepare ingredients for Paneer Butter Masala.
-STEP_d69ec927,R005,2,Combine and cook base ingredients as required.
-STEP_de38d398,R005,3,Season and simmer until done.
-STEP_684a8cc2,R005,4,Serve hot.
-STEP_ef2112e7,R006,1,Prepare ingredients for Chickpea Salad.
-STEP_efed01b0,R006,2,Combine and cook base ingredients as required.
-STEP_474e780c,R006,3,Season and simmer until done.
-STEP_2b33019d,R006,4,Serve hot.
-STEP_95a67b5d,R007,1,Prepare ingredients for Tomato Basil Soup.
-STEP_64219a61,R007,2,Combine and cook base ingredients as required.
-STEP_3a561eb6,R007,3,Season and simmer until done.
-STEP_b32edfaf,R007,4,Serve hot.
-STEP_9c9010c6,R008,1,Prepare ingredients for Tomato Basil Soup.
-STEP_dc5a880a,R008,2,Combine and cook base ingredients as required.
-STEP_503fd28d,R008,3,Season and simmer until done.
-STEP_ec9cb40e,R008,4,Serve hot.
-STEP_5f435b60,R009,1,Prepare ingredients for Pasta Alfredo.
-STEP_ba338555,R009,2,Combine and cook base ingredients as required.
-STEP_31761a5e,R009,3,Season and simmer until done.
-STEP_7d509627,R009,4,Serve hot.
-STEP_da79540d,R010,1,Prepare ingredients for Tomato Basil Soup.
-STEP_1223beb7,R010,2,Combine and cook base ingredients as required.
-STEP_81e337b2,R010,3,Season and simmer until done.
-STEP_a548c9d3,R010,4,Serve hot.
-STEP_7cbd0de9,R011,1,Prepare ingredients for Masala Dosa.
-STEP_34b3db4d,R011,2,Combine and cook base ingredients as required.
-STEP_bf2d48f5,R011,3,Season and simmer until done.
-STEP_762a61fd,R011,4,Serve hot.
-STEP_e9a6baa5,R012,1,Prepare ingredients for Chickpea Salad.
-STEP_d8b12040,R012,2,Combine and cook base ingredients as required.
-STEP_1061a9d7,R012,3,Season and simmer until done.
-STEP_5d47398f,R012,4,Serve hot.
-STEP_1db62a1a,R013,1,Prepare ingredients for Masala Dosa.
-STEP_18ca6a05,R013,2,Combine and cook base ingredients as required.
-STEP_0129aab5,R013,3,Season and simmer until done.
-STEP_77106dc1,R013,4,Serve hot.
-STEP_9e041984,R014,1,Prepare ingredients for Tomato Basil Soup.
-STEP_d31a6096,R014,2,Combine and cook base ingredients as required.
-STEP_6e64f907,R014,3,Season and simmer until done.
-STEP_2f37a0b7,R014,4,Serve hot.
-STEP_d889049f,R015,1,Prepare ingredients for Stir-fry Vegetables.
-STEP_560e1b40,R015,2,Combine and cook base ingredients as required.
-STEP_242285a6,R015,3,Season and simmer until done.
-STEP_199b92aa,R015,4,Serve hot.
-STEP_8045c67f,R016,1,Prepare ingredients for Masala Dosa.
-STEP_ac664b4f,R016,2,Combine and cook base ingredients as required.
-STEP_1f2f0fc6,R016,3,Season and simmer until done.
-STEP_c045aaa1,R016,4,Serve hot.
-STEP_5acdaf8c,R017,1,Prepare ingredients for Pasta Alfredo.
-STEP_ffc4f2c8,R017,2,Combine and cook base ingredients as required.
-STEP_e7b965fb,R017,3,Season and simmer until done.
-STEP_729823fd,R017,4,Serve hot.
-STEP_0a9566ba,R018,1,Prepare ingredients for Chickpea Salad.
-STEP_d50f316e,R018,2,Combine and cook base ingredients as required.
-STEP_094ec332,R018,3,Season and simmer until done.
-STEP_889a3bee,R018,4,Serve hot.
-STEP_77ff3fdb,R019,1,Prepare ingredients for Chickpea Salad.
-STEP_af99fc4a,R019,2,Combine and cook base ingredients as required.
-STEP_b73afd38,R019,3,Season and simmer until done.
-STEP_30e98554,R019,4,Serve hot.
-STEP_6731b1d9,R020,1,Prepare ingredients for Chickpea Salad.
-STEP_8cdf8903,R020,2,Combine and cook base ingredients as required.
-STEP_d8fda4a8,R020,3,Season and simmer until done.
-STEP_8c174360,R020,4,Serve hot.
+STEP_b72dabf5,R001,1,Rinse rice under running water until water runs clear; soak for 10–15 minutes and drain.
+STEP_6acde916,R001,2,"Wash and chop cauliflower, beans, carrot, onion, tomato and green chillies."
+STEP_0122b3a7,R001,3,Heat oil or butter in a pressure cooker on medium heat.
+STEP_01f6846a,R001,4,Add sliced onion and sauté until slightly soft (about 1 minute).
+STEP_a526a377,R001,5,"Add carrot, beans, cauliflower, green chillies and tomato; sauté 3–4 minutes until slightly tender."
+STEP_1d430aee,R001,6,Add drained rice and mix gently with vegetables — do not break rice grains.
+STEP_13a200a8,R001,7,"Add water (3–4 cups), salt and pulav masala; stir gently to combine."
+STEP_8680e680,R001,8,Close the pressure cooker lid and cook for 1–2 whistles on medium heat; turn off and let pressure release naturally. (If using pot: cover and simmer 15–20 minutes until rice is cooked.)
+STEP_5d47cf6a,R001,9,"Open carefully, fluff rice gently with a spatula, garnish with chopped coriander and serve hot."
+STEP_de99b927,R002,1,Prepare ingredients for Paneer Butter Masala.
+STEP_704547bf,R002,2,Combine and cook base ingredients as required.
+STEP_47390307,R002,3,Season and simmer until done.
+STEP_5845fbe3,R002,4,Serve hot.
+STEP_806de121,R003,1,Prepare ingredients for Paneer Butter Masala.
+STEP_46f42fde,R003,2,Combine and cook base ingredients as required.
+STEP_d56e57e6,R003,3,Season and simmer until done.
+STEP_f338bb51,R003,4,Serve hot.
+STEP_497aafa9,R004,1,Prepare ingredients for Tomato Basil Soup.
+STEP_4bff968d,R004,2,Combine and cook base ingredients as required.
+STEP_c9673158,R004,3,Season and simmer until done.
+STEP_80e6353b,R004,4,Serve hot.
+STEP_f8019058,R005,1,Prepare ingredients for Pasta Alfredo.
+STEP_ea6f6de3,R005,2,Combine and cook base ingredients as required.
+STEP_e260f065,R005,3,Season and simmer until done.
+STEP_bef325f5,R005,4,Serve hot.
+STEP_73627ed7,R006,1,Prepare ingredients for Tomato Basil Soup.
+STEP_40bc930a,R006,2,Combine and cook base ingredients as required.
+STEP_a0b7362a,R006,3,Season and simmer until done.
+STEP_2cb55fdb,R006,4,Serve hot.
+STEP_65490fda,R007,1,Prepare ingredients for Chickpea Salad.
+STEP_d634bbe6,R007,2,Combine and cook base ingredients as required.
+STEP_d93bb53c,R007,3,Season and simmer until done.
+STEP_0492dea5,R007,4,Serve hot.
+STEP_ccb73c4c,R008,1,Prepare ingredients for Pasta Alfredo.
+STEP_ee1077ed,R008,2,Combine and cook base ingredients as required.
+STEP_c0827586,R008,3,Season and simmer until done.
+STEP_78e11077,R008,4,Serve hot.
+STEP_ff780d80,R009,1,Prepare ingredients for Masala Dosa.
+STEP_06af1230,R009,2,Combine and cook base ingredients as required.
+STEP_1654cacc,R009,3,Season and simmer until done.
+STEP_31a6dcb2,R009,4,Serve hot.
+STEP_68016381,R010,1,Prepare ingredients for Pasta Alfredo.
+STEP_040da6be,R010,2,Combine and cook base ingredients as required.
+STEP_3a3d1843,R010,3,Season and simmer until done.
+STEP_26c24a8d,R010,4,Serve hot.
+STEP_7d484a65,R011,1,Prepare ingredients for Paneer Butter Masala.
+STEP_61857484,R011,2,Combine and cook base ingredients as required.
+STEP_48205561,R011,3,Season and simmer until done.
+STEP_03e85e38,R011,4,Serve hot.
+STEP_555ce2f2,R012,1,Prepare ingredients for Masala Dosa.
+STEP_8d71ddca,R012,2,Combine and cook base ingredients as required.
+STEP_bd456a7b,R012,3,Season and simmer until done.
+STEP_c236419e,R012,4,Serve hot.
+STEP_bfabcdb6,R013,1,Prepare ingredients for Masala Dosa.
+STEP_9b4c793e,R013,2,Combine and cook base ingredients as required.
+STEP_9c72985e,R013,3,Season and simmer until done.
+STEP_a40990a0,R013,4,Serve hot.
+STEP_373b3b65,R014,1,Prepare ingredients for Masala Dosa.
+STEP_a74590ee,R014,2,Combine and cook base ingredients as required.
+STEP_dadefd57,R014,3,Season and simmer until done.
+STEP_7e012241,R014,4,Serve hot.
+STEP_d64003d6,R015,1,Prepare ingredients for Pasta Alfredo.
+STEP_2fc6d579,R015,2,Combine and cook base ingredients as required.
+STEP_8462de69,R015,3,Season and simmer until done.
+STEP_8d3ad8b6,R015,4,Serve hot.
+STEP_56a9e235,R016,1,Prepare ingredients for Paneer Butter Masala.
+STEP_736224fc,R016,2,Combine and cook base ingredients as required.
+STEP_f61c0e65,R016,3,Season and simmer until done.
+STEP_acee6896,R016,4,Serve hot.
+STEP_f80a92f2,R017,1,Prepare ingredients for Stir-fry Vegetables.
+STEP_5ad382b1,R017,2,Combine and cook base ingredients as required.
+STEP_7a997863,R017,3,Season and simmer until done.
+STEP_9efd5879,R017,4,Serve hot.
+STEP_f435d92f,R018,1,Prepare ingredients for Pasta Alfredo.
+STEP_dc7b8e37,R018,2,Combine and cook base ingredients as required.
+STEP_791aee75,R018,3,Season and simmer until done.
+STEP_28cdf80d,R018,4,Serve hot.
+STEP_fe501452,R019,1,Prepare ingredients for Stir-fry Vegetables.
+STEP_da801ca9,R019,2,Combine and cook base ingredients as required.
+STEP_90d148e7,R019,3,Season and simmer until done.
+STEP_4cd63476,R019,4,Serve hot.
+STEP_273a025f,R020,1,Prepare ingredients for Paneer Butter Masala.
+STEP_3e4f0f54,R020,2,Combine and cook base ingredients as required.
+STEP_e85bb93e,R020,3,Season and simmer until done.
+STEP_5b7203b9,R020,4,Serve hot.

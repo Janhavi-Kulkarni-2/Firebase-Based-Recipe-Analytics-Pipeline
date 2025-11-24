@@ -1,0 +1,5 @@
+firebase-admin
+pandas
+python-dateutil
+matplotlib
+numpy

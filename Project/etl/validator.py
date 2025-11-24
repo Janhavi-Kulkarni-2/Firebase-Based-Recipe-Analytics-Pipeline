@@ -1,148 +1,142 @@
+# Project/etl/validator.py
+"""
+Validate CSV outputs in Project/output_csv/
+Usage: python validator.py
+"""
+
 import pandas as pd
 import json
 from pathlib import Path
+import logging
 
-BASE = Path("../output_csv")
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
+PROJECT_DIR = Path(__file__).resolve().parents[1]
+OUT_DIR = PROJECT_DIR / "output_csv"
 
-# -----------------------------
-read_opts = dict(keep_default_na=False, na_values=[''])
+if not OUT_DIR.exists():
+    logging.error("Output CSV directory not found: %s", OUT_DIR)
+    raise SystemExit(1)
 
-recipes = pd.read_csv(BASE / "recipe.csv", **read_opts)
-ingredients = pd.read_csv(BASE / "ingredients.csv", **read_opts)
-steps = pd.read_csv(BASE / "steps.csv", **read_opts)
-interactions = pd.read_csv(BASE / "interactions.csv", **read_opts)
+def read_csv_no_nan(path):
+    df = pd.read_csv(path, dtype=str, keep_default_na=False, na_values=[""])
+    return df.fillna("").replace({"NaN": ""})
 
-report = {
-    "recipes": {"valid": [], "invalid": []},
-    "ingredients": {"valid": [], "invalid": []},
-    "steps": {"valid": [], "invalid": []},
-    "interactions": {"valid": [], "invalid": []},
-}
+recipes = read_csv_no_nan(OUT_DIR / "recipe.csv")
+ingredients = read_csv_no_nan(OUT_DIR / "ingredients.csv")
+steps = read_csv_no_nan(OUT_DIR / "steps.csv")
+interactions = read_csv_no_nan(OUT_DIR / "interactions.csv")
 
-# ------------------------------------
-# VALIDATION FUNCTIONS
-# ------------------------------------
+report = {"recipes": {"valid": [], "invalid": []},
+          "ingredients": {"valid": [], "invalid": []},
+          "steps": {"valid": [], "invalid": []},
+          "interactions": {"valid": [], "invalid": []}}
 
-def is_positive_number(value):
-    if value == "" or value is None:
-        return False
+def is_nonneg_number(s):
     try:
-        return float(value) >= 0
+        return float(s) >= 0
     except:
         return False
 
+# --- validations (same rules as before) ---
 def validate_recipes():
-    for idx, row in recipes.iterrows():
+    for _, r in recipes.iterrows():
         errors = []
-
-        if row["recipe_id"] == "":
+        if r.get("recipe_id", "") == "":
             errors.append("Missing recipe_id")
-        if row["name"] == "":
+        if r.get("name", "") == "":
             errors.append("Missing name")
-        if row["difficulty"] == "":
+        diff = r.get("difficulty", "")
+        if diff == "":
             errors.append("Missing difficulty")
-
-        if row["difficulty"] not in ["Easy", "Medium", "Hard"]:
+        if diff and diff not in ["Easy", "Medium", "Hard"]:
             errors.append("Invalid difficulty")
-
         for col in ["servings", "prep_time_minutes", "cook_time_minutes"]:
-            if not is_positive_number(row[col]):
-                errors.append(f"Invalid {col} (must be positive number)")
-
+            if not is_nonneg_number(r.get(col, "")):
+                errors.append(f"Invalid {col}")
         if errors:
-            report["recipes"]["invalid"].append({**row.to_dict(), "errors": errors})
+            report["recipes"]["invalid"].append({**r.to_dict(), "errors": errors})
         else:
-            report["recipes"]["valid"].append(row.to_dict())
+            report["recipes"]["valid"].append(r.to_dict())
 
 def validate_ingredients():
-    for idx, row in ingredients.iterrows():
+    for _, r in ingredients.iterrows():
         errors = []
-
-        if row["ingredient_id"] == "":
+        if r.get("ingredient_id", "") == "":
             errors.append("Missing ingredient_id")
-        if row["recipe_id"] == "":
+        if r.get("recipe_id", "") == "":
             errors.append("Missing recipe_id")
-        if row["ingredient_name"] == "":
+        if r.get("ingredient_name", "") == "":
             errors.append("Missing ingredient_name")
-
-        qty = row["qty_numeric"]
+        qty = r.get("qty_numeric", "")
         if qty != "":
             try:
                 if float(qty) < 0:
-                    errors.append("qty_numeric cannot be negative")
+                    errors.append("qty_numeric negative")
             except:
-                errors.append("qty_numeric must be numeric")
-
+                errors.append("qty_numeric not numeric")
         if errors:
-            report["ingredients"]["invalid"].append({**row.to_dict(), "errors": errors})
+            report["ingredients"]["invalid"].append({**r.to_dict(), "errors": errors})
         else:
-            report["ingredients"]["valid"].append(row.to_dict())
+            report["ingredients"]["valid"].append(r.to_dict())
 
 def validate_steps():
-    for idx, row in steps.iterrows():
+    for _, r in steps.iterrows():
         errors = []
-
-        if row["step_id"] == "":
+        if r.get("step_id", "") == "":
             errors.append("Missing step_id")
-        if row["recipe_id"] == "":
+        if r.get("recipe_id", "") == "":
             errors.append("Missing recipe_id")
-        if row["step_text"] == "":
+        if r.get("step_text", "") == "":
             errors.append("Missing step_text")
-
         try:
-            if int(row["step_order"]) < 1:
-                errors.append("step_order must be ≥ 1")
+            if int(r.get("step_order", "0")) < 1:
+                errors.append("step_order must be >=1")
         except:
-            errors.append("step_order must be integer")
-
+            errors.append("step_order not integer")
         if errors:
-            report["steps"]["invalid"].append({**row.to_dict(), "errors": errors})
+            report["steps"]["invalid"].append({**r.to_dict(), "errors": errors})
         else:
-            report["steps"]["valid"].append(row.to_dict())
+            report["steps"]["valid"].append(r.to_dict())
 
 def validate_interactions():
-    for idx, row in interactions.iterrows():
+    for _, r in interactions.iterrows():
         errors = []
-
-        if row["interaction_id"] == "":
+        if r.get("interaction_id", "") == "":
             errors.append("Missing interaction_id")
-        if row["user_id"] == "":
+        if r.get("user_id", "") == "":
             errors.append("Missing user_id")
-        if row["recipe_id"] == "":
+        if r.get("recipe_id", "") == "":
             errors.append("Missing recipe_id")
-        if row["type"] == "":
+        t = r.get("type", "")
+        if t == "":
             errors.append("Missing type")
-
-        if row["type"] not in ["view", "like", "cook"]:
+        if t and t not in ["view", "like", "cook"]:
             errors.append("Invalid type")
-
-        rating = row["rating"]
-
-        if row["type"] == "cook":
+        rating = r.get("rating", "")
+        if t == "cook":
             try:
-                r = float(rating)
-                if not (1 <= r <= 5):
-                    errors.append("Cook rating must be between 1 and 5")
+                val = float(rating)
+                if not (1 <= val <= 5):
+                    errors.append("rating must be 1-5")
             except:
-                errors.append("Cook must have numeric rating")
+                errors.append("cook rating not numeric")
         else:
             if rating not in ["", None]:
-                errors.append("Non-cook interaction should not have rating")
-
+                errors.append("non-cook interaction should not have rating")
         if errors:
-            report["interactions"]["invalid"].append({**row.to_dict(), "errors": errors})
+            report["interactions"]["invalid"].append({**r.to_dict(), "errors": errors})
         else:
-            report["interactions"]["valid"].append(row.to_dict())
+            report["interactions"]["valid"].append(r.to_dict())
 
-# Run all validations
+# Run
 validate_recipes()
 validate_ingredients()
 validate_steps()
 validate_interactions()
 
-# Save report
-with open("validation_report.json", "w") as f:
-    json.dump(report, f, indent=4)
+OUT_REPORT = OUT_DIR / "validation_report.json"
+with open(OUT_REPORT, "w", encoding="utf-8") as f:
+    json.dump(report, f, indent=2, ensure_ascii=False)
 
-print("Validation complete! Open validation_report.json for details.")
+logging.info("Validation complete. Report saved: %s", OUT_REPORT)

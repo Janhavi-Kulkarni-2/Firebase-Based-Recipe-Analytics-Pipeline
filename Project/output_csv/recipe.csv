@@ -1,21 +1,21 @@
 recipe_id,name,description,servings,prep_time_minutes,cook_time_minutes,difficulty,cuisine,created_at
-R001,Veg Pulav,Fluffy rice cooked with mixed vegetables and pulav masala. Great as a one-pot meal.,2,15,20,Easy,Indian,2025-11-20T05:46:24.105439+00:00
-R002,Tomato Basil Soup,Creamy tomato soup with fresh basil.,2,14,27,Easy,International,2025-11-20T05:46:25.633856+00:00
-R003,Paneer Butter Masala 3,Rich and creamy paneer curry.,4,21,40,Easy,Indian,2025-11-20T05:46:26.868870+00:00
-R004,Masala Dosa,Crispy dosa with spiced mashed potatoes.,1,10,16,Medium,Indian,2025-11-20T05:46:27.426387+00:00
-R005,Paneer Butter Masala,Rich and creamy paneer curry.,5,23,13,Medium,Indian,2025-11-20T05:46:28.536353+00:00
-R006,Chickpea Salad 6,Refreshing salad with chickpeas and veggies.,2,30,11,Medium,Mediterranean,2025-11-20T05:46:29.184548+00:00
-R007,Tomato Basil Soup,Creamy tomato soup with fresh basil.,1,25,15,Hard,International,2025-11-20T05:46:30.252495+00:00
-R008,Tomato Basil Soup,Creamy tomato soup with fresh basil.,5,13,37,Hard,International,2025-11-20T05:46:31.243937+00:00
-R009,Pasta Alfredo 9,Creamy white-sauce pasta.,6,12,22,Easy,Italian,2025-11-20T05:46:32.234894+00:00
-R010,Tomato Basil Soup,Creamy tomato soup with fresh basil.,5,10,45,Easy,International,2025-11-20T05:46:33.163305+00:00
-R011,Masala Dosa,Crispy dosa with spiced mashed potatoes.,2,6,8,Easy,Indian,2025-11-20T05:46:34.228416+00:00
-R012,Chickpea Salad 12,Refreshing salad with chickpeas and veggies.,2,28,25,Medium,Mediterranean,2025-11-20T05:46:35.393799+00:00
-R013,Masala Dosa,Crispy dosa with spiced mashed potatoes.,6,24,29,Easy,Indian,2025-11-20T05:46:35.972098+00:00
-R014,Tomato Basil Soup,Creamy tomato soup with fresh basil.,3,6,7,Medium,International,2025-11-20T05:46:37.105480+00:00
-R015,Stir-fry Vegetables 15,Quick wok-tossed mixed vegetables.,1,10,27,Medium,Chinese,2025-11-20T05:46:37.637493+00:00
-R016,Masala Dosa,Crispy dosa with spiced mashed potatoes.,5,8,13,Medium,Indian,2025-11-20T05:46:38.773432+00:00
-R017,Pasta Alfredo,Creamy white-sauce pasta.,3,25,35,Easy,Italian,2025-11-20T05:46:39.266078+00:00
-R018,Chickpea Salad 18,Refreshing salad with chickpeas and veggies.,5,19,19,Medium,Mediterranean,2025-11-20T05:46:40.510724+00:00
-R019,Chickpea Salad,Refreshing salad with chickpeas and veggies.,3,30,29,Medium,Mediterranean,2025-11-20T05:46:40.963837+00:00
-R020,Chickpea Salad,Refreshing salad with chickpeas and veggies.,2,5,32,Medium,Mediterranean,2025-11-20T05:46:42.119660+00:00
+R001,Veg Pulav,Fluffy rice cooked with mixed vegetables and pulav masala. Great as a one-pot meal.,2,15,20,Easy,Indian,2025-11-20T07:05:11.381074+00:00
+R002,Paneer Butter Masala,Rich and creamy paneer curry.,2,28,18,Easy,Indian,2025-11-20T07:05:12.624081+00:00
+R003,Paneer Butter Masala 3,Rich and creamy paneer curry.,6,6,37,Medium,Indian,2025-11-20T07:05:13.869823+00:00
+R004,Tomato Basil Soup,Creamy tomato soup with fresh basil.,6,26,20,Hard,International,2025-11-20T07:05:14.219303+00:00
+R005,Pasta Alfredo,Creamy white-sauce pasta.,2,24,24,Medium,Italian,2025-11-20T07:05:15.469134+00:00
+R006,Tomato Basil Soup 6,Creamy tomato soup with fresh basil.,6,22,34,Hard,International,2025-11-20T07:05:15.831951+00:00
+R007,Chickpea Salad,Refreshing salad with chickpeas and veggies.,4,8,14,Easy,Mediterranean,2025-11-20T07:05:17.096598+00:00
+R008,Pasta Alfredo,Creamy white-sauce pasta.,1,5,26,Easy,Italian,2025-11-20T07:05:17.511830+00:00
+R009,Masala Dosa 9,Crispy dosa with spiced mashed potatoes.,6,8,43,Medium,Indian,2025-11-20T07:05:18.738111+00:00
+R010,Pasta Alfredo,Creamy white-sauce pasta.,2,8,41,Medium,Italian,2025-11-20T07:05:19.206736+00:00
+R011,Paneer Butter Masala,Rich and creamy paneer curry.,5,18,29,Easy,Indian,2025-11-20T07:05:20.421242+00:00
+R012,Masala Dosa 12,Crispy dosa with spiced mashed potatoes.,4,7,36,Medium,Indian,2025-11-20T07:05:20.922943+00:00
+R013,Masala Dosa,Crispy dosa with spiced mashed potatoes.,5,10,43,Easy,Indian,2025-11-20T07:05:22.034731+00:00
+R014,Masala Dosa,Crispy dosa with spiced mashed potatoes.,1,14,41,Medium,Indian,2025-11-20T07:05:22.519950+00:00
+R015,Pasta Alfredo 15,Creamy white-sauce pasta.,1,9,44,Medium,Italian,2025-11-20T07:05:23.720420+00:00
+R016,Paneer Butter Masala,Rich and creamy paneer curry.,2,15,32,Medium,Indian,2025-11-20T07:05:24.192092+00:00
+R017,Stir-fry Vegetables,Quick wok-tossed mixed vegetables.,2,7,30,Hard,Chinese,2025-11-20T07:05:25.311335+00:00
+R018,Pasta Alfredo 18,Creamy white-sauce pasta.,1,22,6,Medium,Italian,2025-11-20T07:05:25.852773+00:00
+R019,Stir-fry Vegetables,Quick wok-tossed mixed vegetables.,6,19,18,Hard,Chinese,2025-11-20T07:05:26.914760+00:00
+R020,Paneer Butter Masala,Rich and creamy paneer curry.,1,18,25,Medium,Indian,2025-11-20T07:05:27.585062+00:00

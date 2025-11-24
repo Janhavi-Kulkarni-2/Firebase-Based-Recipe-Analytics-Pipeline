@@ -1,0 +1,1984 @@
+{
+  "recipes": {
+    "valid": [
+      {
+        "recipe_id": "R001",
+        "name": "Veg Pulav",
+        "description": "Fluffy rice cooked with mixed vegetables and pulav masala. Great as a one-pot meal.",
+        "servings": "2",
+        "prep_time_minutes": "15",
+        "cook_time_minutes": "20",
+        "difficulty": "Easy",
+        "cuisine": "Indian",
+        "created_at": "2025-11-20T07:05:11.381074+00:00"
+      },
+      {
+        "recipe_id": "R002",
+        "name": "Paneer Butter Masala",
+        "description": "Rich and creamy paneer curry.",
+        "servings": "2",
+        "prep_time_minutes": "28",
+        "cook_time_minutes": "18",
+        "difficulty": "Easy",
+        "cuisine": "Indian",
+        "created_at": "2025-11-20T07:05:12.624081+00:00"
+      },
+      {
+        "recipe_id": "R003",
+        "name": "Paneer Butter Masala 3",
+        "description": "Rich and creamy paneer curry.",
+        "servings": "6",
+        "prep_time_minutes": "6",
+        "cook_time_minutes": "37",
+        "difficulty": "Medium",
+        "cuisine": "Indian",
+        "created_at": "2025-11-20T07:05:13.869823+00:00"
+      },
+      {
+        "recipe_id": "R004",
+        "name": "Tomato Basil Soup",
+        "description": "Creamy tomato soup with fresh basil.",
+        "servings": "6",
+        "prep_time_minutes": "26",
+        "cook_time_minutes": "20",
+        "difficulty": "Hard",
+        "cuisine": "International",
+        "created_at": "2025-11-20T07:05:14.219303+00:00"
+      },
+      {
+        "recipe_id": "R005",
+        "name": "Pasta Alfredo",
+        "description": "Creamy white-sauce pasta.",
+        "servings": "2",
+        "prep_time_minutes": "24",
+        "cook_time_minutes": "24",
+        "difficulty": "Medium",
+        "cuisine": "Italian",
+        "created_at": "2025-11-20T07:05:15.469134+00:00"
+      },
+      {
+        "recipe_id": "R006",
+        "name": "Tomato Basil Soup 6",
+        "description": "Creamy tomato soup with fresh basil.",
+        "servings": "6",
+        "prep_time_minutes": "22",
+        "cook_time_minutes": "34",
+        "difficulty": "Hard",
+        "cuisine": "International",
+        "created_at": "2025-11-20T07:05:15.831951+00:00"
+      },
+      {
+        "recipe_id": "R007",
+        "name": "Chickpea Salad",
+        "description": "Refreshing salad with chickpeas and veggies.",
+        "servings": "4",
+        "prep_time_minutes": "8",
+        "cook_time_minutes": "14",
+        "difficulty": "Easy",
+        "cuisine": "Mediterranean",
+        "created_at": "2025-11-20T07:05:17.096598+00:00"
+      },
+      {
+        "recipe_id": "R008",
+        "name": "Pasta Alfredo",
+        "description": "Creamy white-sauce pasta.",
+        "servings": "1",
+        "prep_time_minutes": "5",
+        "cook_time_minutes": "26",
+        "difficulty": "Easy",
+        "cuisine": "Italian",
+        "created_at": "2025-11-20T07:05:17.511830+00:00"
+      },
+      {
+        "recipe_id": "R009",
+        "name": "Masala Dosa 9",
+        "description": "Crispy dosa with spiced mashed potatoes.",
+        "servings": "6",
+        "prep_time_minutes": "8",
+        "cook_time_minutes": "43",
+        "difficulty": "Medium",
+        "cuisine": "Indian",
+        "created_at": "2025-11-20T07:05:18.738111+00:00"
+      },
+      {
+        "recipe_id": "R010",
+        "name": "Pasta Alfredo",
+        "description": "Creamy white-sauce pasta.",
+        "servings": "2",
+        "prep_time_minutes": "8",
+        "cook_time_minutes": "41",
+        "difficulty": "Medium",
+        "cuisine": "Italian",
+        "created_at": "2025-11-20T07:05:19.206736+00:00"
+      },
+      {
+        "recipe_id": "R011",
+        "name": "Paneer Butter Masala",
+        "description": "Rich and creamy paneer curry.",
+        "servings": "5",
+        "prep_time_minutes": "18",
+        "cook_time_minutes": "29",
+        "difficulty": "Easy",
+        "cuisine": "Indian",
+        "created_at": "2025-11-20T07:05:20.421242+00:00"
+      },
+      {
+        "recipe_id": "R012",
+        "name": "Masala Dosa 12",
+        "description": "Crispy dosa with spiced mashed potatoes.",
+        "servings": "4",
+        "prep_time_minutes": "7",
+        "cook_time_minutes": "36",
+        "difficulty": "Medium",
+        "cuisine": "Indian",
+        "created_at": "2025-11-20T07:05:20.922943+00:00"
+      },
+      {
+        "recipe_id": "R013",
+        "name": "Masala Dosa",
+        "description": "Crispy dosa with spiced mashed potatoes.",
+        "servings": "5",
+        "prep_time_minutes": "10",
+        "cook_time_minutes": "43",
+        "difficulty": "Easy",
+        "cuisine": "Indian",
+        "created_at": "2025-11-20T07:05:22.034731+00:00"
+      },
+      {
+        "recipe_id": "R014",
+        "name": "Masala Dosa",
+        "description": "Crispy dosa with spiced mashed potatoes.",
+        "servings": "1",
+        "prep_time_minutes": "14",
+        "cook_time_minutes": "41",
+        "difficulty": "Medium",
+        "cuisine": "Indian",
+        "created_at": "2025-11-20T07:05:22.519950+00:00"
+      },
+      {
+        "recipe_id": "R015",
+        "name": "Pasta Alfredo 15",
+        "description": "Creamy white-sauce pasta.",
+        "servings": "1",
+        "prep_time_minutes": "9",
+        "cook_time_minutes": "44",
+        "difficulty": "Medium",
+        "cuisine": "Italian",
+        "created_at": "2025-11-20T07:05:23.720420+00:00"
+      },
+      {
+        "recipe_id": "R016",
+        "name": "Paneer Butter Masala",
+        "description": "Rich and creamy paneer curry.",
+        "servings": "2",
+        "prep_time_minutes": "15",
+        "cook_time_minutes": "32",
+        "difficulty": "Medium",
+        "cuisine": "Indian",
+        "created_at": "2025-11-20T07:05:24.192092+00:00"
+      },
+      {
+        "recipe_id": "R017",
+        "name": "Stir-fry Vegetables",
+        "description": "Quick wok-tossed mixed vegetables.",
+        "servings": "2",
+        "prep_time_minutes": "7",
+        "cook_time_minutes": "30",
+        "difficulty": "Hard",
+        "cuisine": "Chinese",
+        "created_at": "2025-11-20T07:05:25.311335+00:00"
+      },
+      {
+        "recipe_id": "R018",
+        "name": "Pasta Alfredo 18",
+        "description": "Creamy white-sauce pasta.",
+        "servings": "1",
+        "prep_time_minutes": "22",
+        "cook_time_minutes": "6",
+        "difficulty": "Medium",
+        "cuisine": "Italian",
+        "created_at": "2025-11-20T07:05:25.852773+00:00"
+      },
+      {
+        "recipe_id": "R019",
+        "name": "Stir-fry Vegetables",
+        "description": "Quick wok-tossed mixed vegetables.",
+        "servings": "6",
+        "prep_time_minutes": "19",
+        "cook_time_minutes": "18",
+        "difficulty": "Hard",
+        "cuisine": "Chinese",
+        "created_at": "2025-11-20T07:05:26.914760+00:00"
+      },
+      {
+        "recipe_id": "R020",
+        "name": "Paneer Butter Masala",
+        "description": "Rich and creamy paneer curry.",
+        "servings": "1",
+        "prep_time_minutes": "18",
+        "cook_time_minutes": "25",
+        "difficulty": "Medium",
+        "cuisine": "Indian",
+        "created_at": "2025-11-20T07:05:27.585062+00:00"
+      }
+    ],
+    "invalid": []
+  },
+  "ingredients": {
+    "valid": [
+      {
+        "ingredient_id": "ING_9fbd81e7",
+        "recipe_id": "R001",
+        "ingredient_name": "Rice",
+        "qty_numeric": "1.0",
+        "unit": "cup",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_479ce864",
+        "recipe_id": "R001",
+        "ingredient_name": "Water",
+        "qty_numeric": "3.5",
+        "unit": "cups",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_0cb54a03",
+        "recipe_id": "R001",
+        "ingredient_name": "Oil/Butter",
+        "qty_numeric": "1.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_f5284211",
+        "recipe_id": "R001",
+        "ingredient_name": "Salt",
+        "qty_numeric": "1.0",
+        "unit": "tsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_e497ec7f",
+        "recipe_id": "R001",
+        "ingredient_name": "Pulav Masala",
+        "qty_numeric": "1.0",
+        "unit": "tsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_0111f9f7",
+        "recipe_id": "R001",
+        "ingredient_name": "Cauliflower",
+        "qty_numeric": "0.25",
+        "unit": "cup",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_24c8ece2",
+        "recipe_id": "R001",
+        "ingredient_name": "Green Beans",
+        "qty_numeric": "0.25",
+        "unit": "cup",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_134109d1",
+        "recipe_id": "R001",
+        "ingredient_name": "Carrot",
+        "qty_numeric": "0.25",
+        "unit": "cup",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_5af32583",
+        "recipe_id": "R001",
+        "ingredient_name": "Onion",
+        "qty_numeric": "0.5",
+        "unit": "medium",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_2c353d13",
+        "recipe_id": "R001",
+        "ingredient_name": "Tomato",
+        "qty_numeric": "1.0",
+        "unit": "medium",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_11fb1985",
+        "recipe_id": "R001",
+        "ingredient_name": "Green Chillies",
+        "qty_numeric": "1.0",
+        "unit": "pcs",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_d39d1ca6",
+        "recipe_id": "R001",
+        "ingredient_name": "Fresh Coriander",
+        "qty_numeric": "1.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_656d5f0d",
+        "recipe_id": "R002",
+        "ingredient_name": "Paneer",
+        "qty_numeric": "200.0",
+        "unit": "g",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_8a8982c6",
+        "recipe_id": "R002",
+        "ingredient_name": "Tomato",
+        "qty_numeric": "2.0",
+        "unit": "pcs",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_8626e1be",
+        "recipe_id": "R002",
+        "ingredient_name": "Butter",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_ffe71e3d",
+        "recipe_id": "R002",
+        "ingredient_name": "Cream",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_ecc8f0a1",
+        "recipe_id": "R003",
+        "ingredient_name": "Paneer",
+        "qty_numeric": "200.0",
+        "unit": "g",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_07c7772d",
+        "recipe_id": "R003",
+        "ingredient_name": "Tomato",
+        "qty_numeric": "2.0",
+        "unit": "pcs",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_819cba48",
+        "recipe_id": "R003",
+        "ingredient_name": "Butter",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_f2149be5",
+        "recipe_id": "R003",
+        "ingredient_name": "Cream",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_04ae047c",
+        "recipe_id": "R003",
+        "ingredient_name": "Pepper",
+        "qty_numeric": "0.5",
+        "unit": "tsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_8671844f",
+        "recipe_id": "R004",
+        "ingredient_name": "Tomato",
+        "qty_numeric": "4.0",
+        "unit": "pcs",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_694f1da6",
+        "recipe_id": "R004",
+        "ingredient_name": "Water",
+        "qty_numeric": "2.0",
+        "unit": "cups",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_c67b37ea",
+        "recipe_id": "R004",
+        "ingredient_name": "Butter",
+        "qty_numeric": "1.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_2453011c",
+        "recipe_id": "R004",
+        "ingredient_name": "Cream",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_69b66a2f",
+        "recipe_id": "R005",
+        "ingredient_name": "Pasta",
+        "qty_numeric": "200.0",
+        "unit": "g",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_bb867000",
+        "recipe_id": "R005",
+        "ingredient_name": "Butter",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_139ad796",
+        "recipe_id": "R005",
+        "ingredient_name": "Cream",
+        "qty_numeric": "100.0",
+        "unit": "ml",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_3c3a7343",
+        "recipe_id": "R005",
+        "ingredient_name": "Parmesan",
+        "qty_numeric": "50.0",
+        "unit": "g",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_ecdebd59",
+        "recipe_id": "R006",
+        "ingredient_name": "Tomato",
+        "qty_numeric": "4.0",
+        "unit": "pcs",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_9ee08bf9",
+        "recipe_id": "R006",
+        "ingredient_name": "Water",
+        "qty_numeric": "2.0",
+        "unit": "cups",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_4cb03a79",
+        "recipe_id": "R006",
+        "ingredient_name": "Butter",
+        "qty_numeric": "1.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_f8750be5",
+        "recipe_id": "R006",
+        "ingredient_name": "Cream",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_43619245",
+        "recipe_id": "R007",
+        "ingredient_name": "Chickpeas",
+        "qty_numeric": "1.0",
+        "unit": "cup",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_7837c205",
+        "recipe_id": "R007",
+        "ingredient_name": "Cucumber",
+        "qty_numeric": "0.5",
+        "unit": "cup",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_6da1a4be",
+        "recipe_id": "R007",
+        "ingredient_name": "Tomato",
+        "qty_numeric": "1.0",
+        "unit": "medium",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_b4adb78e",
+        "recipe_id": "R007",
+        "ingredient_name": "Olive Oil",
+        "qty_numeric": "1.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_b7ee16f9",
+        "recipe_id": "R008",
+        "ingredient_name": "Pasta",
+        "qty_numeric": "200.0",
+        "unit": "g",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_66c4da5a",
+        "recipe_id": "R008",
+        "ingredient_name": "Butter",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_e9d4e6b4",
+        "recipe_id": "R008",
+        "ingredient_name": "Cream",
+        "qty_numeric": "100.0",
+        "unit": "ml",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_be30619b",
+        "recipe_id": "R008",
+        "ingredient_name": "Parmesan",
+        "qty_numeric": "50.0",
+        "unit": "g",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_d3f28a63",
+        "recipe_id": "R008",
+        "ingredient_name": "Salt",
+        "qty_numeric": "1.0",
+        "unit": "tsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_a36895a3",
+        "recipe_id": "R009",
+        "ingredient_name": "Dosa batter",
+        "qty_numeric": "2.0",
+        "unit": "cups",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_c3277ecc",
+        "recipe_id": "R009",
+        "ingredient_name": "Potato",
+        "qty_numeric": "2.0",
+        "unit": "pcs",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_c633b3be",
+        "recipe_id": "R009",
+        "ingredient_name": "Onion",
+        "qty_numeric": "1.0",
+        "unit": "medium",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_d35d8579",
+        "recipe_id": "R009",
+        "ingredient_name": "Turmeric",
+        "qty_numeric": "0.5",
+        "unit": "tsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_c48c8f95",
+        "recipe_id": "R009",
+        "ingredient_name": "Pepper",
+        "qty_numeric": "0.5",
+        "unit": "tsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_954be2f9",
+        "recipe_id": "R009",
+        "ingredient_name": "Olive Oil",
+        "qty_numeric": "1.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_c4bf8c2b",
+        "recipe_id": "R010",
+        "ingredient_name": "Pasta",
+        "qty_numeric": "200.0",
+        "unit": "g",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_0a2096c3",
+        "recipe_id": "R010",
+        "ingredient_name": "Butter",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_6faa28d5",
+        "recipe_id": "R010",
+        "ingredient_name": "Cream",
+        "qty_numeric": "100.0",
+        "unit": "ml",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_1d70a80c",
+        "recipe_id": "R010",
+        "ingredient_name": "Parmesan",
+        "qty_numeric": "50.0",
+        "unit": "g",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_1337badb",
+        "recipe_id": "R010",
+        "ingredient_name": "Green Chili",
+        "qty_numeric": "1.0",
+        "unit": "pcs",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_68a2ff58",
+        "recipe_id": "R011",
+        "ingredient_name": "Paneer",
+        "qty_numeric": "200.0",
+        "unit": "g",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_fae63a5a",
+        "recipe_id": "R011",
+        "ingredient_name": "Tomato",
+        "qty_numeric": "2.0",
+        "unit": "pcs",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_faa9bc8c",
+        "recipe_id": "R011",
+        "ingredient_name": "Butter",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_c4e733da",
+        "recipe_id": "R011",
+        "ingredient_name": "Cream",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_00ea054d",
+        "recipe_id": "R012",
+        "ingredient_name": "Dosa batter",
+        "qty_numeric": "2.0",
+        "unit": "cups",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_26c3f310",
+        "recipe_id": "R012",
+        "ingredient_name": "Potato",
+        "qty_numeric": "2.0",
+        "unit": "pcs",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_26d0cc42",
+        "recipe_id": "R012",
+        "ingredient_name": "Onion",
+        "qty_numeric": "1.0",
+        "unit": "medium",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_4abc846f",
+        "recipe_id": "R012",
+        "ingredient_name": "Turmeric",
+        "qty_numeric": "0.5",
+        "unit": "tsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_b2f464f6",
+        "recipe_id": "R012",
+        "ingredient_name": "Coriander",
+        "qty_numeric": "1.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_5dfbc1bb",
+        "recipe_id": "R013",
+        "ingredient_name": "Dosa batter",
+        "qty_numeric": "2.0",
+        "unit": "cups",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_45ad62a3",
+        "recipe_id": "R013",
+        "ingredient_name": "Potato",
+        "qty_numeric": "2.0",
+        "unit": "pcs",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_de0e76ee",
+        "recipe_id": "R013",
+        "ingredient_name": "Onion",
+        "qty_numeric": "1.0",
+        "unit": "medium",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_36aa2f08",
+        "recipe_id": "R013",
+        "ingredient_name": "Turmeric",
+        "qty_numeric": "0.5",
+        "unit": "tsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_a421a58e",
+        "recipe_id": "R013",
+        "ingredient_name": "Olive Oil",
+        "qty_numeric": "1.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_5720e735",
+        "recipe_id": "R014",
+        "ingredient_name": "Dosa batter",
+        "qty_numeric": "2.0",
+        "unit": "cups",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_3ae02cbe",
+        "recipe_id": "R014",
+        "ingredient_name": "Potato",
+        "qty_numeric": "2.0",
+        "unit": "pcs",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_a10c9f2f",
+        "recipe_id": "R014",
+        "ingredient_name": "Onion",
+        "qty_numeric": "1.0",
+        "unit": "medium",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_e95a5d5f",
+        "recipe_id": "R014",
+        "ingredient_name": "Turmeric",
+        "qty_numeric": "0.5",
+        "unit": "tsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_330a3e75",
+        "recipe_id": "R014",
+        "ingredient_name": "Pepper",
+        "qty_numeric": "0.5",
+        "unit": "tsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_f0ba84c7",
+        "recipe_id": "R014",
+        "ingredient_name": "Salt",
+        "qty_numeric": "1.0",
+        "unit": "tsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_02217722",
+        "recipe_id": "R015",
+        "ingredient_name": "Pasta",
+        "qty_numeric": "200.0",
+        "unit": "g",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_06889fd9",
+        "recipe_id": "R015",
+        "ingredient_name": "Butter",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_443aee9e",
+        "recipe_id": "R015",
+        "ingredient_name": "Cream",
+        "qty_numeric": "100.0",
+        "unit": "ml",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_99f5af48",
+        "recipe_id": "R015",
+        "ingredient_name": "Parmesan",
+        "qty_numeric": "50.0",
+        "unit": "g",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_c25e0064",
+        "recipe_id": "R015",
+        "ingredient_name": "Salt",
+        "qty_numeric": "1.0",
+        "unit": "tsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_33e5aa00",
+        "recipe_id": "R016",
+        "ingredient_name": "Paneer",
+        "qty_numeric": "200.0",
+        "unit": "g",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_a7eea156",
+        "recipe_id": "R016",
+        "ingredient_name": "Tomato",
+        "qty_numeric": "2.0",
+        "unit": "pcs",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_547d65aa",
+        "recipe_id": "R016",
+        "ingredient_name": "Butter",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_82a63d5f",
+        "recipe_id": "R016",
+        "ingredient_name": "Cream",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_7874ed47",
+        "recipe_id": "R017",
+        "ingredient_name": "Broccoli",
+        "qty_numeric": "1.0",
+        "unit": "cup",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_275accf1",
+        "recipe_id": "R017",
+        "ingredient_name": "Carrot",
+        "qty_numeric": "1.0",
+        "unit": "cup",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_c51eeca3",
+        "recipe_id": "R017",
+        "ingredient_name": "Soy Sauce",
+        "qty_numeric": "1.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_c3eba7fb",
+        "recipe_id": "R017",
+        "ingredient_name": "Garlic",
+        "qty_numeric": "2.0",
+        "unit": "cloves",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_4e1c5706",
+        "recipe_id": "R017",
+        "ingredient_name": "Salt",
+        "qty_numeric": "1.0",
+        "unit": "tsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_32fbef2c",
+        "recipe_id": "R017",
+        "ingredient_name": "Olive Oil",
+        "qty_numeric": "1.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_4d5061fa",
+        "recipe_id": "R018",
+        "ingredient_name": "Pasta",
+        "qty_numeric": "200.0",
+        "unit": "g",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_f2092590",
+        "recipe_id": "R018",
+        "ingredient_name": "Butter",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_e145006e",
+        "recipe_id": "R018",
+        "ingredient_name": "Cream",
+        "qty_numeric": "100.0",
+        "unit": "ml",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_ba62d9f9",
+        "recipe_id": "R018",
+        "ingredient_name": "Parmesan",
+        "qty_numeric": "50.0",
+        "unit": "g",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_b9405c26",
+        "recipe_id": "R019",
+        "ingredient_name": "Broccoli",
+        "qty_numeric": "1.0",
+        "unit": "cup",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_ab209d6d",
+        "recipe_id": "R019",
+        "ingredient_name": "Carrot",
+        "qty_numeric": "1.0",
+        "unit": "cup",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_5e5ad447",
+        "recipe_id": "R019",
+        "ingredient_name": "Soy Sauce",
+        "qty_numeric": "1.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_ab4f38a1",
+        "recipe_id": "R019",
+        "ingredient_name": "Garlic",
+        "qty_numeric": "2.0",
+        "unit": "cloves",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_ac076024",
+        "recipe_id": "R019",
+        "ingredient_name": "Pepper",
+        "qty_numeric": "0.5",
+        "unit": "tsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_41945096",
+        "recipe_id": "R019",
+        "ingredient_name": "Coriander",
+        "qty_numeric": "1.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_a3536bf4",
+        "recipe_id": "R020",
+        "ingredient_name": "Paneer",
+        "qty_numeric": "200.0",
+        "unit": "g",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_b932f6da",
+        "recipe_id": "R020",
+        "ingredient_name": "Tomato",
+        "qty_numeric": "2.0",
+        "unit": "pcs",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_10df8b7c",
+        "recipe_id": "R020",
+        "ingredient_name": "Butter",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_b2be3154",
+        "recipe_id": "R020",
+        "ingredient_name": "Cream",
+        "qty_numeric": "2.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_3eda9fef",
+        "recipe_id": "R020",
+        "ingredient_name": "Olive Oil",
+        "qty_numeric": "1.0",
+        "unit": "tbsp",
+        "qty_text": ""
+      },
+      {
+        "ingredient_id": "ING_549668ea",
+        "recipe_id": "R020",
+        "ingredient_name": "Pepper",
+        "qty_numeric": "0.5",
+        "unit": "tsp",
+        "qty_text": ""
+      }
+    ],
+    "invalid": []
+  },
+  "steps": {
+    "valid": [
+      {
+        "step_id": "STEP_b72dabf5",
+        "recipe_id": "R001",
+        "step_order": "1",
+        "step_text": "Rinse rice under running water until water runs clear; soak for 10–15 minutes and drain."
+      },
+      {
+        "step_id": "STEP_6acde916",
+        "recipe_id": "R001",
+        "step_order": "2",
+        "step_text": "Wash and chop cauliflower, beans, carrot, onion, tomato and green chillies."
+      },
+      {
+        "step_id": "STEP_0122b3a7",
+        "recipe_id": "R001",
+        "step_order": "3",
+        "step_text": "Heat oil or butter in a pressure cooker on medium heat."
+      },
+      {
+        "step_id": "STEP_01f6846a",
+        "recipe_id": "R001",
+        "step_order": "4",
+        "step_text": "Add sliced onion and sauté until slightly soft (about 1 minute)."
+      },
+      {
+        "step_id": "STEP_a526a377",
+        "recipe_id": "R001",
+        "step_order": "5",
+        "step_text": "Add carrot, beans, cauliflower, green chillies and tomato; sauté 3–4 minutes until slightly tender."
+      },
+      {
+        "step_id": "STEP_1d430aee",
+        "recipe_id": "R001",
+        "step_order": "6",
+        "step_text": "Add drained rice and mix gently with vegetables — do not break rice grains."
+      },
+      {
+        "step_id": "STEP_13a200a8",
+        "recipe_id": "R001",
+        "step_order": "7",
+        "step_text": "Add water (3–4 cups), salt and pulav masala; stir gently to combine."
+      },
+      {
+        "step_id": "STEP_8680e680",
+        "recipe_id": "R001",
+        "step_order": "8",
+        "step_text": "Close the pressure cooker lid and cook for 1–2 whistles on medium heat; turn off and let pressure release naturally. (If using pot: cover and simmer 15–20 minutes until rice is cooked.)"
+      },
+      {
+        "step_id": "STEP_5d47cf6a",
+        "recipe_id": "R001",
+        "step_order": "9",
+        "step_text": "Open carefully, fluff rice gently with a spatula, garnish with chopped coriander and serve hot."
+      },
+      {
+        "step_id": "STEP_de99b927",
+        "recipe_id": "R002",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Paneer Butter Masala."
+      },
+      {
+        "step_id": "STEP_704547bf",
+        "recipe_id": "R002",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_47390307",
+        "recipe_id": "R002",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_5845fbe3",
+        "recipe_id": "R002",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_806de121",
+        "recipe_id": "R003",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Paneer Butter Masala."
+      },
+      {
+        "step_id": "STEP_46f42fde",
+        "recipe_id": "R003",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_d56e57e6",
+        "recipe_id": "R003",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_f338bb51",
+        "recipe_id": "R003",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_497aafa9",
+        "recipe_id": "R004",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Tomato Basil Soup."
+      },
+      {
+        "step_id": "STEP_4bff968d",
+        "recipe_id": "R004",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_c9673158",
+        "recipe_id": "R004",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_80e6353b",
+        "recipe_id": "R004",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_f8019058",
+        "recipe_id": "R005",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Pasta Alfredo."
+      },
+      {
+        "step_id": "STEP_ea6f6de3",
+        "recipe_id": "R005",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_e260f065",
+        "recipe_id": "R005",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_bef325f5",
+        "recipe_id": "R005",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_73627ed7",
+        "recipe_id": "R006",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Tomato Basil Soup."
+      },
+      {
+        "step_id": "STEP_40bc930a",
+        "recipe_id": "R006",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_a0b7362a",
+        "recipe_id": "R006",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_2cb55fdb",
+        "recipe_id": "R006",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_65490fda",
+        "recipe_id": "R007",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Chickpea Salad."
+      },
+      {
+        "step_id": "STEP_d634bbe6",
+        "recipe_id": "R007",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_d93bb53c",
+        "recipe_id": "R007",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_0492dea5",
+        "recipe_id": "R007",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_ccb73c4c",
+        "recipe_id": "R008",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Pasta Alfredo."
+      },
+      {
+        "step_id": "STEP_ee1077ed",
+        "recipe_id": "R008",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_c0827586",
+        "recipe_id": "R008",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_78e11077",
+        "recipe_id": "R008",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_ff780d80",
+        "recipe_id": "R009",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Masala Dosa."
+      },
+      {
+        "step_id": "STEP_06af1230",
+        "recipe_id": "R009",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_1654cacc",
+        "recipe_id": "R009",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_31a6dcb2",
+        "recipe_id": "R009",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_68016381",
+        "recipe_id": "R010",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Pasta Alfredo."
+      },
+      {
+        "step_id": "STEP_040da6be",
+        "recipe_id": "R010",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_3a3d1843",
+        "recipe_id": "R010",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_26c24a8d",
+        "recipe_id": "R010",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_7d484a65",
+        "recipe_id": "R011",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Paneer Butter Masala."
+      },
+      {
+        "step_id": "STEP_61857484",
+        "recipe_id": "R011",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_48205561",
+        "recipe_id": "R011",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_03e85e38",
+        "recipe_id": "R011",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_555ce2f2",
+        "recipe_id": "R012",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Masala Dosa."
+      },
+      {
+        "step_id": "STEP_8d71ddca",
+        "recipe_id": "R012",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_bd456a7b",
+        "recipe_id": "R012",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_c236419e",
+        "recipe_id": "R012",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_bfabcdb6",
+        "recipe_id": "R013",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Masala Dosa."
+      },
+      {
+        "step_id": "STEP_9b4c793e",
+        "recipe_id": "R013",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_9c72985e",
+        "recipe_id": "R013",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_a40990a0",
+        "recipe_id": "R013",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_373b3b65",
+        "recipe_id": "R014",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Masala Dosa."
+      },
+      {
+        "step_id": "STEP_a74590ee",
+        "recipe_id": "R014",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_dadefd57",
+        "recipe_id": "R014",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_7e012241",
+        "recipe_id": "R014",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_d64003d6",
+        "recipe_id": "R015",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Pasta Alfredo."
+      },
+      {
+        "step_id": "STEP_2fc6d579",
+        "recipe_id": "R015",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_8462de69",
+        "recipe_id": "R015",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_8d3ad8b6",
+        "recipe_id": "R015",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_56a9e235",
+        "recipe_id": "R016",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Paneer Butter Masala."
+      },
+      {
+        "step_id": "STEP_736224fc",
+        "recipe_id": "R016",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_f61c0e65",
+        "recipe_id": "R016",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_acee6896",
+        "recipe_id": "R016",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_f80a92f2",
+        "recipe_id": "R017",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Stir-fry Vegetables."
+      },
+      {
+        "step_id": "STEP_5ad382b1",
+        "recipe_id": "R017",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_7a997863",
+        "recipe_id": "R017",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_9efd5879",
+        "recipe_id": "R017",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_f435d92f",
+        "recipe_id": "R018",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Pasta Alfredo."
+      },
+      {
+        "step_id": "STEP_dc7b8e37",
+        "recipe_id": "R018",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_791aee75",
+        "recipe_id": "R018",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_28cdf80d",
+        "recipe_id": "R018",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_fe501452",
+        "recipe_id": "R019",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Stir-fry Vegetables."
+      },
+      {
+        "step_id": "STEP_da801ca9",
+        "recipe_id": "R019",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_90d148e7",
+        "recipe_id": "R019",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_4cd63476",
+        "recipe_id": "R019",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      },
+      {
+        "step_id": "STEP_273a025f",
+        "recipe_id": "R020",
+        "step_order": "1",
+        "step_text": "Prepare ingredients for Paneer Butter Masala."
+      },
+      {
+        "step_id": "STEP_3e4f0f54",
+        "recipe_id": "R020",
+        "step_order": "2",
+        "step_text": "Combine and cook base ingredients as required."
+      },
+      {
+        "step_id": "STEP_e85bb93e",
+        "recipe_id": "R020",
+        "step_order": "3",
+        "step_text": "Season and simmer until done."
+      },
+      {
+        "step_id": "STEP_5b7203b9",
+        "recipe_id": "R020",
+        "step_order": "4",
+        "step_text": "Serve hot."
+      }
+    ],
+    "invalid": []
+  },
+  "interactions": {
+    "valid": [
+      {
+        "interaction_id": "I0001",
+        "user_id": "U005",
+        "recipe_id": "R020",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:32.640522+00:00"
+      },
+      {
+        "interaction_id": "I0002",
+        "user_id": "U002",
+        "recipe_id": "R005",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:33.525122+00:00"
+      },
+      {
+        "interaction_id": "I0003",
+        "user_id": "U003",
+        "recipe_id": "R019",
+        "type": "like",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:34.248630+00:00"
+      },
+      {
+        "interaction_id": "I0004",
+        "user_id": "U001",
+        "recipe_id": "R007",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:35.100414+00:00"
+      },
+      {
+        "interaction_id": "I0005",
+        "user_id": "U003",
+        "recipe_id": "R003",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:35.850198+00:00"
+      },
+      {
+        "interaction_id": "I0006",
+        "user_id": "U005",
+        "recipe_id": "R006",
+        "type": "cook",
+        "rating": "5",
+        "timestamp": "2025-11-20T07:05:36.737896+00:00"
+      },
+      {
+        "interaction_id": "I0007",
+        "user_id": "U003",
+        "recipe_id": "R007",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:37.493214+00:00"
+      },
+      {
+        "interaction_id": "I0008",
+        "user_id": "U003",
+        "recipe_id": "R011",
+        "type": "cook",
+        "rating": "5",
+        "timestamp": "2025-11-20T07:05:38.358845+00:00"
+      },
+      {
+        "interaction_id": "I0009",
+        "user_id": "U003",
+        "recipe_id": "R009",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:39.106299+00:00"
+      },
+      {
+        "interaction_id": "I0010",
+        "user_id": "U005",
+        "recipe_id": "R013",
+        "type": "like",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:39.959557+00:00"
+      },
+      {
+        "interaction_id": "I0011",
+        "user_id": "U004",
+        "recipe_id": "R011",
+        "type": "cook",
+        "rating": "1",
+        "timestamp": "2025-11-20T07:05:40.714232+00:00"
+      },
+      {
+        "interaction_id": "I0012",
+        "user_id": "U001",
+        "recipe_id": "R009",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:41.582741+00:00"
+      },
+      {
+        "interaction_id": "I0013",
+        "user_id": "U003",
+        "recipe_id": "R018",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:42.316635+00:00"
+      },
+      {
+        "interaction_id": "I0014",
+        "user_id": "U001",
+        "recipe_id": "R016",
+        "type": "like",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:43.199749+00:00"
+      },
+      {
+        "interaction_id": "I0015",
+        "user_id": "U003",
+        "recipe_id": "R010",
+        "type": "like",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:43.894172+00:00"
+      },
+      {
+        "interaction_id": "I0016",
+        "user_id": "U002",
+        "recipe_id": "R015",
+        "type": "like",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:44.792853+00:00"
+      },
+      {
+        "interaction_id": "I0017",
+        "user_id": "U003",
+        "recipe_id": "R020",
+        "type": "like",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:45.556978+00:00"
+      },
+      {
+        "interaction_id": "I0018",
+        "user_id": "U004",
+        "recipe_id": "R010",
+        "type": "cook",
+        "rating": "3",
+        "timestamp": "2025-11-20T07:05:46.419998+00:00"
+      },
+      {
+        "interaction_id": "I0019",
+        "user_id": "U003",
+        "recipe_id": "R014",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:47.157039+00:00"
+      },
+      {
+        "interaction_id": "I0020",
+        "user_id": "U004",
+        "recipe_id": "R002",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:48.029269+00:00"
+      },
+      {
+        "interaction_id": "I0021",
+        "user_id": "U002",
+        "recipe_id": "R005",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:48.762220+00:00"
+      },
+      {
+        "interaction_id": "I0022",
+        "user_id": "U003",
+        "recipe_id": "R019",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:49.648232+00:00"
+      },
+      {
+        "interaction_id": "I0023",
+        "user_id": "U002",
+        "recipe_id": "R005",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:50.352628+00:00"
+      },
+      {
+        "interaction_id": "I0024",
+        "user_id": "U003",
+        "recipe_id": "R003",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:51.267542+00:00"
+      },
+      {
+        "interaction_id": "I0025",
+        "user_id": "U002",
+        "recipe_id": "R001",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:51.915341+00:00"
+      },
+      {
+        "interaction_id": "I0026",
+        "user_id": "U003",
+        "recipe_id": "R003",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:52.909299+00:00"
+      },
+      {
+        "interaction_id": "I0027",
+        "user_id": "U002",
+        "recipe_id": "R008",
+        "type": "like",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:53.523602+00:00"
+      },
+      {
+        "interaction_id": "I0028",
+        "user_id": "U003",
+        "recipe_id": "R019",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:55.136787+00:00"
+      },
+      {
+        "interaction_id": "I0029",
+        "user_id": "U004",
+        "recipe_id": "R003",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:55.584908+00:00"
+      },
+      {
+        "interaction_id": "I0030",
+        "user_id": "U002",
+        "recipe_id": "R020",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:56.726858+00:00"
+      },
+      {
+        "interaction_id": "I0031",
+        "user_id": "U001",
+        "recipe_id": "R012",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:57.229278+00:00"
+      },
+      {
+        "interaction_id": "I0032",
+        "user_id": "U003",
+        "recipe_id": "R007",
+        "type": "like",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:58.334708+00:00"
+      },
+      {
+        "interaction_id": "I0033",
+        "user_id": "U003",
+        "recipe_id": "R015",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:58.822586+00:00"
+      },
+      {
+        "interaction_id": "I0034",
+        "user_id": "U005",
+        "recipe_id": "R004",
+        "type": "like",
+        "rating": "",
+        "timestamp": "2025-11-20T07:05:59.933768+00:00"
+      },
+      {
+        "interaction_id": "I0035",
+        "user_id": "U003",
+        "recipe_id": "R012",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:06:00.412036+00:00"
+      },
+      {
+        "interaction_id": "I0036",
+        "user_id": "U001",
+        "recipe_id": "R008",
+        "type": "like",
+        "rating": "",
+        "timestamp": "2025-11-20T07:06:01.539027+00:00"
+      },
+      {
+        "interaction_id": "I0037",
+        "user_id": "U003",
+        "recipe_id": "R005",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:06:02.000757+00:00"
+      },
+      {
+        "interaction_id": "I0038",
+        "user_id": "U005",
+        "recipe_id": "R017",
+        "type": "like",
+        "rating": "",
+        "timestamp": "2025-11-20T07:06:03.191140+00:00"
+      },
+      {
+        "interaction_id": "I0039",
+        "user_id": "U001",
+        "recipe_id": "R006",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:06:03.601841+00:00"
+      },
+      {
+        "interaction_id": "I0040",
+        "user_id": "U001",
+        "recipe_id": "R013",
+        "type": "like",
+        "rating": "",
+        "timestamp": "2025-11-20T07:06:04.827936+00:00"
+      },
+      {
+        "interaction_id": "I0041",
+        "user_id": "U004",
+        "recipe_id": "R010",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:06:05.229964+00:00"
+      },
+      {
+        "interaction_id": "I0042",
+        "user_id": "U001",
+        "recipe_id": "R002",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:06:06.553963+00:00"
+      },
+      {
+        "interaction_id": "I0043",
+        "user_id": "U003",
+        "recipe_id": "R017",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:06:07.073202+00:00"
+      },
+      {
+        "interaction_id": "I0044",
+        "user_id": "U004",
+        "recipe_id": "R012",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:06:08.192968+00:00"
+      },
+      {
+        "interaction_id": "I0045",
+        "user_id": "U004",
+        "recipe_id": "R015",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:06:08.795838+00:00"
+      },
+      {
+        "interaction_id": "I0046",
+        "user_id": "U003",
+        "recipe_id": "R001",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:06:09.782255+00:00"
+      },
+      {
+        "interaction_id": "I0047",
+        "user_id": "U004",
+        "recipe_id": "R005",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:06:10.504499+00:00"
+      },
+      {
+        "interaction_id": "I0048",
+        "user_id": "U003",
+        "recipe_id": "R020",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:06:11.434371+00:00"
+      },
+      {
+        "interaction_id": "I0049",
+        "user_id": "U001",
+        "recipe_id": "R004",
+        "type": "cook",
+        "rating": "1",
+        "timestamp": "2025-11-20T07:06:12.310394+00:00"
+      },
+      {
+        "interaction_id": "I0050",
+        "user_id": "U003",
+        "recipe_id": "R016",
+        "type": "view",
+        "rating": "",
+        "timestamp": "2025-11-20T07:06:13.081523+00:00"
+      }
+    ],
+    "invalid": []
+  }
+}
